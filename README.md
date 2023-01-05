@@ -10,7 +10,7 @@ BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut P
 
 BRAW Toolbox is currently in **public beta**. If all goes to plan, we intend to release on the Mac App Store in late January.
 
-You can currently access the latest build on Apple's TestFlight [here](https://testflight.apple.com/join/dbWjWl8e).
+You can download the latest beta via Apple's TestFlight [here](https://testflight.apple.com/join/dbWjWl8e).
 
 TestFlight requires macOS Monterey or later.
 
@@ -18,15 +18,17 @@ TestFlight requires macOS Monterey or later.
 
 ## Help & Support
 
-If you run into any issues, bugs or crashes, you can post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
+If you run into any bugs, crashes, or you have a feature request, you can post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
 
 If you have any general questions or feedback, you can discuss [here](https://github.com/latenitefilms/BRAWToolbox/discussions).
+
+GitHub registration is free, and this GitHub repository is actively monitored by @latenitefilms.
 
 ---
 
 ## Release Notes
 
-### 1.0.0 (15) - Public Beta 2
+### 1.0.0 (15) - Public Beta 2 - 5th January 2023
 
 **Important:**
 - Due to major changes, this beta is **not** compatible with the previous beta, so you should re-create any test Final Cut Pro libraries.
@@ -62,7 +64,7 @@ If you have any general questions or feedback, you can discuss [here](https://gi
 - The "Relink Unliked BRAW Clips within an EVENT" Toolbox is not yet implemented.
 - The "Convert BRAW clips to MOV's within an EVENT" Toolbox is not yet implemented.
 
-### 1.0.0 (14) - Public Beta 1
+### 1.0.0 (14) - Public Beta 1 - 23rd December 2022
 
 This is the first public beta of BRAW Toolbox. Woohoo!
 
@@ -78,14 +80,118 @@ Happy testing!
 
 ## Installation
 
-When you first launch the BRAW Toolbox application, you'll need to press the **Install Motion Template** button, which will install the "BRAW Toolbox" effect into Final Cut Pro. You'll then need to press the **Install Metadata View**, which will install the Custom Metadata View. Once this is done you can close the BRAW Toolbox application and launch Final Cut Pro.
+You first need to join the TestFlight Beta by clicking on [this invite](https://testflight.apple.com/join/dbWjWl8e).
 
-During the beta testing stage, you should run the BRAW Toolbox application after each update to see if you need to re-install either the Motion Template or the Metadata View.
+![Screenshot](Documentation/testflight-01.png)
 
-From within Final Cut Pro you can access the BRAW Toolbox via the Workflow Extension toolbar icon (or the "Window > Extensions" menubar item).
+Once you've installed TestFlight and clicked on the above link, you will see BRAW Toolbox within the TestFlight application.
 
-In the Workflow Extension, you can import BRAW files and adjust their metadata, prior to importing the files into Final Cut Pro.
+![Screenshot](Documentation/testflight-02.png)
 
-Whilst BRAW Toolbox can play back BRAW video files natively, to handle audio, it "extracts" the audio prior to sending to Final Cut Pro. You should press the "Choose Audio Folder" button to select the destination folder for these audio files. Once you've tweaked any metadata settings, you can press the "Prepare BRAW Files" button to extract the audio. Once that's done, you can drag the event icon from the Workflow Extension to your Final Cut Pro Event. This will create a new Event which contains your BRAW clips. The BRAW clips will come across as Synchronised Clips. If you double click on a Synchronised Clip, and click on the video clip, you can adjust all the BRAW metadata parameters within the Video Inspector.
+After you click the **INSTALL** button, the main BRAW Toolbox application will run.
 
-Whilst we recommend always using the Workflow Extension to import BRAW files, you can do it manually by applying the BRAW Toolbox effect to any clip, such as a Generator. You can also access the BRAW Toolbox effect as a "filter" within Apple Motion.
+![Screenshot](Documentation/install-01.png)
+
+If it's the first time installing the software, or if there's been an update, you'll be prompted to **Install Motion Template** and **Install Metadata View**.
+
+![Screenshot](Documentation/01-install.png)
+
+Once you click the button, you'll be prompted to grant permission to your Movies folder. This is due to macOS's sandboxing, and you'll only need to do this once. Click **OK**.
+
+![Screenshot](Documentation/02-install.png)
+
+You then need to click **Grant Access**:
+
+![Screenshot](Documentation/03-install.png)
+
+Once done, you'll be presented with a successful message:
+
+![Screenshot](Documentation/04-install.png)
+
+The button will now be disabled, and will say **Motion Template Installed**.
+
+![Screenshot](Documentation/05-install.png)
+
+You should now click the **Install Metadata View** button, and you'll be prompted to grant permission to your ProApps folder.
+
+![Screenshot](Documentation/07-install.png)
+
+You need to click the **Grant Access** button:
+
+![Screenshot](Documentation/06-install.png)
+
+Once done, you'll be presented with a successful message:
+
+![Screenshot](Documentation/08-install.png)
+
+The button will now be disabled, and will say **Metadata View Installed**.
+
+![Screenshot](Documentation/09-install.png)
+
+You can now close the BRAW Toolbox application and open Final Cut Pro.
+
+**IMPORTANT:** You should run the BRAW Toolbox application again after each update, to make sure you're using the latest Motion Template and Metadata View.
+
+Once Final Cut Pro is launched you can access BRAW Toolbox via the Workflow Extension button:
+
+![Screenshot](Documentation/10-install.png)
+
+...and via the **Window > Extensions > BRAW Toolbox** menu item:
+
+![Screenshot](Documentation/11-install.png)
+
+When you click either of those options it opens the BRAW Toolbox Workflow Extension:
+
+![Screenshot](Documentation/12-install.png)
+
+To import some BRAW clips, click the **Import BRAW Files** button and select some BRAW clips.
+
+![Screenshot](Documentation/13-install.png)
+
+You can now adjust all the metadata as required. There are tools for easily copy and pasting RAW parameters between clips.
+
+Whilst BRAW Toolbox can play back BRAW video files natively, to handle audio, it "extracts" the audio prior to sending to Final Cut Pro. You should press the **Choose Audio Folder** button to select the destination folder for these audio files.
+
+Once you've tweaked any metadata settings, you can press the **Prepare BRAW Files** to get everything ready for Final Cut Pro. Once it's processed, you'll get this alert explaining what to do next:
+
+![Screenshot](Documentation/14-install.png)
+
+Essentially, you need to drag this button:
+
+![Screenshot](Documentation/15-install.png)
+
+...to your Final Cut Pro **Library** (**not** an Event or Project). This will create a new Keyword Collection with your BRAW clips:
+
+![Screenshot](Documentation/16-install.png)
+
+To modify the metadata of a BRAW clip, you can double click on one of the synchronised clips, click on the black video clip, then access the BRAW Toolbox effect in the Effects section of the Inspector:
+
+![Screenshot](Documentation/17-install.png)
+
+Click the **Show Parameters** button to show the parameters. You'll only have to do this once per clip.
+
+![Screenshot](Documentation/18-install.png)
+
+Frame metadata and Custom Gamma Controls are key-frame-able.
+
+You can only access Custom Gamma Controls if you have the **Blackmagic Design Custom** gamma parameter selected.
+
+You can now edit away!
+
+---
+
+## Convert PROJECT to Resolve Friendly FCPXML
+
+To convert a project/timeline into something you can easily import into DaVinci Resolve (or other colour grading apps), you can drag your project from the Final Cut Pro Browser to the Toolbox at the bottom of the Workflow Extension.
+
+This will create a new FCPXML, where it converts the BRAW Toolbox clips into normal BRAW clips.
+
+![Screenshot](Documentation/19-install.png)
+
+---
+
+## Frequently Asked Questions
+
+### How much will BRAW Toolbox cost?
+
+We're not sure yet. We just want to get through the beta testing phase before deciding on a price. It'll depend on how much work is involved to update and support the software.
