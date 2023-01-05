@@ -4,6 +4,8 @@
 
 BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro without transcoding.
 
+This allows you to do your offline edit in Final Cut Pro, then send across to DaVinci Resolve for grading - all using BRAW files directly from the camera!
+
 ---
 
 ## Download
@@ -13,6 +15,8 @@ BRAW Toolbox is currently in **public beta**. If all goes to plan, we intend to 
 You can download the latest beta via Apple's TestFlight [here](https://testflight.apple.com/join/dbWjWl8e).
 
 TestFlight requires macOS Monterey or later.
+
+If you're running Big Sur, it MIGHT be possible to download on a Monterey machine, then copy across to your Big Sur machine, if they share the same Apple ID.
 
 ---
 
@@ -195,3 +199,15 @@ This will create a new FCPXML, where it converts the BRAW Toolbox clips into nor
 ### How much will BRAW Toolbox cost?
 
 We're not sure yet. We just want to get through the beta testing phase before deciding on a price. It'll depend on how much work is involved to update and support the software.
+
+### Is BRAW Toolbox Open Source?
+
+Currently the source code for BRAW Toolbox is private, however we may release it under a MIT License at a later date after it's been publicly released on the Mac App Store.
+
+---
+
+## Credits
+
+BRAW Toolbox has been created by Chris Hocking at [LateNite Films](https://latenitefilms.com).
+
+The BRAW Toolbox icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com).
