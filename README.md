@@ -196,6 +196,10 @@ This will create a new FCPXML, where it converts the BRAW Toolbox clips into nor
 
 ## Frequently Asked Questions
 
+### Can I stabilise clips using the Gyroscope Data within the BRAW file?
+
+Yes, you can combine BRAW Toolbox with [Gyroflow Toolbox](https://github.com/latenitefilms/GyroflowToolbox) - simply apply the Gyroflow Toolbox effect to the video layer inside your synchronised clip.
+
 ### How much will BRAW Toolbox cost?
 
 We're not sure yet. We just want to get through the beta testing phase before deciding on a price. It'll depend on how much work is involved to update and support the software.
