@@ -44,7 +44,7 @@ GitHub registration is free, and this GitHub repository is actively monitored by
 ### 1.0.0 (16) - Public Beta 3 - 5th January 2023
 
 **Bug Fix:**
-- Fixed a weird bug which caused the "Preparing BRAW Files" to never close on Intel Mac's (but worked fine on Apple Silicon Mac's). Thanks for reporting FigTree Cinemas!
+- Fixed a weird bug which caused the "Preparing BRAW Files" to never close on Intel Mac's (but worked fine on Apple Silicon Mac's). Thanks for reporting [George Elias](https://twitter.com/gwphotographe)!
 
 ### 1.0.0 (15) - Public Beta 2 - 5th January 2023
 
