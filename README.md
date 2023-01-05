@@ -94,7 +94,7 @@ Once you've installed TestFlight and clicked on the above link, you will see BRA
 
 After you click the **INSTALL** button, the main BRAW Toolbox application will run.
 
-![Screenshot](Documentation/install-install-01.png)
+![Screenshot](Documentation/install-01.png)
 
 If it's the first time installing the software, or if there's been an update, you'll be prompted to **Install Motion Template** and **Install Metadata View**.
 
