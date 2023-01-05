@@ -26,7 +26,7 @@ If you run into any bugs, crashes, or you have a feature request, you can post a
 
 If you have any general questions or feedback, you can discuss [here](https://github.com/latenitefilms/BRAWToolbox/discussions).
 
-GitHub registration is free, and this GitHub repository is actively monitored by @latenitefilms.
+GitHub registration is free, and this GitHub repository is actively monitored by [latenitefilms](https://github.com/latenitefilms).
 
 ---
 
@@ -41,25 +41,25 @@ GitHub registration is free, and this GitHub repository is actively monitored by
 **Improvements:**
 - The BRAW Toolbox Motion Template has been completely redesigned to be a lot faster and easier to use. We have removed all the override controls. It now only shows the parameters that you can control (i.e. if your camera doesn't allow manipulating the ISO, we no longer show this parameter).
 - We added a "Global Settings" button to the Motion Template in the Final Cut Pro Inspector, so that you can force a Decode Quality across all clips. This is useful if you have clips with different Decode Quality settings, but you want to export at the highest quality.
-- We now populate the "Ingest Date" (aka "Date Imported" in Final Cut Pro) metadata field. Thanks for suggesting @tangierc!
+- We now populate the "Ingest Date" (aka "Date Imported" in Final Cut Pro) metadata field. Thanks for suggesting [@tangierc](https://github.com/tangierc)!
 - The Workflow Extension has been redesigned. The checkboxes no longer act as "overrides", but instead allow you to select which parameters you want to copy, paste, etc.
 - The buttons at the bottom of the Workflow Extension Inspector (Copy, Paste, etc.) now all work.
 - All the parameters in the Workflow Extension should now flow into Final Cut Pro.
-- All the parameters in the Final Cut Pro Inspector should now work and update correctly. Thanks for reporting @markspen!
+- All the parameters in the Final Cut Pro Inspector should now work and update correctly. Thanks for reporting [@markspen](https://github.com/markspen)!
 - We now display an error message if you press "Show Parameters" with no BRAW file loaded.
 - We no longer hide the Workflow Extension player slider when playing, and now update its value during playback. Thanks for suggesting @JW144754!
-- The Viewer in the Workflow Extension is now resizable. Thanks for suggesting @JW144754!
+- The Viewer in the Workflow Extension is now resizable. Thanks for suggesting [@JW144754](https://github.com/JW144754)!
 - The main application now only asks for permissions to your Movies folder and Application Support folder once.
 - All the individual open/save dialog boxes now remember their own last opened path.
 - The "Convert PROJECT to Resolve Friendly FCPXML" Toolbox now works.
 
 **Changes:**
-- We now write log files to `~/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/` folder, for easier debugging.
+- We now write log files to `/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/` folder, for easier debugging.
 - BRAW Toolbox will now run on macOS Big Sur and above.
 
 **Bug Fixes:**
 - Fixed various memory leaks.
-- Fixed a bug which prevented the correct Decode Quality from being used. Thanks for reporting @JW144754!
+- Fixed a bug which prevented the correct Decode Quality from being used. Thanks for reporting [@JW144754](https://github.com/JW144754)!
 - Fixed a bug in the ISO parameter.
 - Error messages in Final Cut Pro now show the correct icon.
 - Added some missing Metadata Definition labels.
@@ -204,10 +204,22 @@ We're not sure yet. We just want to get through the beta testing phase before de
 
 Currently the source code for BRAW Toolbox is private, however we may release it under a MIT License at a later date after it's been publicly released on the Mac App Store.
 
+### I've run into a bug. Where can I find the log files?
+
+You can find the log files here:
+
+`/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/`
+
+You can find any crash reports here:
+
+`/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports`
+
 ---
 
 ## Credits
 
-BRAW Toolbox has been created by Chris Hocking at [LateNite Films](https://latenitefilms.com).
+BRAW Toolbox has been thrown together by [Chris Hocking](https://github.com/latenitefilms) at [LateNite Films](https://latenitefilms.com).
+
+Chris also created [CommandPost](https://commandpost.io) and [Gyroflow Toolbox](https://github.com/latenitefilms/GyroflowToolbox).
 
 The BRAW Toolbox icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com).
