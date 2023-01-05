@@ -20,6 +20,15 @@ If you're running Big Sur, it MIGHT be possible to download on a Monterey machin
 
 ---
 
+## Sample BRAW Clips
+
+There are heaps of awesome clips to test with on the Blackmagic Website:
+
+- [Blackmagic Pocket Cinema Camera Gallery](https://www.blackmagicdesign.com/au/products/blackmagicpocketcinemacamera/gallery)
+- [Blackmagic URSA Mini Gallery](https://www.blackmagicdesign.com/au/products/blackmagicursaminipro/gallery)
+
+---
+
 ## Help & Support
 
 If you run into any bugs, crashes, or you have a feature request, you can post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
