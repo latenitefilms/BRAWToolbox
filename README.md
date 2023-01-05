@@ -90,43 +90,43 @@ Once you've installed TestFlight and clicked on the above link, you will see BRA
 
 After you click the **INSTALL** button, the main BRAW Toolbox application will run.
 
-![Screenshot](Documentation/install-01.png)
+![Screenshot](Documentation/install-install-01.png)
 
 If it's the first time installing the software, or if there's been an update, you'll be prompted to **Install Motion Template** and **Install Metadata View**.
 
-![Screenshot](Documentation/01-install.png)
+![Screenshot](Documentation/install-01.png)
 
 Once you click the button, you'll be prompted to grant permission to your Movies folder. This is due to macOS's sandboxing, and you'll only need to do this once. Click **OK**.
 
-![Screenshot](Documentation/02-install.png)
+![Screenshot](Documentation/install-02.png)
 
 You then need to click **Grant Access**:
 
-![Screenshot](Documentation/03-install.png)
+![Screenshot](Documentation/install-03.png)
 
 Once done, you'll be presented with a successful message:
 
-![Screenshot](Documentation/04-install.png)
+![Screenshot](Documentation/install-04.png)
 
 The button will now be disabled, and will say **Motion Template Installed**.
 
-![Screenshot](Documentation/05-install.png)
+![Screenshot](Documentation/install-05.png)
 
 You should now click the **Install Metadata View** button, and you'll be prompted to grant permission to your ProApps folder.
 
-![Screenshot](Documentation/07-install.png)
+![Screenshot](Documentation/install-07.png)
 
 You need to click the **Grant Access** button:
 
-![Screenshot](Documentation/06-install.png)
+![Screenshot](Documentation/install-06.png)
 
 Once done, you'll be presented with a successful message:
 
-![Screenshot](Documentation/08-install.png)
+![Screenshot](Documentation/install-08.png)
 
 The button will now be disabled, and will say **Metadata View Installed**.
 
-![Screenshot](Documentation/09-install.png)
+![Screenshot](Documentation/install-09.png)
 
 You can now close the BRAW Toolbox application and open Final Cut Pro.
 
@@ -134,19 +134,19 @@ You can now close the BRAW Toolbox application and open Final Cut Pro.
 
 Once Final Cut Pro is launched you can access BRAW Toolbox via the Workflow Extension button:
 
-![Screenshot](Documentation/10-install.png)
+![Screenshot](Documentation/install-10.png)
 
 ...and via the **Window > Extensions > BRAW Toolbox** menu item:
 
-![Screenshot](Documentation/11-install.png)
+![Screenshot](Documentation/install-11.png)
 
 When you click either of those options it opens the BRAW Toolbox Workflow Extension:
 
-![Screenshot](Documentation/12-install.png)
+![Screenshot](Documentation/install-12.png)
 
 To import some BRAW clips, click the **Import BRAW Files** button and select some BRAW clips.
 
-![Screenshot](Documentation/13-install.png)
+![Screenshot](Documentation/install-13.png)
 
 You can now adjust all the metadata as required. There are tools for easily copy and pasting RAW parameters between clips.
 
@@ -154,29 +154,29 @@ Whilst BRAW Toolbox can play back BRAW video files natively, to handle audio, it
 
 Once you've tweaked any metadata settings, you can press the **Prepare BRAW Files** to get everything ready for Final Cut Pro. Once it's processed, you'll get this alert explaining what to do next:
 
-![Screenshot](Documentation/14-install.png)
+![Screenshot](Documentation/install-14.png)
 
 Essentially, you need to drag this button:
 
-![Screenshot](Documentation/15-install.png)
+![Screenshot](Documentation/install-15.png)
 
 ...to your Final Cut Pro **Library** (**not** an Event or Project). This will create a new Keyword Collection with your BRAW clips:
 
-![Screenshot](Documentation/16-install.png)
+![Screenshot](Documentation/install-16.png)
 
 To modify the metadata of a BRAW clip, you can double click on one of the synchronised clips, click on the black video clip, then access the BRAW Toolbox effect in the Effects section of the Inspector:
 
-![Screenshot](Documentation/17-install.png)
+![Screenshot](Documentation/install-17.png)
 
 Click the **Show Parameters** button to show the parameters. You'll only have to do this once per clip.
 
-![Screenshot](Documentation/18-install.png)
+![Screenshot](Documentation/install-18.png)
 
 Frame metadata and Custom Gamma Controls are key-frame-able.
 
 You can only access Custom Gamma Controls if you have the **Blackmagic Design Custom** gamma parameter selected.
 
-You can now edit away!
+You can now edit BRAW files like any other camera media in Final Cut Pro.
 
 ---
 
@@ -186,7 +186,7 @@ To convert a project/timeline into something you can easily import into DaVinci 
 
 This will create a new FCPXML, where it converts the BRAW Toolbox clips into normal BRAW clips.
 
-![Screenshot](Documentation/19-install.png)
+![Screenshot](Documentation/install-19.png)
 
 ---
 
