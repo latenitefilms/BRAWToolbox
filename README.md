@@ -45,8 +45,8 @@ GitHub registration is free, and this GitHub repository is actively monitored by
 
 The below features are not yet available in the latest beta, and will be added soon:
 
-- The "Relink Unliked BRAW Clips within an EVENT" Toolbox is not yet implemented.
-- The "Convert BRAW clips to MOV's within an EVENT" Toolbox is not yet implemented.
+- The **Relink Unliked BRAW Clips within an EVENT** Toolbox feature is not yet enabled
+- The **Convert BRAW clips to MOV's within an EVENT** Toolbox feature is not yet enabled
 
 ---
 
