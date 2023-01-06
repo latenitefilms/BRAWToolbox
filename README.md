@@ -242,6 +242,10 @@ This will create a new FCPXML, where it converts the BRAW Toolbox clips into nor
 
 ## Frequently Asked Questions
 
+### Why can't I adjust the Custom Gamma Controls?
+
+You can only adjust the Custom Gamma Controls if you select the **Blackmagic Design Custom** Gamma option.
+
 ### Can I stabilise clips using the Gyroscope Data within the BRAW file?
 
 Yes, you can combine BRAW Toolbox with [Gyroflow Toolbox](https://github.com/latenitefilms/GyroflowToolbox) - simply apply the Gyroflow Toolbox effect to the video layer inside your synchronised clip.
