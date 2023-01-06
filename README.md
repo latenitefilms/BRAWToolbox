@@ -10,9 +10,11 @@ This allows you to do your offline edit in Final Cut Pro, then send across to Da
 
 ## Download
 
-BRAW Toolbox is currently in **public beta**. If all goes to plan, we intend to release on the Mac App Store in late January.
+BRAW Toolbox is currently in **public beta**.
 
 You can download the latest beta via Apple's TestFlight [here](https://testflight.apple.com/join/dbWjWl8e).
+
+If all goes to plan, we intend to release on the Mac App Store in late January.
 
 TestFlight requires macOS Monterey or later.
 
@@ -39,12 +41,25 @@ GitHub registration is free, and this GitHub repository is actively monitored by
 
 ---
 
+## Incomplete Features
+
+The below features are not yet available in the latest beta, and will be added soon:
+
+- The "Relink Unliked BRAW Clips within an EVENT" Toolbox is not yet implemented.
+- The "Convert BRAW clips to MOV's within an EVENT" Toolbox is not yet implemented.
+
+---
+
 ## Release Notes
 
 ### 1.0.0 (16) - Public Beta 3 - 5th January 2023
 
-**Bug Fix:**
+**Note:**
+- There are no changes to the Motion Template or Metadata View in this beta.
+
+**Bug Fixes:**
 - Fixed a weird bug which caused the "Preparing BRAW Files" to never close on Intel Mac's (but worked fine on Apple Silicon Mac's). Thanks for reporting [George Elias](https://twitter.com/gwphotographe)!
+- Increased the Workflow Extension height by a tiny amount so it looks better on Intel Mac's.
 
 ### 1.0.0 (15) - Public Beta 2 - 5th January 2023
 
@@ -66,6 +81,7 @@ GitHub registration is free, and this GitHub repository is actively monitored by
 - The main application now only asks for permissions to your Movies folder and Application Support folder once.
 - All the individual open/save dialog boxes now remember their own last opened path.
 - The "Convert PROJECT to Resolve Friendly FCPXML" Toolbox now works.
+- We've added a loading screen when BRAW Toolbox is Preparing BRAW Files. Thanks for suggesting [@tangierc](https://github.com/tangierc)!
 
 **Changes:**
 - We now write log files to `/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/` folder, for easier debugging.
@@ -77,10 +93,6 @@ GitHub registration is free, and this GitHub repository is actively monitored by
 - Fixed a bug in the ISO parameter.
 - Error messages in Final Cut Pro now show the correct icon.
 - Added some missing Metadata Definition labels.
-
-**Known Issues:**
-- The "Relink Unliked BRAW Clips within an EVENT" Toolbox is not yet implemented.
-- The "Convert BRAW clips to MOV's within an EVENT" Toolbox is not yet implemented.
 
 ### 1.0.0 (14) - Public Beta 1 - 23rd December 2022
 
