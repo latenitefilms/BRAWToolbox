@@ -52,6 +52,14 @@ The below features are not yet available in the latest beta, and will be added s
 
 ## Release Notes
 
+### 1.0.0 (18) - Public Beta 5 - 6th January 2023
+
+**Note:**
+- There are no changes to the Motion Template or Metadata View in this beta.
+
+**Bug Fix:**
+- Fixed a bug where we were releasing `copiedParameters` incorrectly when the Workflow Extension was closed.
+
 ### 1.0.0 (17) - Public Beta 4 - 6th January 2023
 
 **Note:**
