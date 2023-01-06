@@ -52,6 +52,18 @@ The below features are not yet available in the latest beta, and will be added s
 
 ## Release Notes
 
+### 1.0.0 (17) - Public Beta 4 - 6th January 2023
+
+**Note:**
+- There are no changes to the Motion Template or Metadata View in this beta.
+
+**Improvements:**
+- Renamed the **Clear BRAW Files** button to **Remove All** and added a **Remove Selected** button. Thanks for suggesting [@TheDaveChap](https://github.com/TheDaveChap)!
+- Added ability to drag-and-drop BRAW files from Finder into the BRAW Toolbox Workflow Extension. Thanks for suggesting [@TheDaveChap](https://github.com/TheDaveChap)!
+- Left-aligned the buttons in the Final Cut Pro Inspector so they don't exhibit any weird UI glitches. Thanks for suggesting [@JW144754](https://github.com/JW144754)!
+- Sliders in the Workflow Extension are now all continuous, and update the Viewer instantly.
+- Added Tooltips to the Workflow Extension.
+
 ### 1.0.0 (16) - Public Beta 3 - 5th January 2023
 
 **Note:**
