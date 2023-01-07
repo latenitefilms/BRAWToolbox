@@ -10,15 +10,13 @@ This allows you to do your offline edit in Final Cut Pro, then send across to Da
 
 ## Download
 
-BRAW Toolbox is currently in **public beta**.
+BRAW Toolbox is currently in **public beta**. There are currently 120 testers from all over the world.
 
 You can download the latest beta via Apple's TestFlight [here](https://testflight.apple.com/join/dbWjWl8e).
 
 If all goes to plan, we intend to release on the Mac App Store in late January.
 
-TestFlight requires macOS Monterey or later.
-
-If you're running Big Sur, it MIGHT be possible to download on a Monterey machine, then copy across to your Big Sur machine, if they share the same Apple ID.
+TestFlight requires macOS Monterey or later. However, if you're running Big Sur, it MIGHT be possible to download on a Monterey machine, then copy across to your Big Sur machine, if they share the same Apple ID.
 
 ---
 
@@ -43,7 +41,7 @@ GitHub registration is free, and this GitHub repository is actively monitored by
 
 ## Incomplete Features
 
-The below features are not yet available in the latest beta, and will be added soon:
+The below features are not yet available in the latest beta, and will be added prior to release on the Mac App Store:
 
 - The **Relink Unliked BRAW Clips within an EVENT** Toolbox feature is not yet enabled
 - The **Convert BRAW clips to MOV's within an EVENT** Toolbox feature is not yet enabled
@@ -58,7 +56,7 @@ The below features are not yet available in the latest beta, and will be added s
 - There are no changes to the Motion Template or Metadata View in this beta.
 
 **Improvements:**
-- Added a "Settings" button (the gear icon), with the ability to **Create Multicam Clips** instead of Synchronised Clips. Thanks for suggesting [@TheDaveChap](https://github.com/TheDaveChap)!
+- Added a **Settings** button (the gear icon), with the ability to **Create Multicam Clips** instead of Synchronised Clips. Thanks for suggesting [@TheDaveChap](https://github.com/TheDaveChap)!
 - **Convert PROJECT to Resolve Friendly FCPXML** has been improved so that Audio Attributes and Rate Conform settings come across more accurately between Final Cut Pro and DaVinci Resolve. Thanks for reporting [@markspen](https://github.com/markspen)!
 - If the Color Space is set to **Rec.2020**, and the Gamma is set to **Rec.2100 ST2084 (PQ)** in the Workflow Extension, we'll use the **Rec. 2020 PQ** setting for this clip in Final Cut Pro. Thanks for suggesting [@JW144754](https://github.com/JW144754)!
 - If the Color Space is set to **Rec.2020**, and the Gamma is set to **Rec.2100 Hybrid Log Gamma** in the Workflow Extension, we'll use the **Rec. 2020 HLG** setting for this clip in Final Cut Pro. Thanks for suggesting [@JW144754](https://github.com/JW144754)!
@@ -93,7 +91,7 @@ The below features are not yet available in the latest beta, and will be added s
 - There are no changes to the Motion Template or Metadata View in this beta.
 
 **Bug Fixes:**
-- Fixed a weird bug which caused the "Preparing BRAW Files" to never close on Intel Mac's (but worked fine on Apple Silicon Mac's). Thanks for reporting [George Elias](https://twitter.com/gwphotographe)!
+- Fixed a weird bug which caused the **Preparing BRAW Files** to never close on Intel Mac's (but worked fine on Apple Silicon Mac's). Thanks for reporting [George Elias](https://twitter.com/gwphotographe)!
 - Increased the Workflow Extension height by a tiny amount so it looks better on Intel Mac's.
 
 ### 1.0.0 (15) - Public Beta 2 - 5th January 2023
@@ -104,18 +102,18 @@ The below features are not yet available in the latest beta, and will be added s
 
 **Improvements:**
 - The BRAW Toolbox Motion Template has been completely redesigned to be a lot faster and easier to use. We have removed all the override controls. It now only shows the parameters that you can control (i.e. if your camera doesn't allow manipulating the ISO, we no longer show this parameter).
-- We added a "Global Settings" button to the Motion Template in the Final Cut Pro Inspector, so that you can force a Decode Quality across all clips. This is useful if you have clips with different Decode Quality settings, but you want to export at the highest quality.
-- We now populate the "Ingest Date" (aka "Date Imported" in Final Cut Pro) metadata field. Thanks for suggesting [@tangierc](https://github.com/tangierc)!
+- We added a **Global Settings** button to the Motion Template in the Final Cut Pro Inspector, so that you can force a Decode Quality across all clips. This is useful if you have clips with different Decode Quality settings, but you want to export at the highest quality.
+- We now populate the **Ingest Date** (aka "Date Imported" in Final Cut Pro) metadata field. Thanks for suggesting [@tangierc](https://github.com/tangierc)!
 - The Workflow Extension has been redesigned. The checkboxes no longer act as "overrides", but instead allow you to select which parameters you want to copy, paste, etc.
 - The buttons at the bottom of the Workflow Extension Inspector (Copy, Paste, etc.) now all work.
 - All the parameters in the Workflow Extension should now flow into Final Cut Pro.
 - All the parameters in the Final Cut Pro Inspector should now work and update correctly. Thanks for reporting [@markspen](https://github.com/markspen)!
-- We now display an error message if you press "Show Parameters" with no BRAW file loaded.
+- We now display an error message if you press **Show Parameters** with no BRAW file loaded.
 - We no longer hide the Workflow Extension player slider when playing, and now update its value during playback. Thanks for suggesting @JW144754!
 - The Viewer in the Workflow Extension is now resizable. Thanks for suggesting [@JW144754](https://github.com/JW144754)!
 - The main application now only asks for permissions to your Movies folder and Application Support folder once.
 - All the individual open/save dialog boxes now remember their own last opened path.
-- The "Convert PROJECT to Resolve Friendly FCPXML" Toolbox now works.
+- The **Convert PROJECT to Resolve Friendly FCPXML** Toolbox now works.
 - We've added a loading screen when BRAW Toolbox is Preparing BRAW Files. Thanks for suggesting [@tangierc](https://github.com/tangierc)!
 
 **Changes:**
@@ -257,13 +255,19 @@ This will create a new FCPXML, where it converts the BRAW Toolbox clips into nor
 
 ## Frequently Asked Questions
 
+### I don't like Synchronised Clips. Can I import a Multicam clips instead?
+
+Yes, you can click the **Settings** button (the gear icon, next to "Remove All") to **Create Multicam Clips** instead.
+
+![Screenshot](Documentation/install-20.png)
+
 ### Why can't I adjust the Custom Gamma Controls?
 
 You can only adjust the Custom Gamma Controls if you select the **Blackmagic Design Custom** Gamma option.
 
 ### Can I stabilise clips using the Gyroscope Data within the BRAW file?
 
-Yes, you can combine BRAW Toolbox with [Gyroflow Toolbox](https://github.com/latenitefilms/GyroflowToolbox) - simply apply the Gyroflow Toolbox effect to the video layer inside your synchronised clip.
+Yes, you can combine BRAW Toolbox with [Gyroflow Toolbox](https://github.com/latenitefilms/GyroflowToolbox) - simply apply the Gyroflow Toolbox effect to the video layer inside your Synchronised or Multicam clip.
 
 ### How much will BRAW Toolbox cost?
 
