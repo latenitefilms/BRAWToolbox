@@ -52,6 +52,21 @@ The below features are not yet available in the latest beta, and will be added s
 
 ## Release Notes
 
+### 1.0.0 (19) - Public Beta 6 - 7th January 2023
+
+**Note:**
+- There are no changes to the Motion Template or Metadata View in this beta.
+
+**Improvements:**
+- Added a "Settings" button (the gear icon), with the ability to **Create Multicam Clips** instead of Synchronised Clips. Thanks for suggesting [@TheDaveChap](https://github.com/TheDaveChap)!
+- **Convert PROJECT to Resolve Friendly FCPXML** has been improved so that Audio Attributes and Rate Conform settings come across more accurately between Final Cut Pro and DaVinci Resolve. Thanks for reporting [@markspen](https://github.com/markspen)!
+- If the Color Space is set to **Rec.2020**, and the Gamma is set to **Rec.2100 ST2084 (PQ)** in the Workflow Extension, we'll use the **Rec. 2020 PQ** setting for this clip in Final Cut Pro. Thanks for suggesting [@JW144754](https://github.com/JW144754)!
+- If the Color Space is set to **Rec.2020**, and the Gamma is set to **Rec.2100 Hybrid Log Gamma** in the Workflow Extension, we'll use the **Rec. 2020 HLG** setting for this clip in Final Cut Pro. Thanks for suggesting [@JW144754](https://github.com/JW144754)!
+- If the Color Space is set to **Rec.2020**, and the Gamma is set to something other than PQ or HLG in the Workflow Extension, we'll use the **Rec. 2020** setting  for this clip in Final Cut Pro. Thanks for suggesting [@JW144754](https://github.com/JW144754)!
+
+**Bug Fixes:**
+- Fixed a bug where clicking the **Gamma** checkbox, and then **Apply Checked To All** would fail.
+
 ### 1.0.0 (18) - Public Beta 5 - 6th January 2023
 
 **Note:**
