@@ -50,6 +50,25 @@ The below features are not yet available in the latest beta, and will be added p
 
 ## Release Notes
 
+### 1.0.0 (20) - Public Beta 7 - 14th January 2023
+
+**Note:**
+- The Motion Templates and Metadata View has been updated in this release. You now also need to install the LUTs when you first run the application (used for HDR).
+- We no longer store the Metadata View in the `/Library/Application Support/ProApps/Metadata Definitions/` folder - it's now stored in the user library. You should **manually** delete the `BRAW Toolbox.plist` file in this folder if you've used earlier beta builds.
+
+**Improvements:**
+- We've re-designed the Metal pipeline, to HOPEFULLY improve performance on older 2013 Mac Pro's with Dual AMD FirePro D500. These changes MIGHT also improve performance on other systems. Thanks for reporting [@tangierc](https://github.com/tangierc)!
+- Thanks to the amazing Marc Bach & Jamie Lejeune, we've redesigned how BRAW Toolbox handles HDR content, so it better matches DaVinci Resolve.
+- There are now **Color Space** settings in the **Settings** button (the gear icon) within the Workflow Extension. This controls the Player in the Workflow Extension, and also the settings of the Synchronised Clips or Multicam Clips that are imported into Final Cut Pro.
+- If you select the **DaVinci Wide Gamut** Color Space/Gamut and **DaVinci Intermediate** Gamma, there's now also an option within the Settings button to enable a special LUT which gets applied within Final Cut Pro (the effect of the LUT isn't visible in the Workflow Extension) to better match DaVinci Resolve. Using this option with a **Wide Gamut HDR - Rec. 2020 PQ** Library & Project is the recommended way to grade HDR BRAW in Final Cut Pro.
+- Added settings to select the **Default Decode Quality**.
+- The thumbnails for the Effects within Final Cut Pro have been improved so they look nicer.
+- The BRAW Toolbox Metadata View now contains additional built-in fields, that are used by Sync-N-Link.
+
+**Bug Fixes:**
+- We now remember the Audio Folder if you click **Prepare BRAW Files** before clicking **Choose Audio Folder**.
+- Fixed a regression which broke the **Remove All** button.
+
 ### 1.0.0 (19) - Public Beta 6 - 7th January 2023
 
 **Note:**
