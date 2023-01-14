@@ -274,6 +274,12 @@ This will create a new FCPXML, where it converts the BRAW Toolbox clips into nor
 
 ## Frequently Asked Questions
 
+### Does BRAW Toolbox work with Sync-N-Link?
+
+Yes, BRAW Toolbox is compatible with **Sync-N-Link v1.1.4** on the Mac App Store.
+
+You should use Synchronised Clips in BRAW Toolbox, and it can combine multiple clips with location audio into a multicam.
+
 ### BRAW Toolbox Workflow Extension doesn't appear in Final Cut Pro?
 
 Sometimes macOS can be a bit temperamental with System Extensions, including Workflow Extensions.
