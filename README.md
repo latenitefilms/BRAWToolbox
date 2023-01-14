@@ -274,6 +274,18 @@ This will create a new FCPXML, where it converts the BRAW Toolbox clips into nor
 
 ## Frequently Asked Questions
 
+### BRAW Toolbox Workflow Extension doesn't appear in Final Cut Pro?
+
+Sometimes macOS can be a bit temperamental with System Extensions, including Workflow Extensions.
+
+If you can't see BRAW Toolbox in the Workflow Extension button or menu bar, you can try:
+
+1. Restart your Mac.
+2. [Trash Final Cut Pro Preferences](https://support.apple.com/en-au/HT203477) by holding down COMMAND + OPTION when launching Final Cut Pro.
+3. Delete Final Cut Pro and reinstall it from the App Store.
+
+If none of those things fix it, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
+
 ### I don't like Synchronised Clips. Can I import a Multicam clips instead?
 
 Yes, you can click the **Settings** button (the gear icon, next to "Remove All") to **Create Multicam Clips** instead.
