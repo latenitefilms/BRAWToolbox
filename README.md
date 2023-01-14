@@ -12,7 +12,7 @@ This allows you to do your offline edit in Final Cut Pro, then send across to Da
 
 BRAW Toolbox is currently in **public beta**. There are currently 140+ testers from all over the world.
 
-You can download the latest beta via Apple's TestFlight [here](https://testflight.apple.com/join/dbWjWl8e).
+**You can download the latest beta via Apple's TestFlight [here](https://testflight.apple.com/join/dbWjWl8e).**
 
 If all goes to plan, we intend to release on the Mac App Store in late January.
 
