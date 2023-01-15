@@ -334,6 +334,10 @@ If none of those things fix it, please post an issue [here](https://github.com/l
 
 Yes, you can click the **Settings** button (the gear icon, next to "Remove All") to **Create Multicam Clips** instead.
 
+Please note that this doesn't sync multiple BRAW files together - it just creates a single Multicam Clip for each BRAW file.
+
+You'll still need to use something like [Sync-N-Link](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12) if you want to sync BRAW files with external audio.
+
 ![Screenshot](Documentation/install-20.png)
 
 ### Why can't I adjust the Custom Gamma Controls?
