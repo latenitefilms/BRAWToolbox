@@ -48,7 +48,29 @@ The below features are not yet available in the latest beta, and will be added p
 
 ---
 
+## Known Issues
+
+We've had reports of 2013 and 2019 Mac Pro's with Dual GPUs displaying random blue frames during playback, and poor playback performance. Intel and Apple Silicon Mac's with a single GPU's don't seem to have this issue.
+
+We are currently chatting with both Blackmagic and Apple to try and resolve this issue.
+
+If you also have a Mac Pro with Dual GPUs and have any rendering glitches or issues, please let us know [here](https://github.com/latenitefilms/BRAWToolbox/issues/25).
+
+---
+
 ## Release Notes
+
+### 1.0.0 (23) - Public Beta 10 - 15th January 2023
+
+**Note:**
+- There are no changes to the Motion Template, Metadata View or LUTs in this beta.
+
+**Improvements:**
+- Added a checkbox that says "Do not show this message again" to the bottom of various messages in the Workflow Extension. You can "Reset Dialog Warnings" via the Settings button. Thanks for suggesting Chris Gosling!
+- We're now using FxPlug v4.2.5 (instead of v4.2.4). According to the release notes this should have improved reconnection with plug-ins after a memory jetsam event and improved the speed of reconnection with plug-ins after a crash, or plug-in process suspension by macOS.
+
+**Bug Fix:**
+- Still attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
 
 ### 1.0.0 (22) - Public Beta 9 - 15th January 2023
 
@@ -57,7 +79,6 @@ The below features are not yet available in the latest beta, and will be added p
 
 **Bug Fix:**
 - Still attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
-- If you also have a Mac Pro with Dual GPUs and have any rendering glitches or issues, please let us know [here](https://github.com/latenitefilms/BRAWToolbox/issues/25).
 
 ### 1.0.0 (21) - Public Beta 8 - 15th January 2023
 
@@ -66,7 +87,6 @@ The below features are not yet available in the latest beta, and will be added p
 
 **Bug Fix:**
 - Still attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
-- If you also have a Mac Pro with Dual GPUs and have any rendering glitches or issues, please let us know [here](https://github.com/latenitefilms/BRAWToolbox/issues/25).
 
 ### 1.0.0 (20) - Public Beta 7 - 14th January 2023
 
