@@ -50,13 +50,22 @@ The below features are not yet available in the latest beta, and will be added p
 
 ## Release Notes
 
+### 1.0.0 (22) - Public Beta 9 - 15th January 2023
+
+**Note:**
+- There are no changes to the Motion Template, Metadata View or LUTs in this beta.
+
+**Bug Fix:**
+- Still attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
+- If you also have a Mac Pro with Dual GPUs and have any rendering glitches or issues, please let us know [here](https://github.com/latenitefilms/BRAWToolbox/issues/25).
+
 ### 1.0.0 (21) - Public Beta 8 - 15th January 2023
 
 **Note:**
 - There are no changes to the Motion Template, Metadata View or LUTs in this beta.
 
 **Bug Fix:**
-- Attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
+- Still attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
 - If you also have a Mac Pro with Dual GPUs and have any rendering glitches or issues, please let us know [here](https://github.com/latenitefilms/BRAWToolbox/issues/25).
 
 ### 1.0.0 (20) - Public Beta 7 - 14th January 2023
