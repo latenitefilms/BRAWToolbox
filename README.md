@@ -10,11 +10,11 @@ This allows you to do your offline edit in Final Cut Pro, then send across to Da
 
 ## Download
 
-BRAW Toolbox is currently in **public beta**. There are currently over 166 testers from all over the world.
+BRAW Toolbox is currently in **public beta**. There are currently over 170 testers from all over the world.
 
 **You can download the latest beta via Apple's TestFlight [here](https://testflight.apple.com/join/dbWjWl8e).**
 
-If all goes to plan, we intend to release on the Mac App Store in late January.
+If all goes to plan, we intend to release on the Mac App Store in late January as a paid app.
 
 TestFlight requires macOS Monterey or later. However, if you're running Big Sur, it MIGHT be possible to download on a Monterey machine, then copy across to your Big Sur machine, if they share the same Apple ID.
 
@@ -50,9 +50,9 @@ The below features are not yet available in the latest beta, and will be added p
 
 ## Known Issues
 
-We've had reports of 2013 and 2019 Mac Pro's with Dual GPUs displaying random blue frames during playback, and poor playback performance. Intel and Apple Silicon Mac's with a single GPU's don't seem to have this issue.
+We've had a single report of a **2013 Mac Pro with Dual AMD FirePro D500** displaying random blue frames during playback, and poor playback performance. Intel and Apple Silicon Mac's with a single GPU's don't seem to have this issue, and a 2019 Mac Pro with Dual W5700X GPU also works fine with the latest beta.
 
-We are currently chatting with both Blackmagic and Apple to try and resolve this issue.
+We are currently chatting with both Blackmagic and Apple to try and resolve this issue. It may be a case that this 10-year-old Mac Pro might simply not have enough VRAM to do what's required, despite the same files playing fine in DaVinci Resolve.
 
 If you also have a Mac Pro with Dual GPUs and have any rendering glitches or issues, please let us know [here](https://github.com/latenitefilms/BRAWToolbox/issues/25).
 
