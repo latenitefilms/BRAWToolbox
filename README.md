@@ -71,6 +71,8 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 **Bug Fix:**
 - Fixed a bug in the **DWG Intermediate to Rec. 2020 PQ** Motion Template. Thanks for reporting Jamie Lejeune!
 
+---
+
 ### 1.0.0 (23) - Public Beta 10 - 15th January 2023
 
 **Note:**
@@ -83,6 +85,8 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 **Bug Fix:**
 - Still attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
 
+---
+
 ### 1.0.0 (22) - Public Beta 9 - 15th January 2023
 
 **Note:**
@@ -91,6 +95,8 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 **Bug Fix:**
 - Still attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
 
+---
+
 ### 1.0.0 (21) - Public Beta 8 - 15th January 2023
 
 **Note:**
@@ -98,6 +104,8 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 
 **Bug Fix:**
 - Still attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
+
+---
 
 ### 1.0.0 (20) - Public Beta 7 - 14th January 2023
 
@@ -118,6 +126,8 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 - We now remember the Audio Folder if you click **Prepare BRAW Files** before clicking **Choose Audio Folder**.
 - Fixed a regression which broke the **Remove All** button.
 
+---
+
 ### 1.0.0 (19) - Public Beta 6 - 7th January 2023
 
 **Note:**
@@ -133,6 +143,8 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 **Bug Fixes:**
 - Fixed a bug where clicking the **Gamma** checkbox, and then **Apply Checked To All** would fail.
 
+---
+
 ### 1.0.0 (18) - Public Beta 5 - 6th January 2023
 
 **Note:**
@@ -140,6 +152,8 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 
 **Bug Fix:**
 - Fixed a bug where we were releasing `copiedParameters` incorrectly when the Workflow Extension was closed.
+
+---
 
 ### 1.0.0 (17) - Public Beta 4 - 6th January 2023
 
@@ -153,6 +167,8 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 - Sliders in the Workflow Extension are now all continuous, and update the Viewer instantly.
 - Added Tooltips to the Workflow Extension.
 
+---
+
 ### 1.0.0 (16) - Public Beta 3 - 5th January 2023
 
 **Note:**
@@ -161,6 +177,8 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 **Bug Fixes:**
 - Fixed a weird bug which caused the **Preparing BRAW Files** to never close on Intel Mac's (but worked fine on Apple Silicon Mac's). Thanks for reporting [George Elias](https://twitter.com/gwphotographe)!
 - Increased the Workflow Extension height by a tiny amount so it looks better on Intel Mac's.
+
+---
 
 ### 1.0.0 (15) - Public Beta 2 - 5th January 2023
 
@@ -194,6 +212,8 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 - Fixed a bug in the ISO parameter.
 - Error messages in Final Cut Pro now show the correct icon.
 - Added some missing Metadata Definition labels.
+
+---
 
 ### 1.0.0 (14) - Public Beta 1 - 23rd December 2022
 
@@ -329,6 +349,8 @@ Yes, BRAW Toolbox is compatible with **Sync-N-Link v1.1.4** on the Mac App Store
 
 You should use Synchronised Clips in BRAW Toolbox, and it can combine multiple clips with location audio into a multicam.
 
+---
+
 ### BRAW Toolbox Workflow Extension doesn't appear in Final Cut Pro?
 
 Sometimes macOS can be a bit temperamental with System Extensions, including Workflow Extensions.
@@ -341,6 +363,8 @@ If you can't see BRAW Toolbox in the Workflow Extension button or menu bar, you 
 
 If none of those things fix it, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
 
+---
+
 ### I don't like Synchronised Clips. Can I import a Multicam clips instead?
 
 Yes, you can click the **Settings** button (the gear icon, next to "Remove All") to **Create Multicam Clips** instead.
@@ -351,21 +375,31 @@ You'll still need to use something like [Sync-N-Link](https://apps.apple.com/us/
 
 ![Screenshot](Documentation/install-20.png)
 
+---
+
 ### Why can't I adjust the Custom Gamma Controls?
 
 You can only adjust the Custom Gamma Controls if you select the **Blackmagic Design Custom** Gamma option.
+
+---
 
 ### Can I stabilise clips using the Gyroscope Data within the BRAW file?
 
 Yes, you can combine BRAW Toolbox with [Gyroflow Toolbox](https://github.com/latenitefilms/GyroflowToolbox) - simply apply the Gyroflow Toolbox effect to the video layer inside your Synchronised or Multicam clip.
 
+---
+
 ### How much will BRAW Toolbox cost?
 
 We're not sure yet. We just want to get through the beta testing phase before deciding on a price. It'll depend on how much work is involved to update and support the software.
 
+---
+
 ### Is BRAW Toolbox Open Source?
 
 Currently the source code for BRAW Toolbox is private, however we may release it under a MIT License at a later date after it's been publicly released on the Mac App Store.
+
+---
 
 ### I've run into a bug. Where can I find the log files?
 
