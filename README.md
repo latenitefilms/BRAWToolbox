@@ -60,6 +60,17 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 
 ## Release Notes
 
+### 1.0.0 (24) - Public Beta 11 - 16th January 2023
+
+**Note:**
+- The Motion Templates have been updated in this release.
+
+**Improvements:**
+- After clicking **Prepare BRAW Files**, once complete, the draggable FCPXML icon now turns green. This is useful if you have selected **Do not show this message again**, on the **Successfully Processed** popup. Thanks for suggesting Chris Gosling!
+
+**Bug Fix:**
+- Fixed a bug in the **DWG Intermediate to Rec. 2020 PQ** Motion Template. Thanks for reporting Jamie Lejeune!
+
 ### 1.0.0 (23) - Public Beta 10 - 15th January 2023
 
 **Note:**
