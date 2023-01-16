@@ -60,6 +60,16 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 
 ## Release Notes
 
+### 1.0.0 (25) - Public Beta 12 - 16th January 2023
+
+**Note:**
+- There are no changes to the Motion Template, Metadata View or LUTs in this beta.
+
+**Bug Fix:**
+- Fixed a bug in the **Convert PROJECT to Resolve Friendly FCPXML** Toolbox, where the Toolbox would fail if there's any BRAW Toolbox clips in the project/timeline where there hasn't been any BRAW files loaded. Thanks for discovering Kevin Luk!
+
+---
+
 ### 1.0.0 (24) - Public Beta 11 - 16th January 2023
 
 **Note:**
