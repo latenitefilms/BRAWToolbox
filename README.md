@@ -60,6 +60,25 @@ If you also have a Mac Pro with Dual GPUs and have any rendering glitches or iss
 
 ## Release Notes
 
+### 1.0.0 (26) - Public Beta 13 - 17th January 2023
+
+**Note:**
+- There are no changes to the Motion Template, Metadata View or LUTs in this beta.
+
+**Improvements:**
+- We now display the current timecode value of the selected clip in the Workflow Extension player in the bottom right corner.
+- Added additional metadata columns to the file list in the Workflow Extension. You can now right-click on the columns to enable/disable columns.
+- Added a **Convert PROJECT to Resolve Friendly FCPXML (via CP)** Toolbox item, which sends the FCPXML to CommandPost after processing. This is useful if you have BRAW clips and you also need CommandPost's Sony Timecode Repair Toolbox prior to sending to DaVinci Resolve. Thanks for suggesting [George Elias](https://twitter.com/gwphotographe)!
+- We now remember the last Toolbox item when you close and re-open the Workflow Extension.
+- Added a **Do not show this message again** button to the **Convert PROJECT to Resolve Friendly FCPXML** Toolbox success popup message.
+- The default image in the Workflow Extension Player has been changed to make it look a bit nicer.
+
+**Bug Fix:**
+- Fixed a bug where the player controls weren't always updating the player content correctly.
+- Fixed a bug where if you didn't have any BRAW clips selected, certain parameters would still be accessible.
+
+---
+
 ### 1.0.0 (25) - Public Beta 12 - 16th January 2023
 
 **Note:**
@@ -361,13 +380,25 @@ You can now edit BRAW files like any other camera media in Final Cut Pro.
 
 ---
 
-## Convert PROJECT to Resolve Friendly FCPXML
+## "Convert PROJECT to Resolve Friendly FCPXML" Toolbox
 
 To convert a project/timeline into something you can easily import into DaVinci Resolve (or other colour grading apps), you can drag your project from the Final Cut Pro Browser to the Toolbox at the bottom of the Workflow Extension.
 
 This will create a new FCPXML, where it converts the BRAW Toolbox clips into normal BRAW clips.
 
 ![Screenshot](Documentation/install-19.png)
+
+---
+
+## "Convert PROJECT to Resolve Friendly FCPXML (via CP)" Toolbox
+
+This works the same as above, but instead of prompting you for a filename, it'll send the processed FCPXML directly to CommandPost for processing.
+
+The main use-case of this feature is if you're using both BRAW files and Sony MP4s with incorrect timecode, as you can send straight to CommandPost's Sony Timecode Toolbox.
+
+For this to work, you need to make sure you select **Send FCPXML to Sony Timecode Toolbox** in the **Drag & Drop File Action** dropdown in the **General** section of CommandPost's Preferences.
+
+![Screenshot](Documentation/commandpost-01.png)
 
 ---
 
