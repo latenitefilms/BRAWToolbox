@@ -43,11 +43,11 @@ GitHub registration is free, and this GitHub repository is actively monitored by
 
 ## Incomplete Features
 
-The below features are not yet available in the latest beta, and will be added prior to release on the Mac App Store:
+The below features are not yet available in the latest beta, and will be added in a future release:
 
-- The **Relink Unlinked BRAW Clips within an EVENT** Toolbox feature is not yet enabled
-- The **Convert BRAW clips to MOV's within an EVENT** Toolbox feature is not yet enabled
-- The **Convert MOV's to BRAW Clips within an EVENT** Toolbox feature is not yet enabled
+- **Relink Unlinked BRAW Clips within an EVENT** Toolbox
+- **Convert BRAW clips to MOV's within an EVENT** Toolbox
+- **Convert MOV's to BRAW Clips within an EVENT** Toolbox
 
 ---
 
