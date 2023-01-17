@@ -10,11 +10,13 @@ This allows you to do your offline edit in Final Cut Pro, then send across to Da
 
 ## Download
 
-BRAW Toolbox is currently in **public beta**. There are currently over 180 testers from all over the world.
+BRAW Toolbox is currently in **public beta**. There are currently over 182 testers from all over the world.
 
 **You can download the latest beta via Apple's TestFlight [here](https://testflight.apple.com/join/dbWjWl8e).**
 
 If all goes to plan, we intend to release on the Mac App Store in late January as a paid app.
+
+There will be no free trial, and it will only be available on the Mac App Store.
 
 TestFlight requires macOS Monterey or later. However, if you're running Big Sur, it MIGHT be possible to download on a Monterey machine, then copy across to your Big Sur machine, if they share the same Apple ID.
 
@@ -277,7 +279,7 @@ If it's the first time installing the software, or if there's been an update, yo
 
 ![Screenshot](Documentation/install-01.png)
 
-Once you click the button, you'll be prompted to grant permission to your Movies folder. This is due to macOS's sandboxing, and you'll only need to do this once. Click **OK**.
+Once you click **Install Motion Templates**, you'll be prompted to grant permission to your Movies folder. This is due to macOS's sandboxing, and you'll only need to do this once. Click **OK**.
 
 ![Screenshot](Documentation/install-02.png)
 
@@ -289,7 +291,7 @@ Once done, you'll be presented with a successful message:
 
 ![Screenshot](Documentation/install-04.png)
 
-The button will now be disabled, and will say **Motion Templates Installed**.
+After clicking **OK**, the **Install Motion Templates** button will now be disabled, and will instead say **Motion Templates Installed**.
 
 ![Screenshot](Documentation/install-05.png)
 
@@ -309,7 +311,7 @@ The button will now be disabled, and will say **Metadata View Installed**.
 
 ![Screenshot](Documentation/install-21.png)
 
-You now need to click the **Install LUTs**. LUTs are stored in the same root folder as the Metadata View's, so you don't need to grant it permission.
+You now need to click the **Install LUTs** button. LUTs are stored in the same root folder as the Metadata View's, so you don't need to grant it permission.
 
 After clicking you'll be presented with a successful message:
 
@@ -319,7 +321,7 @@ You can now click **Launch Final Cut Pro**, which will close the BRAW Toolbox ap
 
 ![Screenshot](Documentation/install-09.png)
 
-> **IMPORTANT:** You should run the BRAW Toolbox application again after each update, to make sure you're using the latest Motion Template and Metadata View.
+> **IMPORTANT:** You should run the BRAW Toolbox application again after each update, to make sure you're using the latest Motion Templates, Metadata View, and LUTs.
 
 Once Final Cut Pro is launched you can access BRAW Toolbox via the Workflow Extension button:
 
@@ -343,7 +345,7 @@ Whilst BRAW Toolbox can play back BRAW video files natively, to handle audio, it
 
 Once you've tweaked any metadata settings, you can press the **Prepare BRAW Files** to get everything ready for Final Cut Pro.
 
-If you haven't already pressed the **Choose Audio Folder**, it'll prompt you regardless the first time.
+> NOTE: If you haven't already pressed the **Choose Audio Folder**, it'll prompt you regardless the first time you click **Prepare BRAW Files**.
 
 Whilst it's processing you'll see this:
 
