@@ -253,7 +253,7 @@ After you click the **INSTALL** button, the main BRAW Toolbox application will r
 
 ![Screenshot](Documentation/install-01.png)
 
-If it's the first time installing the software, or if there's been an update, you'll be prompted to **Install Motion Template** and **Install Metadata View**.
+If it's the first time installing the software, or if there's been an update, you'll be prompted to **Install Motion Templates**, **Install Metadata View** and **Install LUTs**.
 
 ![Screenshot](Documentation/install-01.png)
 
@@ -269,7 +269,7 @@ Once done, you'll be presented with a successful message:
 
 ![Screenshot](Documentation/install-04.png)
 
-The button will now be disabled, and will say **Motion Template Installed**.
+The button will now be disabled, and will say **Motion Templates Installed**.
 
 ![Screenshot](Documentation/install-05.png)
 
@@ -287,11 +287,19 @@ Once done, you'll be presented with a successful message:
 
 The button will now be disabled, and will say **Metadata View Installed**.
 
+![Screenshot](Documentation/install-21.png)
+
+You now need to click the **Install LUTs**. LUTs are stored in the same root folder as the Metadata View's, so you don't need to grant it permission.
+
+After clicking you'll be presented with a successful message:
+
+![Screenshot](Documentation/install-22.png)
+
+You can now click **Launch Final Cut Pro**, which will close the BRAW Toolbox application and Launch Final Cut Pro.
+
 ![Screenshot](Documentation/install-09.png)
 
-You can now close the BRAW Toolbox application and open Final Cut Pro.
-
-**IMPORTANT:** You should run the BRAW Toolbox application again after each update, to make sure you're using the latest Motion Template and Metadata View.
+> **IMPORTANT:** You should run the BRAW Toolbox application again after each update, to make sure you're using the latest Motion Template and Metadata View.
 
 Once Final Cut Pro is launched you can access BRAW Toolbox via the Workflow Extension button:
 
@@ -313,15 +321,27 @@ You can now adjust all the metadata as required. There are tools for easily copy
 
 Whilst BRAW Toolbox can play back BRAW video files natively, to handle audio, it "extracts" the audio prior to sending to Final Cut Pro. You should press the **Choose Audio Folder** button to select the destination folder for these audio files.
 
-Once you've tweaked any metadata settings, you can press the **Prepare BRAW Files** to get everything ready for Final Cut Pro. Once it's processed, you'll get this alert explaining what to do next:
+Once you've tweaked any metadata settings, you can press the **Prepare BRAW Files** to get everything ready for Final Cut Pro.
+
+If you haven't already pressed the **Choose Audio Folder**, it'll prompt you regardless the first time.
+
+Whilst it's processing you'll see this:
+
+![Screenshot](Documentation/install-23.png)
+
+Once it's processed, you'll get the below alert explaining what to do next. You can tick **Do not show this message again** to speed things up next time (and press **Reset Dialog Warning** via the Settings button if you want to bring this back).
 
 ![Screenshot](Documentation/install-14.png)
 
-Essentially, you need to drag this button:
+Essentially, you need to drag this green button:
 
 ![Screenshot](Documentation/install-15.png)
 
-...to your Final Cut Pro **Library** (**not** an Event or Project). This will create a new Keyword Collection with your BRAW clips:
+...to your Final Cut Pro **Library**.
+
+> **IMPORTANT:** You need to drag to a **Library** - not an **Event** or a **Project**, otherwise nothing will happen.
+
+This will create a new Keyword Collection with your BRAW clips:
 
 ![Screenshot](Documentation/install-16.png)
 
@@ -430,3 +450,5 @@ BRAW Toolbox has been thrown together by [Chris Hocking](https://github.com/late
 Chris also created [CommandPost](https://commandpost.io) and [Gyroflow Toolbox](https://github.com/latenitefilms/GyroflowToolbox).
 
 The BRAW Toolbox icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com).
+
+The incredible surf footage (as seen in the above screenshots) was captured by Sydney based Director/Cinematographer, [Adrian Emerton](https://www.adrianemerton.com.au).
