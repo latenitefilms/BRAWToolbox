@@ -24,9 +24,9 @@ BRAW Toolbox is currently in **public beta**. There are currently over 194 teste
 
 **You can download the latest beta via Apple's TestFlight [here](https://testflight.apple.com/join/dbWjWl8e).**
 
-If all goes to plan, we intend to release on the Mac App Store in late January as a paid app.
+If all goes to plan, we intend to release on the Mac App Store at the start of Feburary as a paid app.
 
-There will be no free trial, and it will only be available on the Mac App Store.
+There will be no free trial, and it will only be available on the Mac App Store as a one-time payment.
 
 TestFlight requires macOS Monterey or later. However, if you're running Big Sur, it MIGHT be possible to download on a Monterey machine, then copy across to your Big Sur machine, if they share the same Apple ID.
 
