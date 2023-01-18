@@ -51,16 +51,6 @@ The below features are not yet available in the latest beta, and will be added i
 
 ---
 
-## Known Issues
-
-We've had a single report of a **2013 Mac Pro with Dual AMD FirePro D500** displaying random blue frames during playback, and poor playback performance. Intel and Apple Silicon Mac's with a single GPU's don't seem to have this issue, and a 2019 Mac Pro with Dual W5700X GPU also works fine with the latest beta.
-
-We are currently chatting with both Blackmagic and Apple to try and resolve this issue. It may be a case that this 10-year-old Mac Pro might simply not have enough VRAM to do what's required, despite the same files playing fine in DaVinci Resolve.
-
-If you also have a Mac Pro with Dual GPUs and have any rendering glitches or issues, please let us know [here](https://github.com/latenitefilms/BRAWToolbox/issues/25).
-
----
-
 ## Release Notes
 
 ### 1.0.0 (26) - Public Beta 13 - 17th January 2023
