@@ -6,7 +6,7 @@ BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut P
 
 This allows you to do your offline edit in Final Cut Pro, then send across to DaVinci Resolve for grading - all using BRAW files directly from the camera!
 
-**No more transcoding. No more waiting. No more massive ProRes files. Woohoo!**
+**_No more transcoding. No more waiting. No more massive ProRes files. Woohoo!_**
 
 The BRAW Toolbox Workflow Extension allows you to prepare all your footage prior to import, allowing you to easily and quickly change all the RAW metadata, and copy and paste metadata from different BRAW clips. You can even save Presets for specific Metadata Attributes. 
 
