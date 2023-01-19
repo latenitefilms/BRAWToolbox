@@ -57,9 +57,9 @@ GitHub registration is free, and this GitHub repository is actively monitored by
 
 ---
 
-## Incomplete Features
+## Future Updates
 
-The below features are not yet available in the latest beta, and will be added in a future release:
+The below features are not yet available in the current release, and will be added at a later date:
 
 - **Relink Unlinked BRAW Clips within an EVENT** Toolbox
 - **Convert BRAW clips to MOV's within an EVENT** Toolbox
