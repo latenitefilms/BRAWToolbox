@@ -8,7 +8,7 @@ This allows you to do your offline edit in Final Cut Pro, then send across to Da
 
 **_No more transcoding. No more waiting. No more massive ProRes files. Woohoo!_**
 
-The BRAW Toolbox Workflow Extension allows you to prepare all your footage prior to import, allowing you to easily and quickly change all the RAW metadata, and copy and paste metadata from different BRAW clips. You can even save Presets for specific Metadata Attributes. 
+The BRAW Toolbox Workflow Extension allows you to prepare all your footage prior to import, allowing you to easily and quickly change all the RAW metadata, and copy and paste metadata from different BRAW clips. You can even save Presets for specific Metadata Attributes.
 
 Once imported into Final Cut Pro, you can still modify the RAW metadata at any time - and you can even keyframe the ISO, Exposure, Color Temp and Tint.
 
@@ -20,15 +20,21 @@ There are automatic Decode Quality for both HD and UltraHD projects, and you can
 
 ## Download
 
-BRAW Toolbox is currently in **public beta**. There are currently over 194 testers from all over the world.
+BRAW Toolbox is currently in **public beta**. There are currently over 198 testers from all over the world.
 
-**You can download the latest beta via Apple's TestFlight [here](https://testflight.apple.com/join/dbWjWl8e).**
+**_[You can download the latest beta via Apple's TestFlight here.](https://testflight.apple.com/join/dbWjWl8e)_**
 
-If all goes to plan, we intend to release on the Mac App Store at the start of Feburary as a paid app.
+TestFlight requires macOS Monterey or later. However, if you're running Big Sur, you can download on a Monterey machine, then copy across to your Big Sur machine if they share the same Apple ID.
+
+---
+
+## Where to buy?
+
+We plan to release BRAW Toolbox to the Mac App Store on **Monday 30th January (AEDT)**.
+
+BRAW Toolbox will cost **USD$39.99** for the **first week only** as a thank you to our early adopters, then increase to **USD$79.99** on **Monday 13th February (AEDT)**.
 
 There will be no free trial, and it will only be available on the Mac App Store as a one-time payment.
-
-TestFlight requires macOS Monterey or later. However, if you're running Big Sur, it MIGHT be possible to download on a Monterey machine, then copy across to your Big Sur machine, if they share the same Apple ID.
 
 ---
 
@@ -454,12 +460,6 @@ You can only adjust the Custom Gamma Controls if you select the **Blackmagic Des
 ### Can I stabilise clips using the Gyroscope Data within the BRAW file?
 
 Yes, you can combine BRAW Toolbox with [Gyroflow Toolbox](https://github.com/latenitefilms/GyroflowToolbox) - simply apply the Gyroflow Toolbox effect to the video layer inside your Synchronised or Multicam clip.
-
----
-
-### How much will BRAW Toolbox cost?
-
-We're not sure yet. We just want to get through the beta testing phase before deciding on a price. It'll depend on how much work is involved to update and support the software.
 
 ---
 
