@@ -20,7 +20,7 @@ There are automatic Decode Quality for both HD and UltraHD projects, and you can
 
 ## Download
 
-BRAW Toolbox is currently in **public beta**. There are currently over 198 testers from all over the world.
+BRAW Toolbox is currently in **public beta**. There are currently over 206 testers from all over the world.
 
 **_[You can download the latest beta via Apple's TestFlight here.](https://testflight.apple.com/join/dbWjWl8e)_**
 
