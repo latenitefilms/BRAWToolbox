@@ -1,4 +1,4 @@
-# Toolboxes
+# Toolbox
 
 The BRAW Toolbox Workflow Extension contains a collection of "Toolbox" features to help get things in and out of Final Cut Pro.
 
