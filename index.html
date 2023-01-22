@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.727739825319">
+
+    <!-- See retype.com -->
+    <meta name="generator" content="Retype 2.4.0">
+
+    <!-- Primary Meta Tags -->
+    <title>BRAW Toolbox</title>
+    <meta name="title" content="BRAW Toolbox">
+    <meta name="description" content="BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro without transcoding." />
+
+    <!-- Canonical -->
+    <link rel="canonical" href="/" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="/">
+    <meta property="og:title" content="BRAW Toolbox">
+    <meta property="og:description" content="BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro without transcoding.">
+    <meta property="og:image" content="/documentation/testflight-01.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="/">
+    <meta property="twitter:title" content="BRAW Toolbox">
+    <meta property="twitter:description" content="BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro without transcoding.">
+    <meta property="twitter:image" content="/documentation/testflight-01.png">
+
+    <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
+
+    <link href="resources/css/retype.css?v=2.4.0.727739825319" rel="stylesheet" />
+
+    <script type="text/javascript" src="resources/js/config.js?v=2.4.0.727739825319" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="resources/js/lunr.js?v=2.4.0.727739825319" data-turbo-eval="false" defer></script>
+</head>
+<body>
+    <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
+        <div class="absolute bottom-0 left-0 bg-gray-100 dark:bg-dark-800" style="top: 5rem; right: 50%"></div>
+    
+        <header id="docs-site-header" class="sticky top-0 z-30 flex w-full h-16 bg-white border-b border-gray-200 md:h-20 dark:bg-dark-850 dark:border-dark-650">
+            <div class="container relative flex items-center justify-between grow pr-6 md:justify-start">
+                <!-- Mobile menu button skeleton -->
+                <button v-cloak class="skeleton docs-mobile-menu-button flex items-center justify-center shrink-0 overflow-hidden dark:text-white focus:outline-none rounded-full w-10 h-10 ml-3.5 md:hidden"><svg xmlns="http://www.w3.org/2000/svg" class="mb-px shrink-0" width="24" height="24" viewBox="0 0 24 24" role="presentation" style="margin-bottom: 0px;"><g fill="currentColor"><path d="M2 4h20v2H2zM2 11h20v2H2zM2 18h20v2H2z"></path></g></svg></button>
+                <div v-cloak id="docs-sidebar-toggle"></div>
+        
+                <!-- Logo -->
+                <div class="flex items-center justify-between h-full py-2 md:w-75">
+                    <div class="flex items-center px-2 md:px-6">
+                        <a id="docs-site-logo" href="" class="flex items-center leading-snug text-2xl">
+                            <span class="dark:text-white font-semibold line-clamp-1 md:line-clamp-2">Project Name</span>
+                        </a><span class="hidden px-2 py-1 ml-4 text-sm font-semibold leading-none text-root-logo-label-text bg-root-logo-label-bg rounded-sm md:inline-block">Docs</span>
+                    </div>
+        
+                    <span class="hidden h-8 border-r md:inline-block dark:border-dark-650"></span>
+                </div>
+        
+                <div class="flex justify-between md:grow">
+                    <!-- Top Nav -->
+                    <nav class="hidden md:flex">
+                        <ul class="flex flex-col mb-4 md:pl-16 md:mb-0 md:flex-row md:items-center">
+                            <li class="mr-6">
+                                <a class="py-2 md:mb-0 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://retype.com/guides/getting-started/">Getting Started</a>
+                            </li>
+        
+                        </ul>
+                    </nav>
+        
+                    <!-- Header Right Skeleton -->
+                    <div v-cloak class="flex justify-end grow skeleton">
+        
+                        <!-- Search input mock -->
+                        <div class="relative hidden w-40 lg:block lg:max-w-sm lg:ml-auto">
+                            <div class="absolute flex items-center justify-center h-full pl-3 dark:text-dark-300">
+                                <svg xmlns="http://www.w3.org/2000/svg" class="icon-base" width="16" height="16" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 1px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                            </div>
+        
+                            <input class="w-full h-10 transition-colors duration-200 ease-in bg-gray-200 border border-transparent rounded md:text-sm hover:bg-white hover:border-gray-300 focus:outline-none focus:bg-white focus:border-gray-500 dark:bg-dark-600 dark:border-dark-600 placeholder-gray-400 dark:placeholder-dark-400"
+                            style="padding: 0.625rem 0.75rem 0.625rem 2rem" type="text" placeholder="Search" />
+                        </div>
+        
+                        <!-- Mobile search button mock -->
+                        <div class="flex items-center justify-center w-10 h-10 lg:hidden">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="20" height="20" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><path d="M21.71 20.29l-3.68-3.68A8.963 8.963 0 0020 11c0-4.96-4.04-9-9-9s-9 4.04-9 9 4.04 9 9 9c2.12 0 4.07-.74 5.61-1.97l3.68 3.68c.2.19.45.29.71.29s.51-.1.71-.29c.39-.39.39-1.03 0-1.42zM4 11c0-3.86 3.14-7 7-7s7 3.14 7 7c0 1.92-.78 3.66-2.04 4.93-.01.01-.02.01-.02.01-.01.01-.01.01-.01.02A6.98 6.98 0 0111 18c-3.86 0-7-3.14-7-7z" ></path></g></svg>
+                        </div>
+        
+                        <!-- Dark mode switch placehokder -->
+                        <div class="w-10 h-10 lg:ml-2"></div>
+        
+                        <!-- History button mock -->
+                        <div class="flex items-center justify-center w-10 h-10" style="margin-right: -0.625rem;">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="shrink-0 icon-base" width="22" height="22" viewBox="0 0 24 24" aria-labelledby="icon" role="presentation"  style="margin-bottom: 0px;"><g fill="currentColor" ><g ><path d="M12.01 6.01c-.55 0-1 .45-1 1V12a1 1 0 00.4.8l3 2.22a.985.985 0 001.39-.2.996.996 0 00-.21-1.4l-2.6-1.92V7.01c.02-.55-.43-1-.98-1z"></path><path d="M12.01 1.91c-5.33 0-9.69 4.16-10.05 9.4l-.29-.26a.997.997 0 10-1.34 1.48l1.97 1.79c.19.17.43.26.67.26s.48-.09.67-.26l1.97-1.79a.997.997 0 10-1.34-1.48l-.31.28c.34-4.14 3.82-7.41 8.05-7.41 4.46 0 8.08 3.63 8.08 8.09s-3.63 8.08-8.08 8.08c-2.18 0-4.22-.85-5.75-2.4a.996.996 0 10-1.42 1.4 10.02 10.02 0 007.17 2.99c5.56 0 10.08-4.52 10.08-10.08.01-5.56-4.52-10.09-10.08-10.09z"></path></g></g></svg>
+                        </div>
+                    </div>
+        
+                    <div v-cloak class="flex justify-end grow">
+                        <div id="docs-mobile-search-button"></div>
+                        <doc-search-desktop></doc-search-desktop>
+        
+                        <doc-theme-switch class="lg:ml-2"></doc-theme-switch>
+                        <doc-history></doc-history>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <div class="container relative flex bg-white">
+            <!-- Sidebar Skeleton -->
+            <div v-cloak class="fixed flex flex-col shrink-0 duration-300 ease-in-out bg-gray-100 border-gray-200 sidebar top-20 w-75 border-r h-screen md:sticky transition-transform skeleton dark:bg-dark-800 dark:border-dark-650">
+            
+                <!-- Render this div, if config.showSidebarFilter is `true` -->
+                <div class="flex items-center h-16 px-6">
+                    <input class="w-full h-8 px-3 py-2 transition-colors duration-200 ease-linear bg-white border border-gray-200 rounded shadow-none text-sm focus:outline-none focus:border-gray-600 dark:bg-dark-600 dark:border-dark-600" type="text" placeholder="Filter" />
+                </div>
+            
+                <div class="pl-6 mb-4 mt-1">
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-32 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-48 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                    <div class="w-40 h-3 mb-4 bg-gray-200 rounded-full loading dark:bg-dark-600"></div>
+                </div>
+            
+                <div class="shrink-0 mt-auto bg-transparent dark:border-dark-650">
+                    <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                        <span class="text-xs whitespace-nowrap">Powered by</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Sidebar component -->
+            <doc-sidebar v-cloak>
+                <template #sidebar-footer>
+                    <div class="shrink-0 mt-auto border-t md:bg-transparent md:border-none dark:border-dark-650">
+            
+                        <div class="py-3 px-6 md:hidden border-b dark:border-dark-650">
+                            <nav>
+                                <ul class="flex flex-wrap justify-center items-center">
+                                    <li class="mr-6">
+                                        <a class="block py-1 inline-flex items-center text-sm whitespace-nowrap transition-colors duration-200 ease-linear md:text-blue-500 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-200" href="https://retype.com/guides/getting-started/">Getting Started</a>
+                                    </li>
+            
+                                </ul>
+                            </nav>
+                        </div>
+            
+                        <a class="flex items-center justify-center flex-nowrap h-16 text-gray-400 dark:text-dark-400 hover:text-gray-700 dark:hover:text-dark-300 transition-colors duration-150 ease-in docs-powered-by" target="_blank" href="https://retype.com/" rel="noopener">
+                            <span class="text-xs whitespace-nowrap">Powered by</span>
+                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-2" fill="currentColor" width="96" height="20" overflow="visible"><path d="M0 0v20h13.59V0H0zm11.15 17.54H2.44V2.46h8.71v15.08zM15.8 20h2.44V4.67L15.8 2.22zM20.45 6.89V20h2.44V9.34z"/><g><path d="M40.16 8.44c0 1.49-.59 2.45-1.75 2.88l2.34 3.32h-2.53l-2.04-2.96h-1.43v2.96h-2.06V5.36h3.5c1.43 0 2.46.24 3.07.73s.9 1.27.9 2.35zm-2.48 1.1c.26-.23.38-.59.38-1.09 0-.5-.13-.84-.4-1.03s-.73-.28-1.39-.28h-1.54v2.75h1.5c.72 0 1.2-.12 1.45-.35zM51.56 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92h4.74v1.83h-6.79V5.36h6.64zM60.09 7.15v7.48h-2.06V7.15h-2.61V5.36h7.28v1.79h-2.61zM70.81 14.64h-2.06v-3.66l-3.19-5.61h2.23l1.99 3.45 1.99-3.45H74l-3.19 5.61v3.66zM83.99 6.19c.65.55.97 1.4.97 2.55s-.33 1.98-1 2.51-1.68.8-3.04.8h-1.23v2.59h-2.06V5.36h3.26c1.42 0 2.45.28 3.1.83zm-1.51 3.65c.25-.28.37-.69.37-1.22s-.16-.92-.48-1.14c-.32-.23-.82-.34-1.5-.34H79.7v3.12h1.38c.68 0 1.15-.14 1.4-.42zM95.85 5.36V7.2h-4.59v1.91h4.13v1.76h-4.13v1.92H96v1.83h-6.79V5.36h6.64z"/></g></svg>
+                        </a>
+                    </div>
+                </template>
+            </doc-sidebar>
+    
+            <div class="grow min-w-0 dark:bg-dark-850">
+                <!-- Render "toolbar" template here on api pages --><!-- Render page content -->
+                <div class="flex">
+                    <div class="grow min-w-0 px-6 md:px-16">
+                        <main class="relative pt-6 pb-16">
+                            <div class="docs-markdown" id="docs-content">
+                                <!-- Rendered if sidebar right is enabled -->
+                                <div id="docs-sidebar-right-toggle"></div>
+                
+                                <!-- Page content  -->
+<img src="https://github.com/latenitefilms/BRAWToolbox/raw/main/Documentation/BRAWToolbox.png" align="right" width="15%" height="15%" />
+<doc-anchor-target id="braw-toolbox" class="break-words">
+    <h1>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#braw-toolbox">#</doc-anchor-trigger>
+        <span>BRAW Toolbox</span>
+    </h1>
+</doc-anchor-target>
+<p>BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro without transcoding.</p>
+<p>This allows you to do your offline edit in Final Cut Pro, then send across to DaVinci Resolve for grading - all using BRAW files directly from the camera!</p>
+<p><strong><em>No more transcoding. No more waiting. No more massive ProRes files. Woohoo!</em></strong></p>
+<p>The BRAW Toolbox Workflow Extension allows you to prepare all your footage prior to import, allowing you to easily and quickly change all the RAW metadata, and copy and paste metadata from different BRAW clips. You can even save Presets for specific Metadata Attributes.</p>
+<p>Once imported into Final Cut Pro, you can still modify the RAW metadata at any time - and you can even keyframe the ISO, Exposure, Color Temp and Tint.</p>
+<p>BRAW Toolbox comes with a Metadata View that allows you to view every piece of BRAW Metadata directly within the Final Cut Pro Inspector.</p>
+<p>There are automatic Decode Quality for both HD and UltraHD projects, and you can also work at a low quality Decode Quality, then apply a &quot;Global Setting&quot; to force Full Quality prior to export. BRAW Toolbox gives you complete freedom and flexibility.</p>
+<hr />
+<doc-anchor-target id="download">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#download">#</doc-anchor-trigger>
+        <span>Download</span>
+    </h2>
+</doc-anchor-target>
+<p>BRAW Toolbox is currently in <strong>public beta</strong>. There are currently over 206 testers from all over the world.</p>
+<p><strong><em><a href="https://testflight.apple.com/join/dbWjWl8e">You can download the latest beta via Apple&#x27;s TestFlight here.</a></em></strong></p>
+<p>TestFlight requires macOS Monterey or later. However, if you&#x27;re running Big Sur, you can download on a Monterey machine, then copy across to your Big Sur machine if they share the same Apple ID.</p>
+<hr />
+<doc-anchor-target id="where-to-buy">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#where-to-buy">#</doc-anchor-trigger>
+        <span>Where to buy?</span>
+    </h2>
+</doc-anchor-target>
+<p>We plan to release BRAW Toolbox to the Mac App Store on <strong>Monday 30th January (AEDT)</strong>.</p>
+<p>BRAW Toolbox will cost <strong>USD$39.99</strong> for the <strong>first week only</strong> as a thank you to our early adopters, then increase to <strong>USD$79.99</strong> on <strong>Monday 13th February (AEDT)</strong>.</p>
+<p>There will be no free trial, and it will only be available on the Mac App Store as a one-time payment.</p>
+<hr />
+<doc-anchor-target id="sample-braw-clips">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#sample-braw-clips">#</doc-anchor-trigger>
+        <span>Sample BRAW Clips</span>
+    </h2>
+</doc-anchor-target>
+<p>There are heaps of awesome clips to test with on the Blackmagic Website:</p>
+<ul>
+<li><a href="https://www.blackmagicdesign.com/au/products/blackmagicpocketcinemacamera/gallery">Blackmagic Pocket Cinema Camera Gallery</a></li>
+<li><a href="https://www.blackmagicdesign.com/au/products/blackmagicursaminipro/gallery">Blackmagic URSA Mini Gallery</a></li>
+</ul>
+<hr />
+<doc-anchor-target id="help--support">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#help--support">#</doc-anchor-trigger>
+        <span>Help &amp; Support</span>
+    </h2>
+</doc-anchor-target>
+<p>If you run into any bugs, crashes, or you have a feature request, you can post an issue <a href="https://github.com/latenitefilms/BRAWToolbox/issues">here</a>.</p>
+<p>If you have any general questions or feedback, you can discuss <a href="https://github.com/latenitefilms/BRAWToolbox/discussions">here</a>.</p>
+<p>GitHub registration is free, and this GitHub repository is actively monitored by <a href="https://github.com/latenitefilms">latenitefilms</a>.</p>
+<hr />
+<doc-anchor-target id="future-updates">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#future-updates">#</doc-anchor-trigger>
+        <span>Future Updates</span>
+    </h2>
+</doc-anchor-target>
+<p>The below features are not yet available in the current release, and will be added at a later date:</p>
+<ul>
+<li><strong>Relink Unlinked BRAW Clips within an EVENT</strong> Toolbox</li>
+<li><strong>Convert BRAW clips to MOV&#x27;s within an EVENT</strong> Toolbox</li>
+<li><strong>Convert MOV&#x27;s to BRAW Clips within an EVENT</strong> Toolbox</li>
+</ul>
+<hr />
+<doc-anchor-target id="release-notes">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#release-notes">#</doc-anchor-trigger>
+        <span>Release Notes</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="100-26---public-beta-13---17th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-26---public-beta-13---17th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (26) - Public Beta 13 - 17th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Note:</strong></p>
+<ul>
+<li>There are no changes to the Motion Template, Metadata View or LUTs in this beta.</li>
+</ul>
+<p><strong>Improvements:</strong></p>
+<ul>
+<li>We now display the current timecode value of the selected clip in the Workflow Extension player in the bottom right corner.</li>
+<li>Added additional metadata columns to the file list in the Workflow Extension. You can now right-click on the columns to enable/disable columns.</li>
+<li>Added a <strong>Convert PROJECT to Resolve Friendly FCPXML (via CP)</strong> Toolbox item, which sends the FCPXML to CommandPost after processing. This is useful if you have BRAW clips and you also need CommandPost&#x27;s Sony Timecode Repair Toolbox prior to sending to DaVinci Resolve. Thanks for suggesting <a href="https://twitter.com/gwphotographe">George Elias</a>!</li>
+<li>We now remember the last Toolbox item when you close and re-open the Workflow Extension.</li>
+<li>Added a <strong>Do not show this message again</strong> button to the <strong>Convert PROJECT to Resolve Friendly FCPXML</strong> Toolbox success popup message.</li>
+<li>The default image in the Workflow Extension Player has been changed to make it look a bit nicer.</li>
+</ul>
+<p><strong>Bug Fix:</strong></p>
+<ul>
+<li>Fixed a bug where the player controls weren&#x27;t always updating the player content correctly.</li>
+<li>Fixed a bug where if you didn&#x27;t have any BRAW clips selected, certain parameters would still be accessible.</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-25---public-beta-12---16th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-25---public-beta-12---16th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (25) - Public Beta 12 - 16th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Note:</strong></p>
+<ul>
+<li>There are no changes to the Motion Template, Metadata View or LUTs in this beta.</li>
+</ul>
+<p><strong>Bug Fix:</strong></p>
+<ul>
+<li>Fixed a bug in the <strong>Convert PROJECT to Resolve Friendly FCPXML</strong> Toolbox, where the Toolbox would fail if there&#x27;s any BRAW Toolbox clips in the project/timeline where there hasn&#x27;t been any BRAW files loaded. Thanks for discovering Kevin Luk!</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-24---public-beta-11---16th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-24---public-beta-11---16th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (24) - Public Beta 11 - 16th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Note:</strong></p>
+<ul>
+<li>The Motion Templates have been updated in this release.</li>
+</ul>
+<p><strong>Improvements:</strong></p>
+<ul>
+<li>After clicking <strong>Prepare BRAW Files</strong>, once complete, the draggable FCPXML icon now turns green. This is useful if you have selected <strong>Do not show this message again</strong>, on the <strong>Successfully Processed</strong> popup. Thanks for suggesting Chris Gosling!</li>
+</ul>
+<p><strong>Bug Fix:</strong></p>
+<ul>
+<li>Fixed a bug in the <strong>DWG Intermediate to Rec. 2020 PQ</strong> Motion Template. Thanks for reporting Jamie Lejeune!</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-23---public-beta-10---15th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-23---public-beta-10---15th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (23) - Public Beta 10 - 15th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Note:</strong></p>
+<ul>
+<li>There are no changes to the Motion Template, Metadata View or LUTs in this beta.</li>
+</ul>
+<p><strong>Improvements:</strong></p>
+<ul>
+<li>Added a checkbox that says &quot;Do not show this message again&quot; to the bottom of various messages in the Workflow Extension. You can &quot;Reset Dialog Warnings&quot; via the Settings button. Thanks for suggesting Chris Gosling!</li>
+<li>We&#x27;re now using FxPlug v4.2.5 (instead of v4.2.4). According to the release notes this should have improved reconnection with plug-ins after a memory jetsam event and improved the speed of reconnection with plug-ins after a crash, or plug-in process suspension by macOS.</li>
+</ul>
+<p><strong>Bug Fix:</strong></p>
+<ul>
+<li>Still attempting to fix issues with rendering on Mac Pro&#x27;s with Dual GPUs. Thanks for reporting Jamie Lejeune &amp; <a href="https://github.com/tangierc">@tangierc</a>!</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-22---public-beta-9---15th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-22---public-beta-9---15th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (22) - Public Beta 9 - 15th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Note:</strong></p>
+<ul>
+<li>There are no changes to the Motion Template, Metadata View or LUTs in this beta.</li>
+</ul>
+<p><strong>Bug Fix:</strong></p>
+<ul>
+<li>Still attempting to fix issues with rendering on Mac Pro&#x27;s with Dual GPUs. Thanks for reporting Jamie Lejeune &amp; <a href="https://github.com/tangierc">@tangierc</a>!</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-21---public-beta-8---15th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-21---public-beta-8---15th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (21) - Public Beta 8 - 15th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Note:</strong></p>
+<ul>
+<li>There are no changes to the Motion Template, Metadata View or LUTs in this beta.</li>
+</ul>
+<p><strong>Bug Fix:</strong></p>
+<ul>
+<li>Still attempting to fix issues with rendering on Mac Pro&#x27;s with Dual GPUs. Thanks for reporting Jamie Lejeune &amp; <a href="https://github.com/tangierc">@tangierc</a>!</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-20---public-beta-7---14th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-20---public-beta-7---14th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (20) - Public Beta 7 - 14th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Note:</strong></p>
+<ul>
+<li>The Motion Templates and Metadata View has been updated in this release. You now also need to install the LUTs when you first run the application (used for HDR).</li>
+<li>We no longer store the Metadata View in the <code v-pre>/Library/Application Support/ProApps/Metadata Definitions/</code> folder - it&#x27;s now stored in the user library. You should <strong>manually</strong> delete the <code v-pre>BRAW Toolbox.plist</code> file in this folder if you&#x27;ve used earlier beta builds.</li>
+</ul>
+<p><strong>Improvements:</strong></p>
+<ul>
+<li>We&#x27;ve re-designed the Metal pipeline, to HOPEFULLY improve performance on older 2013 Mac Pro&#x27;s with Dual AMD FirePro D500. These changes MIGHT also improve performance on other systems. Thanks for reporting <a href="https://github.com/tangierc">@tangierc</a>!</li>
+<li>Thanks to the amazing Marc Bach &amp; Jamie Lejeune, we&#x27;ve redesigned how BRAW Toolbox handles HDR content, so it better matches DaVinci Resolve.</li>
+<li>There are now <strong>Color Space</strong> settings in the <strong>Settings</strong> button (the gear icon) within the Workflow Extension. This controls the Player in the Workflow Extension, and also the settings of the Synchronised Clips or Multicam Clips that are imported into Final Cut Pro.</li>
+<li>If you select the <strong>DaVinci Wide Gamut</strong> Color Space/Gamut and <strong>DaVinci Intermediate</strong> Gamma, there&#x27;s now also an option within the Settings button to enable a special LUT which gets applied within Final Cut Pro (the effect of the LUT isn&#x27;t visible in the Workflow Extension) to better match DaVinci Resolve. Using this option with a <strong>Wide Gamut HDR - Rec. 2020 PQ</strong> Library &amp; Project is the recommended way to grade HDR BRAW in Final Cut Pro.</li>
+<li>Added settings to select the <strong>Default Decode Quality</strong>.</li>
+<li>The thumbnails for the Effects within Final Cut Pro have been improved so they look nicer.</li>
+<li>The BRAW Toolbox Metadata View now contains additional built-in fields, that are used by Sync-N-Link.</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>We now remember the Audio Folder if you click <strong>Prepare BRAW Files</strong> before clicking <strong>Choose Audio Folder</strong>.</li>
+<li>Fixed a regression which broke the <strong>Remove All</strong> button.</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-19---public-beta-6---7th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-19---public-beta-6---7th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (19) - Public Beta 6 - 7th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Note:</strong></p>
+<ul>
+<li>There are no changes to the Motion Template or Metadata View in this beta.</li>
+</ul>
+<p><strong>Improvements:</strong></p>
+<ul>
+<li>Added a <strong>Settings</strong> button (the gear icon), with the ability to <strong>Create Multicam Clips</strong> instead of Synchronised Clips. Thanks for suggesting <a href="https://github.com/TheDaveChap">@TheDaveChap</a>!</li>
+<li><strong>Convert PROJECT to Resolve Friendly FCPXML</strong> has been improved so that Audio Attributes and Rate Conform settings come across more accurately between Final Cut Pro and DaVinci Resolve. Thanks for reporting <a href="https://github.com/markspen">@markspen</a>!</li>
+<li>If the Color Space is set to <strong>Rec.2020</strong>, and the Gamma is set to <strong>Rec.2100 ST2084 (PQ)</strong> in the Workflow Extension, we&#x27;ll use the <strong>Rec. 2020 PQ</strong> setting for this clip in Final Cut Pro. Thanks for suggesting <a href="https://github.com/JW144754">@JW144754</a>!</li>
+<li>If the Color Space is set to <strong>Rec.2020</strong>, and the Gamma is set to <strong>Rec.2100 Hybrid Log Gamma</strong> in the Workflow Extension, we&#x27;ll use the <strong>Rec. 2020 HLG</strong> setting for this clip in Final Cut Pro. Thanks for suggesting <a href="https://github.com/JW144754">@JW144754</a>!</li>
+<li>If the Color Space is set to <strong>Rec.2020</strong>, and the Gamma is set to something other than PQ or HLG in the Workflow Extension, we&#x27;ll use the <strong>Rec. 2020</strong> setting  for this clip in Final Cut Pro. Thanks for suggesting <a href="https://github.com/JW144754">@JW144754</a>!</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Fixed a bug where clicking the <strong>Gamma</strong> checkbox, and then <strong>Apply Checked To All</strong> would fail.</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-18---public-beta-5---6th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-18---public-beta-5---6th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (18) - Public Beta 5 - 6th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Note:</strong></p>
+<ul>
+<li>There are no changes to the Motion Template or Metadata View in this beta.</li>
+</ul>
+<p><strong>Bug Fix:</strong></p>
+<ul>
+<li>Fixed a bug where we were releasing <code v-pre>copiedParameters</code> incorrectly when the Workflow Extension was closed.</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-17---public-beta-4---6th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-17---public-beta-4---6th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (17) - Public Beta 4 - 6th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Note:</strong></p>
+<ul>
+<li>There are no changes to the Motion Template or Metadata View in this beta.</li>
+</ul>
+<p><strong>Improvements:</strong></p>
+<ul>
+<li>Renamed the <strong>Clear BRAW Files</strong> button to <strong>Remove All</strong> and added a <strong>Remove Selected</strong> button. Thanks for suggesting <a href="https://github.com/TheDaveChap">@TheDaveChap</a>!</li>
+<li>Added ability to drag-and-drop BRAW files from Finder into the BRAW Toolbox Workflow Extension. Thanks for suggesting <a href="https://github.com/TheDaveChap">@TheDaveChap</a>!</li>
+<li>Left-aligned the buttons in the Final Cut Pro Inspector so they don&#x27;t exhibit any weird UI glitches. Thanks for suggesting <a href="https://github.com/JW144754">@JW144754</a>!</li>
+<li>Sliders in the Workflow Extension are now all continuous, and update the Viewer instantly.</li>
+<li>Added Tooltips to the Workflow Extension.</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-16---public-beta-3---5th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-16---public-beta-3---5th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (16) - Public Beta 3 - 5th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Note:</strong></p>
+<ul>
+<li>There are no changes to the Motion Template or Metadata View in this beta.</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Fixed a weird bug which caused the <strong>Preparing BRAW Files</strong> to never close on Intel Mac&#x27;s (but worked fine on Apple Silicon Mac&#x27;s). Thanks for reporting <a href="https://twitter.com/gwphotographe">George Elias</a>!</li>
+<li>Increased the Workflow Extension height by a tiny amount so it looks better on Intel Mac&#x27;s.</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-15---public-beta-2---5th-january-2023">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-15---public-beta-2---5th-january-2023">#</doc-anchor-trigger>
+        <span>1.0.0 (15) - Public Beta 2 - 5th January 2023</span>
+    </h3>
+</doc-anchor-target>
+<p><strong>Important:</strong></p>
+<ul>
+<li>Due to major changes, this beta is <strong>not</strong> compatible with the previous beta, so you should re-create any test Final Cut Pro libraries.</li>
+<li>If you have installed and used the previous beta, you will need to install the new Motion Template and Metadata View, prior to launching Final Cut Pro.</li>
+</ul>
+<p><strong>Improvements:</strong></p>
+<ul>
+<li>The BRAW Toolbox Motion Template has been completely redesigned to be a lot faster and easier to use. We have removed all the override controls. It now only shows the parameters that you can control (i.e. if your camera doesn&#x27;t allow manipulating the ISO, we no longer show this parameter).</li>
+<li>We added a <strong>Global Settings</strong> button to the Motion Template in the Final Cut Pro Inspector, so that you can force a Decode Quality across all clips. This is useful if you have clips with different Decode Quality settings, but you want to export at the highest quality.</li>
+<li>We now populate the <strong>Ingest Date</strong> (aka &quot;Date Imported&quot; in Final Cut Pro) metadata field. Thanks for suggesting <a href="https://github.com/tangierc">@tangierc</a>!</li>
+<li>The Workflow Extension has been redesigned. The checkboxes no longer act as &quot;overrides&quot;, but instead allow you to select which parameters you want to copy, paste, etc.</li>
+<li>The buttons at the bottom of the Workflow Extension Inspector (Copy, Paste, etc.) now all work.</li>
+<li>All the parameters in the Workflow Extension should now flow into Final Cut Pro.</li>
+<li>All the parameters in the Final Cut Pro Inspector should now work and update correctly. Thanks for reporting <a href="https://github.com/markspen">@markspen</a>!</li>
+<li>We now display an error message if you press <strong>Show Parameters</strong> with no BRAW file loaded.</li>
+<li>We no longer hide the Workflow Extension player slider when playing, and now update its value during playback. Thanks for suggesting @JW144754!</li>
+<li>The Viewer in the Workflow Extension is now resizable. Thanks for suggesting <a href="https://github.com/JW144754">@JW144754</a>!</li>
+<li>The main application now only asks for permissions to your Movies folder and Application Support folder once.</li>
+<li>All the individual open/save dialog boxes now remember their own last opened path.</li>
+<li>The <strong>Convert PROJECT to Resolve Friendly FCPXML</strong> Toolbox now works.</li>
+<li>We&#x27;ve added a loading screen when BRAW Toolbox is Preparing BRAW Files. Thanks for suggesting <a href="https://github.com/tangierc">@tangierc</a>!</li>
+</ul>
+<p><strong>Changes:</strong></p>
+<ul>
+<li>We now write log files to <code v-pre>/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/</code> folder, for easier debugging.</li>
+<li>BRAW Toolbox will now run on macOS Big Sur and above.</li>
+</ul>
+<p><strong>Bug Fixes:</strong></p>
+<ul>
+<li>Fixed various memory leaks.</li>
+<li>Fixed a bug which prevented the correct Decode Quality from being used. Thanks for reporting <a href="https://github.com/JW144754">@JW144754</a>!</li>
+<li>Fixed a bug in the ISO parameter.</li>
+<li>Error messages in Final Cut Pro now show the correct icon.</li>
+<li>Added some missing Metadata Definition labels.</li>
+</ul>
+<hr />
+<doc-anchor-target id="100-14---public-beta-1---23rd-december-2022">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#100-14---public-beta-1---23rd-december-2022">#</doc-anchor-trigger>
+        <span>1.0.0 (14) - Public Beta 1 - 23rd December 2022</span>
+    </h3>
+</doc-anchor-target>
+<p>This is the first public beta of BRAW Toolbox. Woohoo!</p>
+<p>This build is very much a work-in-progress, and doesn’t contain all our latest code (due to delays and complexity of getting things approved by Apple’s App Review). However, now that the first beta is out, we hope to be able to push out new builds much more quickly in the New Year, as we work towards a public release.</p>
+<p>The main area we’d like to test at this point is making sure that all machines can successfully import and playback BRAW files. Currently we’ve been primarily testing on MacBook Pro’s (16-inch, 2021, M1 Max, 64GB RAM) running macOS Monterey and Final Cut Pro 10.6.5. We&#x27;re particularly interested to see how things work on MacPro&#x27;s with multiple GPUs.</p>
+<p>The Workflow Extension is currently very incomplete. All of the parameters from Color Science Version onwards currently don’t come across to Final Cut Pro. The buttons at the bottom of the parameters also don’t currently do anything. The Toolbox currently doesn’t do anything.</p>
+<p>Happy testing!</p>
+<hr />
+<doc-anchor-target id="installation">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#installation">#</doc-anchor-trigger>
+        <span>Installation</span>
+    </h2>
+</doc-anchor-target>
+<p>You first need to join the TestFlight Beta by clicking on <a href="https://testflight.apple.com/join/dbWjWl8e">this invite</a>.</p>
+<p><figure class="content-center">
+    <img src="documentation/testflight-01.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>Once you&#x27;ve installed TestFlight and clicked on the above link, you will see BRAW Toolbox within the TestFlight application.</p>
+<p><figure class="content-center">
+    <img src="documentation/testflight-02.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>After you click the <strong>INSTALL</strong> button, the main BRAW Toolbox application will run.</p>
+<p><figure class="content-center">
+    <img src="documentation/install-01.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>If it&#x27;s the first time installing the software, or if there&#x27;s been an update, you&#x27;ll be prompted to <strong>Install Motion Templates</strong>, <strong>Install Metadata View</strong> and <strong>Install LUTs</strong>.</p>
+<blockquote>
+<p><strong>IMPORTANT:</strong> You should make sure that Final Cut Pro is not running at this point.</p>
+</blockquote>
+<p>Once you click <strong>Install Motion Templates</strong>, you&#x27;ll be prompted to grant permission to your Movies folder. This is due to macOS&#x27;s sandboxing, and you&#x27;ll only need to do this once. Click <strong>OK</strong>.</p>
+<p><figure class="content-center">
+    <img src="documentation/install-02.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>You then need to click <strong>Grant Access</strong>:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-03.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>Once done, you&#x27;ll be presented with a successful message:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-04.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>After clicking <strong>OK</strong>, the <strong>Install Motion Templates</strong> button will now be disabled, and will instead say <strong>Motion Templates Installed</strong>.</p>
+<p><figure class="content-center">
+    <img src="documentation/install-05.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>You should now click the <strong>Install Metadata View</strong> button, and you&#x27;ll be prompted to grant permission to your ProApps folder. Click <strong>OK</strong> again:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-07.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>You need to click the <strong>Grant Access</strong> button:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-06.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>Once done, you&#x27;ll be presented with a successful message:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-08.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>The <strong>Install Metadata View</strong> button will now be disabled, and will say <strong>Metadata View Installed</strong>.</p>
+<p><figure class="content-center">
+    <img src="documentation/install-21.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>You now need to click the <strong>Install LUTs</strong> button. LUTs are stored in the same root folder as the Metadata View&#x27;s, so you don&#x27;t need to grant it permission again.</p>
+<p>After clicking the button you&#x27;ll be presented with a successful message:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-22.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>After clicking <strong>OK</strong>, you can now click <strong>Launch Final Cut Pro</strong>, which will close the BRAW Toolbox application and Launch Final Cut Pro.</p>
+<p><figure class="content-center">
+    <img src="documentation/install-09.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<blockquote>
+<p><strong>IMPORTANT:</strong> You should run the BRAW Toolbox application again after each update, to make sure you&#x27;re using the latest Motion Templates, Metadata View, and LUTs.</p>
+</blockquote>
+<p>Once Final Cut Pro is launched you can access BRAW Toolbox via the <strong>Workflow Extension</strong> button:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-10.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>You can also access it via the <strong>Window &gt; Extensions &gt; BRAW Toolbox</strong> menu item:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-11.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>When you click either of those options it opens the BRAW Toolbox Workflow Extension:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-12.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>To import some BRAW clips, click the <strong>Import BRAW Files</strong> button and select some BRAW clips.</p>
+<blockquote>
+<p><strong>TIP:</strong> You can also drag-and-drop BRAW files from Finder to the File List.</p>
+</blockquote>
+<p><figure class="content-center">
+    <img src="documentation/install-13.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>You can now adjust all the metadata as required. There are tools for easily copy and pasting RAW parameters between clips, as well as saving Metadata Presets.</p>
+<p>Whilst BRAW Toolbox can play back BRAW video files natively, to handle audio, it &quot;extracts&quot; the audio prior to sending to Final Cut Pro. You should press the <strong>Choose Audio Folder</strong> button to select the destination folder for these audio files.</p>
+<p>Once you&#x27;ve tweaked any metadata settings, you can press the <strong>Prepare BRAW Files</strong> to get everything ready for Final Cut Pro.</p>
+<blockquote>
+<p><strong>NOTE:</strong> If you haven&#x27;t already pressed the <strong>Choose Audio Folder</strong>, it&#x27;ll prompt you regardless the first time you click <strong>Prepare BRAW Files</strong>.</p>
+</blockquote>
+<p>Whilst it&#x27;s processing you&#x27;ll see this:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-23.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>Once it&#x27;s processed, you&#x27;ll get the below alert explaining what to do next.</p>
+<blockquote>
+<p><strong>TIP:</strong> You can tick <strong>Do not show this message again</strong> to speed things up next time (and press <strong>Reset Dialog Warning</strong> via the Settings button if you want to bring this back).</p>
+</blockquote>
+<p><figure class="content-center">
+    <img src="documentation/install-14.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>Essentially, you need to drag this green button:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-15.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>...to your Final Cut Pro <strong>Library</strong>.</p>
+<blockquote>
+<p><strong>IMPORTANT:</strong> You need to drag to a <strong>Library</strong> - not an <strong>Event</strong> or a <strong>Project</strong>, otherwise nothing will happen.</p>
+</blockquote>
+<p>This will create a new Keyword Collection with your BRAW clips:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-16.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>To modify the metadata of a BRAW clip, you can double click on one of the synchronised clips, click on the black video clip, then access the BRAW Toolbox effect in the Effects section of the Inspector:</p>
+<p><figure class="content-center">
+    <img src="documentation/install-17.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>Click the <strong>Show Parameters</strong> button to show the parameters. You&#x27;ll only have to do this once per clip, as Final Cut Pro will remember it&#x27;s been opened.</p>
+<p><figure class="content-center">
+    <img src="documentation/install-18.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>Frame Metadata and Custom Gamma Controls are key-frame-able.</p>
+<blockquote>
+<p><strong>TIP:</strong> You can only access Custom Gamma Controls if you have the <strong>Blackmagic Design Custom</strong> gamma parameter selected.</p>
+</blockquote>
+<p>You can now edit BRAW files like any other camera media in Final Cut Pro. Woohoo!</p>
+<hr />
+<doc-anchor-target id="convert-project-to-resolve-friendly-fcpxml-toolbox">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#convert-project-to-resolve-friendly-fcpxml-toolbox">#</doc-anchor-trigger>
+        <span>&quot;Convert PROJECT to Resolve Friendly FCPXML&quot; Toolbox</span>
+    </h2>
+</doc-anchor-target>
+<p>To convert a project/timeline into something you can easily import into DaVinci Resolve (or other colour grading apps), you can drag your project from the Final Cut Pro Browser to the Toolbox at the bottom of the Workflow Extension.</p>
+<p>This will create a new FCPXML, where it converts the BRAW Toolbox clips into normal BRAW clips.</p>
+<p><figure class="content-center">
+    <img src="documentation/install-19.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<hr />
+<doc-anchor-target id="convert-project-to-resolve-friendly-fcpxml-via-cp-toolbox">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#convert-project-to-resolve-friendly-fcpxml-via-cp-toolbox">#</doc-anchor-trigger>
+        <span>&quot;Convert PROJECT to Resolve Friendly FCPXML (via CP)&quot; Toolbox</span>
+    </h2>
+</doc-anchor-target>
+<p>This works the same as above, but instead of prompting you for a filename, it&#x27;ll send the processed FCPXML directly to CommandPost for processing.</p>
+<p>The main use-case of this feature is if you&#x27;re using both BRAW files and Sony MP4s with incorrect timecode, as you can send straight to CommandPost&#x27;s Sony Timecode Toolbox.</p>
+<p>For this to work, you need to make sure you select <strong>Send FCPXML to Sony Timecode Toolbox</strong> in the <strong>Drag &amp; Drop File Action</strong> dropdown in the <strong>General</strong> section of CommandPost&#x27;s Preferences.</p>
+<p><figure class="content-center">
+    <img src="documentation/commandpost-01.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<hr />
+<doc-anchor-target id="frequently-asked-questions">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#frequently-asked-questions">#</doc-anchor-trigger>
+        <span>Frequently Asked Questions</span>
+    </h2>
+</doc-anchor-target>
+<doc-anchor-target id="does-braw-toolbox-work-with-sync-n-link">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#does-braw-toolbox-work-with-sync-n-link">#</doc-anchor-trigger>
+        <span>Does BRAW Toolbox work with Sync-N-Link?</span>
+    </h3>
+</doc-anchor-target>
+<p>Yes, BRAW Toolbox is compatible with <strong>Sync-N-Link v1.1.4</strong> on the Mac App Store.</p>
+<p>You should use Synchronised Clips in BRAW Toolbox, and it can combine multiple clips with location audio into a multicam.</p>
+<hr />
+<doc-anchor-target id="braw-toolbox-workflow-extension-doesnt-appear-in-final-cut-pro">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#braw-toolbox-workflow-extension-doesnt-appear-in-final-cut-pro">#</doc-anchor-trigger>
+        <span>BRAW Toolbox Workflow Extension doesn&#x27;t appear in Final Cut Pro?</span>
+    </h3>
+</doc-anchor-target>
+<p>Sometimes macOS can be a bit temperamental with System Extensions, including Workflow Extensions.</p>
+<p>If you can&#x27;t see BRAW Toolbox in the Workflow Extension button or menu bar, you can try:</p>
+<ol>
+<li>Restart your Mac.</li>
+<li><a href="https://support.apple.com/en-au/HT203477">Trash Final Cut Pro Preferences</a> by holding down COMMAND + OPTION when launching Final Cut Pro.</li>
+<li>Delete Final Cut Pro and reinstall it from the App Store.</li>
+</ol>
+<p>If none of those things fix it, please post an issue <a href="https://github.com/latenitefilms/BRAWToolbox/issues">here</a>.</p>
+<hr />
+<doc-anchor-target id="i-dont-like-synchronised-clips-can-i-import-a-multicam-clips-instead">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#i-dont-like-synchronised-clips-can-i-import-a-multicam-clips-instead">#</doc-anchor-trigger>
+        <span>I don&#x27;t like Synchronised Clips. Can I import a Multicam clips instead?</span>
+    </h3>
+</doc-anchor-target>
+<p>Yes, you can click the <strong>Settings</strong> button (the gear icon, next to &quot;Remove All&quot;) to <strong>Create Multicam Clips</strong> instead.</p>
+<p>Please note that this doesn&#x27;t sync multiple BRAW files together - it just creates a single Multicam Clip for each BRAW file.</p>
+<p>You&#x27;ll still need to use something like <a href="https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12">Sync-N-Link</a> if you want to sync BRAW files with external audio.</p>
+<p><figure class="content-center">
+    <img src="documentation/install-20.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<hr />
+<doc-anchor-target id="why-cant-i-adjust-the-custom-gamma-controls">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-cant-i-adjust-the-custom-gamma-controls">#</doc-anchor-trigger>
+        <span>Why can&#x27;t I adjust the Custom Gamma Controls?</span>
+    </h3>
+</doc-anchor-target>
+<p>You can only adjust the Custom Gamma Controls if you select the <strong>Blackmagic Design Custom</strong> Gamma option.</p>
+<hr />
+<doc-anchor-target id="can-i-stabilise-clips-using-the-gyroscope-data-within-the-braw-file">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#can-i-stabilise-clips-using-the-gyroscope-data-within-the-braw-file">#</doc-anchor-trigger>
+        <span>Can I stabilise clips using the Gyroscope Data within the BRAW file?</span>
+    </h3>
+</doc-anchor-target>
+<p>Yes, you can combine BRAW Toolbox with <a href="https://github.com/latenitefilms/GyroflowToolbox">Gyroflow Toolbox</a> - simply apply the Gyroflow Toolbox effect to the video layer inside your Synchronised or Multicam clip.</p>
+<hr />
+<doc-anchor-target id="is-braw-toolbox-open-source">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#is-braw-toolbox-open-source">#</doc-anchor-trigger>
+        <span>Is BRAW Toolbox Open Source?</span>
+    </h3>
+</doc-anchor-target>
+<p>Currently the source code for BRAW Toolbox is private, however we may release it under a MIT License at a later date after it&#x27;s been publicly released on the Mac App Store.</p>
+<hr />
+<doc-anchor-target id="ive-run-into-a-bug-where-can-i-find-the-log-files">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ive-run-into-a-bug-where-can-i-find-the-log-files">#</doc-anchor-trigger>
+        <span>I&#x27;ve run into a bug. Where can I find the log files?</span>
+    </h3>
+</doc-anchor-target>
+<p>You can find the log files here:</p>
+<p><code v-pre>/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/</code></p>
+<p>You can find any crash reports here:</p>
+<p><code v-pre>/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports</code></p>
+<hr />
+<doc-anchor-target id="credits">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#credits">#</doc-anchor-trigger>
+        <span>Credits</span>
+    </h2>
+</doc-anchor-target>
+<p>BRAW Toolbox has been thrown together by <a href="https://github.com/latenitefilms">Chris Hocking</a> at <a href="https://latenitefilms.com">LateNite Films</a>.</p>
+<p>Chris also created <a href="https://commandpost.io">CommandPost</a> and <a href="https://github.com/latenitefilms/GyroflowToolbox">Gyroflow Toolbox</a>.</p>
+<p>The BRAW Toolbox icon was designed by the amazing <a href="http://matthewskiles.com">Matthew Skiles</a>.</p>
+<p>The incredible surf footage (as seen in the above screenshots) was captured by Sydney based Director/Cinematographer, <a href="https://www.adrianemerton.com.au">Adrian Emerton</a>.</p>
+
+                                
+                                <!-- Required only on API pages -->
+                                <doc-toolbar-member-filter-no-results />
+                            </div>
+                            <footer class="clear-both">
+                            
+                                <nav class="flex mt-14">
+                                    <div class="w-1/2">
+                                    </div>
+                            
+                                    <div class="w-1/2">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l rounded-r-lg transition-colors duration-150 relative hover:z-5" href="license/">
+                                            <span>
+                                                <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
+                                                <span class="block mt-1">LICENSE</span>
+                                            </span>
+                                            <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
+                                        </a>
+                                    </div>
+                                </nav>
+                            </footer>
+                        </main>
+                
+                        <div class="border-t dark:border-dark-650 pt-6 mb-8">
+                            <footer class="flex flex-wrap items-center justify-between">
+                                <div>
+                                    <ul class="flex flex-wrap items-center text-sm">
+                                    </ul>
+                                </div>
+                                <div class="docs-copyright py-2 text-gray-500 dark:text-dark-350 text-sm leading-relaxed"><p>© Copyright 2023. All rights reserved.</p></div>
+                            </footer>
+                        </div>
+                    </div>
+                
+                    <!-- Rendered if sidebar right is enabled -->
+                    <!-- Sidebar right skeleton-->
+                    <div v-cloak class="fixed top-0 bottom-0 right-0 translate-x-full bg-white border-gray-200 lg:sticky lg:border-l lg:shrink-0 lg:pt-6 lg:transform-none sm:w-1/2 lg:w-64 lg:z-0 md:w-104 sidebar-right skeleton dark:bg-dark-850 dark:border-dark-650">
+                        <div class="pl-5">
+                            <div class="w-32 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-48 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                            <div class="w-40 h-3 mb-4 bg-gray-200 dark:bg-dark-600 rounded-full loading"></div>
+                        </div>
+                    </div>
+                
+                    <!-- User should be able to hide sidebar right -->
+                    <doc-sidebar-right v-cloak></doc-sidebar-right>
+                </div>
+
+            </div>
+        </div>
+    
+        <doc-search-mobile></doc-search-mobile>
+        <doc-back-to-top></doc-back-to-top>
+    </div>
+
+
+    <div id="docs-overlay-target"></div>
+
+    <script>window.__DOCS__ = { "title": "BRAW Toolbox", isRoot: true, level: 0, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+</body>
+</html>
