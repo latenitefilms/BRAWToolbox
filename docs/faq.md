@@ -1,5 +1,14 @@
 # Frequently Asked Questions
 
+### Where can I find some sample BRAW clips?
+
+There are heaps of awesome clips to test with on the Blackmagic Website:
+
+- [Blackmagic Pocket Cinema Camera Gallery](https://www.blackmagicdesign.com/au/products/blackmagicpocketcinemacamera/gallery)
+- [Blackmagic URSA Mini Gallery](https://www.blackmagicdesign.com/au/products/blackmagicursaminipro/gallery)
+
+---
+
 ### Does BRAW Toolbox work with Sync-N-Link?
 
 Yes, BRAW Toolbox is compatible with **Sync-N-Link v1.1.4** on the Mac App Store.
