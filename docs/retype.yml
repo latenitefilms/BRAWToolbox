@@ -5,8 +5,8 @@ url: brawtoolbox.io # Add your website address here
 
 branding:
   title: BRAW Toolbox
-  label: v1.0.0
- #logo: static/logo.png
+  #label: v1.0.0
+  logo: static/logo.png
 
 links:
 - text: Issues

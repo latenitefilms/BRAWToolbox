@@ -1,6 +1,9 @@
 # Release Notes
 
-### 1.0.0 (26) - Public Beta 13 - 17th January 2023
+### 1.0.0 (26) - Public Beta 13
+
+**Released:**
+- 17th January 2023
 
 **Note:**
 - There are no changes to the Motion Template, Metadata View or LUTs in this beta.
@@ -19,7 +22,10 @@
 
 ---
 
-### 1.0.0 (25) - Public Beta 12 - 16th January 2023
+### 1.0.0 (25) - Public Beta 12
+
+**Released:**
+- 16th January 2023
 
 **Note:**
 - There are no changes to the Motion Template, Metadata View or LUTs in this beta.
@@ -29,7 +35,10 @@
 
 ---
 
-### 1.0.0 (24) - Public Beta 11 - 16th January 2023
+### 1.0.0 (24) - Public Beta 11
+
+**Released:**
+- 16th January 2023
 
 **Note:**
 - The Motion Templates have been updated in this release.
@@ -42,7 +51,10 @@
 
 ---
 
-### 1.0.0 (23) - Public Beta 10 - 15th January 2023
+### 1.0.0 (23) - Public Beta 10
+
+**Released:**
+- 15th January 2023
 
 **Note:**
 - There are no changes to the Motion Template, Metadata View or LUTs in this beta.
@@ -56,7 +68,10 @@
 
 ---
 
-### 1.0.0 (22) - Public Beta 9 - 15th January 2023
+### 1.0.0 (22) - Public Beta 9
+
+**Released:**
+- 15th January 2023
 
 **Note:**
 - There are no changes to the Motion Template, Metadata View or LUTs in this beta.
@@ -66,7 +81,10 @@
 
 ---
 
-### 1.0.0 (21) - Public Beta 8 - 15th January 2023
+### 1.0.0 (21) - Public Beta 8
+
+**Released:**
+- 15th January 2023
 
 **Note:**
 - There are no changes to the Motion Template, Metadata View or LUTs in this beta.
@@ -76,7 +94,10 @@
 
 ---
 
-### 1.0.0 (20) - Public Beta 7 - 14th January 2023
+### 1.0.0 (20) - Public Beta 7
+
+**Released:**
+- 14th January 2023
 
 **Note:**
 - The Motion Templates and Metadata View has been updated in this release. You now also need to install the LUTs when you first run the application (used for HDR).
@@ -97,7 +118,10 @@
 
 ---
 
-### 1.0.0 (19) - Public Beta 6 - 7th January 2023
+### 1.0.0 (19) - Public Beta 6
+
+**Released:**
+- 7th January 2023
 
 **Note:**
 - There are no changes to the Motion Template or Metadata View in this beta.
@@ -114,7 +138,10 @@
 
 ---
 
-### 1.0.0 (18) - Public Beta 5 - 6th January 2023
+### 1.0.0 (18) - Public Beta 5
+
+**Released:**
+- 6th January 2023
 
 **Note:**
 - There are no changes to the Motion Template or Metadata View in this beta.
@@ -124,7 +151,10 @@
 
 ---
 
-### 1.0.0 (17) - Public Beta 4 - 6th January 2023
+### 1.0.0 (17) - Public Beta 4
+
+**Released:**
+- 6th January 2023
 
 **Note:**
 - There are no changes to the Motion Template or Metadata View in this beta.
@@ -138,7 +168,10 @@
 
 ---
 
-### 1.0.0 (16) - Public Beta 3 - 5th January 2023
+### 1.0.0 (16) - Public Beta 3
+
+**Released:**
+- 5th January 2023
 
 **Note:**
 - There are no changes to the Motion Template or Metadata View in this beta.
@@ -149,7 +182,10 @@
 
 ---
 
-### 1.0.0 (15) - Public Beta 2 - 5th January 2023
+### 1.0.0 (15) - Public Beta 2
+
+**Released:**
+- 5th January 2023
 
 **Important:**
 - Due to major changes, this beta is **not** compatible with the previous beta, so you should re-create any test Final Cut Pro libraries.
@@ -184,7 +220,10 @@
 
 ---
 
-### 1.0.0 (14) - Public Beta 1 - 23rd December 2022
+### 1.0.0 (14) - Public Beta 1
+
+**Released:**
+- 23rd December 2022
 
 This is the first public beta of BRAW Toolbox. Woohoo!
 
