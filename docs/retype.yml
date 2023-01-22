@@ -1,0 +1,27 @@
+input: .
+output: .retype
+
+url: # Add your website address here
+
+branding:
+  title: BRAW Toolbox
+  label: v1.0.0
+  #logo: static/logo.png
+
+links:
+- text: Home
+  link: /README.md
+  icon: home
+
+- text: Issues
+  link: https://github.com/latenitefilms/brawtoolbox/issues
+  icon: issue-opened
+  target: blank
+
+- text: Discussions
+  link: https://github.com/latenitefilms/brawtoolbox/discussions
+  icon: comment-discussion
+  target: blank
+
+footer:
+  copyright: "&copy; Copyright {{ year }} LateNite Films Pty Ltd. All rights reserved."
