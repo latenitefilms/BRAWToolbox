@@ -2,7 +2,7 @@
 
 To participate in the beta program, you'll first need to install Apple's TestFlight from the Mac App Store.
 
-> [Click here to install Apple's TestFlight.](https://apps.apple.com/us/app/testflight/id899247664)
+> **_[Click here to install Apple's TestFlight.](https://apps.apple.com/us/app/testflight/id899247664)_**
 
 After installing TestFlight, you can join the BRAW Toolbox Beta by clicking on [this invite](https://testflight.apple.com/join/dbWjWl8e).
 

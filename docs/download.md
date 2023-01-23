@@ -2,7 +2,7 @@
 
 BRAW Toolbox is currently in **public beta**. There are currently over 223 testers from all over the world.
 
-**_[You can download the latest beta via Apple's TestFlight here.](https://testflight.apple.com/join/dbWjWl8e)_**
+> **_[You can download the latest beta via Apple's TestFlight here.](https://testflight.apple.com/join/dbWjWl8e)_**
 
 TestFlight requires macOS Monterey or later. However, if you're running Big Sur, you can download on a Monterey machine, then copy across to your Big Sur machine if they share the same Apple ID.
 
