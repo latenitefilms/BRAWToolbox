@@ -9,7 +9,7 @@ BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut P
 
 **_No more transcoding. No more waiting. No more massive ProRes files._**
 
-![Screenshot](static/screenshot-01.png)
+![_Screenshot of BRAW Toolbox in Action. Surf footage by Adrian Emerton._](static/screenshot-01.png)
 
 The BRAW Toolbox Workflow Extension allows you to prepare all your footage prior to import, allowing you to easily and quickly change all the RAW metadata, and copy and paste metadata from different BRAW clips. You can even save Presets for specific Metadata Attributes.
 
