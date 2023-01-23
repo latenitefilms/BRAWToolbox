@@ -1,4 +1,4 @@
-<img src="https://github.com/latenitefilms/BRAWToolbox/raw/main/Documentation/BRAWToolbox.png" align="right" width="15%" height="15%" />
+<img src="https://github.com/latenitefilms/BRAWToolbox/raw/main/docs/static/logo.png" align="right" width="15%" height="15%" />
 
 # BRAW Toolbox
 
