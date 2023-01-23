@@ -4,6 +4,4 @@
 
 BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro without transcoding.
 
-You can learn more here:
-
-- [https://brawtoolbox.io](https://brawtoolbox.io)
+> **You can download & learn more here: [https://brawtoolbox.io](https://brawtoolbox.io)**
