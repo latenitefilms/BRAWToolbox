@@ -10,8 +10,8 @@ TestFlight requires macOS Monterey or later. However, if you're running Big Sur,
 
 ### Where to buy?
 
-We plan to release BRAW Toolbox to the Mac App Store on **Monday 30th January (AEDT)**.
+We plan to release BRAW Toolbox to the Mac App Store at **9am on 30th January (AEDT) / 10pm on 29th January (GMT)**.
 
-BRAW Toolbox will cost **USD$39.99** for the **first week only** as a thank you to our early adopters, then increase to **USD$79.99** on **Monday 13th February (AEDT)**.
+The cost will be **USD$79.99**, however for the **first week only** as a thank you to our early adopters, it will be **50% off**.
 
 There will be no free trial, and it will only be available on the Mac App Store as a one-time payment.
