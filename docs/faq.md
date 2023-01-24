@@ -48,6 +48,12 @@ However, we think the pro's outweight the con's - and all the extra effort to ma
 
 ---
 
+### Is BRAW Toolbox Open Source?
+
+Currently the source code for BRAW Toolbox is private, however we may release it under a MIT License at a later date after it's been publicly released on the Mac App Store if there's enough demand and interest.
+
+---
+
 ### Where can I find some sample BRAW clips?
 
 There are heaps of awesome clips to test with on the Blackmagic Website:
@@ -65,20 +71,6 @@ You should use Synchronised Clips in BRAW Toolbox, and it can combine multiple c
 
 ---
 
-### BRAW Toolbox Workflow Extension doesn't appear in Final Cut Pro?
-
-Sometimes macOS can be a bit temperamental with System Extensions, including Workflow Extensions.
-
-If you can't see BRAW Toolbox in the Workflow Extension button or menu bar, you can try:
-
-1. Restart your Mac.
-2. [Trash Final Cut Pro Preferences](https://support.apple.com/en-au/HT203477) by holding down COMMAND + OPTION when launching Final Cut Pro.
-3. Delete Final Cut Pro and reinstall it from the App Store.
-
-If none of those things fix it, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
-
----
-
 ### I don't like Synchronised Clips. Can I import a Multicam clips instead?
 
 Yes, you can click the **Settings** button (the gear icon, next to "Remove All") to **Create Multicam Clips** instead.
@@ -88,64 +80,3 @@ Please note that this doesn't sync multiple BRAW files together - it just create
 You'll still need to use something like [Sync-N-Link](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12) if you want to sync BRAW files with external audio.
 
 ![Screenshot](static/install-20.png)
-
----
-
-### Why can't I adjust the Custom Gamma Controls?
-
-You can only adjust the Custom Gamma Controls if you select the **Blackmagic Design Custom** Gamma option.
-
----
-
-### Is BRAW Toolbox Open Source?
-
-Currently the source code for BRAW Toolbox is private, however we may release it under a MIT License at a later date after it's been publicly released on the Mac App Store.
-
----
-
-### I've run into a bug. Where can I find the log files?
-
-You can find the log files here:
-
-`/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/`
-
-You can find any crash reports here:
-
-`/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports`
-
----
-
-### How can I completely uninstall BRAW Toolbox?
-
-You can use this Bash script to completely uninstall BRAW Toolbox, or run each command individually in Terminal.
-
-> NOTE: You will need to change **YOUR-USER-NAME** with your macOS user name.
-
-
-```
-#!/bin/bash
-
-# Trash Preferences:
-/usr/bin/defaults delete com.latenitefilms.BRAWToolbox
-/usr/bin/defaults delete com.latenitefilms.BRAWToolbox.Renderer
-/usr/bin/defaults delete com.latenitefilms.BRAWToolbox.WorkflowExtension
-
-# Remove Preferences and Logs:
-rm -R "/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox"
-rm -R "/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox"
-rm -R "/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.Renderer"
-rm -R "/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.WorkflowExtension"
-
-# Remove Motion Templates:
-rm -R "/Users/YOUR-USER-NAME/Movies/Motion Templates.localized/Effects.localized/BRAW Toolbox"
-
-# Remove Metadata Views:
-rm "/Library/Application Support/ProApps/Metadata Definitions/BRAW Toolbox.plist"
-rm "/Users/YOUR-USER-NAME/Library/Application Support/ProApps/Metadata Definitions/BRAW Toolbox.plist"
-
-# Remove LUTs:
-rm -R "/Users/YOUR-USER-NAME/Library/Application Support/ProApps/Custom LUTs/BRAW Toolbox"
-
-# Restart Preference Manager:
-/usr/bin/killall cfprefsd
-```
