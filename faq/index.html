@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.727876911119">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.727879687899">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Frequently Asked Questions</title>
     <meta name="title" content="Frequently Asked Questions">
-    <meta name="description" content="There are heaps of awesome clips to test with on the Blackmagic Website:" />
+    <meta name="description" content="Color Finale Transcoder allows you to convert BRAW files into ProRes quickly and easily, all via a very slick Workflow Extension." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://brawtoolbox.io/faq/" />
@@ -20,23 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://brawtoolbox.io/faq/">
     <meta property="og:title" content="Frequently Asked Questions">
-    <meta property="og:description" content="There are heaps of awesome clips to test with on the Blackmagic Website:">
+    <meta property="og:description" content="Color Finale Transcoder allows you to convert BRAW files into ProRes quickly and easily, all via a very slick Workflow Extension.">
     <meta property="og:image" content="https://brawtoolbox.io/static/install-20.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://brawtoolbox.io/faq/">
     <meta property="twitter:title" content="Frequently Asked Questions">
-    <meta property="twitter:description" content="There are heaps of awesome clips to test with on the Blackmagic Website:">
+    <meta property="twitter:description" content="Color Finale Transcoder allows you to convert BRAW files into ProRes quickly and easily, all via a very slick Workflow Extension.">
     <meta property="twitter:image" content="https://brawtoolbox.io/static/install-20.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.727876911119" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=2.4.0.727879687899" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.727876911119" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.727879687899" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.727876911119" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.727879687899" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -212,6 +212,45 @@
         <span>Frequently Asked Questions</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="why-braw-toolbox">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-braw-toolbox">#</doc-anchor-trigger>
+        <span>Why BRAW Toolbox?</span>
+    </h3>
+</doc-anchor-target>
+<p><a href="https://colorfinale.com/transcoder">Color Finale Transcoder</a> allows you to convert BRAW files into ProRes quickly and easily, all via a very slick Workflow Extension. It&#x27;s a great application that we highly recommend you purchase.</p>
+<p>There&#x27;s also the incredible <a href="https://hedge.video/editready">EditReady</a> which is also fantastic at just converting BRAW to ProRes with lots of power and controls. Again, we recommend everyone purchases it.</p>
+<p>However, the downside to having to transcode footage is that it <strong>takes extra time</strong>, and it <strong>takes extra storage</strong>.</p>
+<p>As hardcore Final Cut Pro users, we got frustrated when clients would hand over SSDs with 2-4TB&#x27;s worth of BRAW footage, that we&#x27;d need to convert to ProRes to start editing with it in Final Cut Pro.</p>
+<p>Whilst we love and use DaVinci Resolve - Final Cut Pro is our editing tool of choice for many reasons, so we wanted a solution to allow us to access BRAW files natively.</p>
+<p>For whatever reason, Apple doesn&#x27;t have BRAW support high on the priority list, nor do they want to help Blackmagic impliment BRAW support in Final Cut Pro - so we took matters into our own hands.</p>
+<p>Now we can just import BRAW files directly into Final Cut Pro, with full RAW controls, and access to all the camera metadata.</p>
+<hr />
+<doc-anchor-target id="how-does-it-work">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-does-it-work">#</doc-anchor-trigger>
+        <span>How does it work?</span>
+    </h3>
+</doc-anchor-target>
+<p>Because Final Cut Pro&#x27;s decode API is private - we had to just make do with the two public API&#x27;s we had access to - <a href="https://developer.apple.com/documentation/professional_video_applications/workflow_extensions">Workflow Extensions</a> and <a href="https://developer.apple.com/documentation/professional_video_applications/fxplug?language=objc">FxPlug4</a>.</p>
+<p>We use the Workflow Extension API as our &quot;user interface&quot;, where users can select the footage they want to import, and preset any RAW controls.</p>
+<p>We use the FxPlug4 API as our &quot;renderer&quot;. Essentially, BRAW Toolbox is just a Filter in Apple Motion, and an Effect in Final Cut Pro, but instead of &quot;processing&quot; the source clip, we replace the clip contents with the processed BRAW clip.</p>
+<p>We use Blackmagic&#x27;s official <a href="https://www.blackmagicdesign.com/developer/product/camera">BRAW SDK</a> - so you get all the same colour science and processing speed as DaVinci Resolve.</p>
+<p>As far as we know, BRAW Toolbox is the first application on the Mac App Store to include an FxPlug4 effect.</p>
+<hr />
+<doc-anchor-target id="why-the-mac-app-store">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-the-mac-app-store">#</doc-anchor-trigger>
+        <span>Why the Mac App Store?</span>
+    </h3>
+</doc-anchor-target>
+<p>As end users, we love the Mac App Store, because when we purchase a new machine, all our previously purchased apps just auto-magically appear.</p>
+<p>We also love the fact that if you have both a Desktop and a Laptop, you can just purchase once, and use the apps on both machines without any fuss.</p>
+<p>The Mac App store is also very secure and highly trusted. Everything that&#x27;s on the App Store is reviewed on multiple levels by Apple, and goes through a detailed App Review process.</p>
+<p>As developers, the Mac App Store does have it&#x27;s negatives - Apple takes a decent cut of all the payments, and there are very strict security and sandboxing requirements.</p>
+<p>Even Final Cut Pro itself, isn&#x27;t actually sandboxed - so we had to spend a lot of time, care and attention, making sure BRAW Toolbox works great in a locked-down sandboxed environment.</p>
+<p>However, we think the pro&#x27;s outweight the con&#x27;s - and all the extra effort to make it App Store friendly was a worthwhile endeavour.</p>
+<hr />
 <doc-anchor-target id="where-can-i-find-some-sample-braw-clips">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#where-can-i-find-some-sample-braw-clips">#</doc-anchor-trigger>
@@ -271,14 +310,6 @@
 </doc-anchor-target>
 <p>You can only adjust the Custom Gamma Controls if you select the <strong>Blackmagic Design Custom</strong> Gamma option.</p>
 <hr />
-<doc-anchor-target id="can-i-stabilise-clips-using-the-gyroscope-data-within-the-braw-file">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#can-i-stabilise-clips-using-the-gyroscope-data-within-the-braw-file">#</doc-anchor-trigger>
-        <span>Can I stabilise clips using the Gyroscope Data within the BRAW file?</span>
-    </h3>
-</doc-anchor-target>
-<p>Yes, you can combine BRAW Toolbox with <a href="https://github.com/latenitefilms/GyroflowToolbox">Gyroflow Toolbox</a> - simply apply the Gyroflow Toolbox effect to the video layer inside your Synchronised or Multicam clip.</p>
-<hr />
 <doc-anchor-target id="is-braw-toolbox-open-source">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#is-braw-toolbox-open-source">#</doc-anchor-trigger>
@@ -297,6 +328,44 @@
 <p><code v-pre>/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/</code></p>
 <p>You can find any crash reports here:</p>
 <p><code v-pre>/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports</code></p>
+<hr />
+<doc-anchor-target id="how-can-i-completely-uninstall-braw-toolbox">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#how-can-i-completely-uninstall-braw-toolbox">#</doc-anchor-trigger>
+        <span>How can I completely uninstall BRAW Toolbox?</span>
+    </h3>
+</doc-anchor-target>
+<p>You can use this Bash script to completely uninstall BRAW Toolbox, or run each command individually in Terminal.</p>
+<blockquote>
+<p>NOTE: You will need to change <strong>YOUR-USER-NAME</strong> with your macOS user name.</p>
+</blockquote>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">#!/bin/bash
+
+# Trash Preferences:
+/usr/bin/defaults delete com.latenitefilms.BRAWToolbox
+/usr/bin/defaults delete com.latenitefilms.BRAWToolbox.Renderer
+/usr/bin/defaults delete com.latenitefilms.BRAWToolbox.WorkflowExtension
+
+# Remove Preferences and Logs:
+rm -R &quot;/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox&quot;
+rm -R &quot;/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox&quot;
+rm -R &quot;/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.Renderer&quot;
+rm -R &quot;/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.WorkflowExtension&quot;
+
+# Remove Motion Templates:
+rm -R &quot;/Users/YOUR-USER-NAME/Movies/Motion Templates.localized/Effects.localized/BRAW Toolbox&quot;
+
+# Remove Metadata Views:
+rm &quot;/Library/Application Support/ProApps/Metadata Definitions/BRAW Toolbox.plist&quot;
+rm &quot;/Users/YOUR-USER-NAME/Library/Application Support/ProApps/Metadata Definitions/BRAW Toolbox.plist&quot;
+
+# Remove LUTs:
+rm -R &quot;/Users/YOUR-USER-NAME/Library/Application Support/ProApps/Custom LUTs/BRAW Toolbox&quot;
+
+# Restart Preference Manager:
+/usr/bin/killall cfprefsd</code></pre>
+</doc-codeblock></div>
 
                                 
                                 <!-- Required only on API pages -->
