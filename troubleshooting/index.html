@@ -9,26 +9,26 @@
     <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>Toolbox</title>
-    <meta name="title" content="Toolbox">
-    <meta name="description" content="The BRAW Toolbox Workflow Extension contains a collection of \"Toolbox\" features to help get things in and out of Final Cut Pro." />
+    <title>Troubleshooting</title>
+    <meta name="title" content="Troubleshooting">
+    <meta name="description" content="You can only adjust the Custom Gamma Controls if you select the Blackmagic Design Custom Gamma option." />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://brawtoolbox.io/toolbox/" />
+    <link rel="canonical" href="https://brawtoolbox.io/troubleshooting/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://brawtoolbox.io/toolbox/">
-    <meta property="og:title" content="Toolbox">
-    <meta property="og:description" content="The BRAW Toolbox Workflow Extension contains a collection of \"Toolbox\" features to help get things in and out of Final Cut Pro.">
-    <meta property="og:image" content="https://brawtoolbox.io/static/install-19.png">
+    <meta property="og:url" content="https://brawtoolbox.io/troubleshooting/">
+    <meta property="og:title" content="Troubleshooting">
+    <meta property="og:description" content="You can only adjust the Custom Gamma Controls if you select the Blackmagic Design Custom Gamma option.">
+    <meta property="og:image" content="https://brawtoolbox.io/static/access-raw-01.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://brawtoolbox.io/toolbox/">
-    <meta property="twitter:title" content="Toolbox">
-    <meta property="twitter:description" content="The BRAW Toolbox Workflow Extension contains a collection of \"Toolbox\" features to help get things in and out of Final Cut Pro.">
-    <meta property="twitter:image" content="https://brawtoolbox.io/static/install-19.png">
+    <meta property="twitter:url" content="https://brawtoolbox.io/troubleshooting/">
+    <meta property="twitter:title" content="Troubleshooting">
+    <meta property="twitter:description" content="You can only adjust the Custom Gamma Controls if you select the Blackmagic Design Custom Gamma option.">
+    <meta property="twitter:image" content="https://brawtoolbox.io/static/access-raw-01.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -206,42 +206,121 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="toolbox" class="break-words">
+<doc-anchor-target id="troubleshooting" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#toolbox">#</doc-anchor-trigger>
-        <span>Toolbox</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#troubleshooting">#</doc-anchor-trigger>
+        <span>Troubleshooting</span>
     </h1>
 </doc-anchor-target>
-<p>The BRAW Toolbox Workflow Extension contains a collection of &quot;Toolbox&quot; features to help get things in and out of Final Cut Pro.</p>
-<hr />
-<doc-anchor-target id="convert-project-to-resolve-friendly-fcpxml">
+<doc-anchor-target id="why-cant-i-adjust-the-custom-gamma-controls">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#convert-project-to-resolve-friendly-fcpxml">#</doc-anchor-trigger>
-        <span>Convert PROJECT to Resolve Friendly FCPXML</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-cant-i-adjust-the-custom-gamma-controls">#</doc-anchor-trigger>
+        <span>Why can&#x27;t I adjust the Custom Gamma Controls?</span>
     </h3>
 </doc-anchor-target>
-<p>To convert a project/timeline into something you can easily import into DaVinci Resolve (or other colour grading apps), you can drag your project from the Final Cut Pro Browser to the Toolbox at the bottom of the Workflow Extension.</p>
-<p>This will create a new FCPXML, where it converts the BRAW Toolbox clips into normal BRAW clips.</p>
+<p>You can only adjust the Custom Gamma Controls if you select the <strong>Blackmagic Design Custom</strong> Gamma option.</p>
+<hr />
+<doc-anchor-target id="why-cant-i-adjust-the-raw-metadata-within-final-cut-pro">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#why-cant-i-adjust-the-raw-metadata-within-final-cut-pro">#</doc-anchor-trigger>
+        <span>Why can&#x27;t I adjust the RAW metadata within Final Cut Pro?</span>
+    </h3>
+</doc-anchor-target>
+<p>You absolutely can - that&#x27;s the big benefit of BRAW Toolbox. You can even keyframe the ISO, Exposure, Color Temp, Tint and all the Custom Gamma Controls.</p>
+<p>As explained in the <a href="https://brawtoolbox.io/installation/">Installation</a> section, you can only access the BRAW Toolbox effect from WITHIN the Synchronised Clip or Multicam Clip.</p>
+<p>Why this is the case, is explained in more detail in the <a href="https://brawtoolbox.io/faq/#how-does-it-work">How does it work</a> FAQ.</p>
+<p>For example, if you have imported the below clips as Synchronised Clips:</p>
 <p><figure class="content-center">
-    <img src="../static/install-19.png" alt="Screenshot" />
+    <img src="../static/access-raw-01.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>If you then double click on one of those clips in the Browser, it will open the clip in the timeline.</p>
+<p>You&#x27;ll see a black clip on the Primary Storyline, which is your BRAW footage. Click that clip, then in the Effects Inspector you can access the BRAW Toolbox controls.</p>
+<p><figure class="content-center">
+    <img src="../static/access-raw-02.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>The same logic applies to clips already in the project/timeline. If it&#x27;s a Synchronised Clip, you can double click on it to access the clip that contains the BRAW Toolbox effect.</p>
+<p>Keep in mind that when you import a Synchronised Clip from the Browser to a Project, Final Cut Pro creates a new instance of that clip - so if you modify the RAW controls in the browser instance, it won&#x27;t update in the individual timeline instances.</p>
+<p>This is standard Final Cut Pro behaviour - and nothing to do with BRAW Toolbox.</p>
+<p>However, if you&#x27;ve ticked <strong>Create Multicam Clips</strong> within the <strong>Settings</strong> button in the BRAW Toolbox Workflow Extension, it will create Synchronised Clips WITHIN a Multicam Clip, so that you can modify the Synchronised Clip, and any changes will ripple across all instances of the Multicam Clip.</p>
+<p><figure class="content-center">
+    <img src="../static/access-raw-03.png" alt="Screenshot" />
     <figcaption class="caption">Screenshot</figcaption>
 </figure>
 </p>
 <hr />
-<doc-anchor-target id="convert-project-to-resolve-friendly-fcpxml-via-cp">
+<doc-anchor-target id="braw-toolbox-workflow-extension-doesnt-appear-in-final-cut-pro">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#convert-project-to-resolve-friendly-fcpxml-via-cp">#</doc-anchor-trigger>
-        <span>Convert PROJECT to Resolve Friendly FCPXML (via CP)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#braw-toolbox-workflow-extension-doesnt-appear-in-final-cut-pro">#</doc-anchor-trigger>
+        <span>BRAW Toolbox Workflow Extension doesn&#x27;t appear in Final Cut Pro?</span>
     </h3>
 </doc-anchor-target>
-<p>This works the same as above, but instead of prompting you for a filename, it&#x27;ll send the processed FCPXML directly to CommandPost for processing.</p>
-<p>The main use-case of this feature is if you&#x27;re using both BRAW files and Sony MP4s with incorrect timecode, as you can send straight to CommandPost&#x27;s Sony Timecode Toolbox.</p>
-<p>For this to work, you need to make sure you select <strong>Send FCPXML to Sony Timecode Toolbox</strong> in the <strong>Drag &amp; Drop File Action</strong> dropdown in the <strong>General</strong> section of CommandPost&#x27;s Preferences.</p>
+<p>Sometimes macOS can be a bit temperamental with System Extensions, including Workflow Extensions.</p>
+<p>If you can&#x27;t see BRAW Toolbox in the Workflow Extension button or menu bar, you can try:</p>
+<ol>
+<li>Restart your Mac.</li>
+<li><a href="https://support.apple.com/en-au/HT203477">Trash Final Cut Pro Preferences</a> by holding down COMMAND + OPTION when launching Final Cut Pro.</li>
+<li>Delete Final Cut Pro and reinstall it from the App Store.</li>
+</ol>
+<p>If none of those things fix it, please post an issue <a href="https://github.com/latenitefilms/BRAWToolbox/issues">here</a>.</p>
+<hr />
+<doc-anchor-target id="the-effect-id-is-invalid">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#the-effect-id-is-invalid">#</doc-anchor-trigger>
+        <span>&quot;The effect ID is invalid&quot;</span>
+    </h3>
+</doc-anchor-target>
+<p>If you see an error message saying &quot;The effect ID is invalid&quot; when trying to import from the BRAW Toolbox Workflow Extension to Final Cut Pro, it means that the FxPlug4 Filter is not being detected by Final Cut Pro.</p>
+<p>You can try:</p>
+<ol>
+<li>Restart your Mac.</li>
+<li><a href="https://support.apple.com/en-au/HT203477">Trash Final Cut Pro Preferences</a> by holding down COMMAND + OPTION when launching Final Cut Pro.</li>
+<li>Delete Final Cut Pro and reinstall it from the App Store.</li>
+</ol>
+<p>If none of those things fix it, please post an issue <a href="https://github.com/latenitefilms/BRAWToolbox/issues">here</a>.</p>
+<hr />
+<doc-anchor-target id="bad-frames-in-the-final-cut-pro-browser">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#bad-frames-in-the-final-cut-pro-browser">#</doc-anchor-trigger>
+        <span>Bad Frames in the Final Cut Pro Browser</span>
+    </h3>
+</doc-anchor-target>
+<p>In rare instances in the Final Cut Pro Browser you might see black frames, or red error message frames in the thumbnails of BRAW Toolbox clips.</p>
 <p><figure class="content-center">
-    <img src="../static/commandpost-01.png" alt="Screenshot" />
+    <img src="../static/bad-frame.png" alt="Screenshot" />
     <figcaption class="caption">Screenshot</figcaption>
 </figure>
 </p>
+<p>This is generally because Final Cut Pro has an outdated thumbnail cache, or something went wrong when creating the thumbnails.</p>
+<p>This is a Final Cut Pro bug, rather than anything specifically wrong with BRAW Toolbox.</p>
+<p>In Filmstrip mode, try changing the time slider from <strong>All</strong> to <strong>½s</strong> and see if that kicks Final Cut Pro back into gear.</p>
+<p><figure class="content-center">
+    <img src="../static/browser.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>If all the frames look correctly in <strong>½s</strong> view, but incorrect when you change back to <strong>All</strong> it most likely means your thumbnail cache is corrupt, and Final Cut Pro isn&#x27;t updating it.</p>
+<p>To try and fix this, you can close Final Cut Pro, right click on the Library in Finder and select <strong>Show Package Contents</strong>, then within the problem Event folder, go into the <strong>Render Files</strong> folder, and delete the <strong>Thumbnail Media</strong> folder.</p>
+<p>When you start Final Cut Pro again, this will force it to re-generate the thumbnails, and hopefully this time, it works correctly.</p>
+<p><figure class="content-center">
+    <img src="../static/thumbnails.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<hr />
+<doc-anchor-target id="ive-run-into-a-bug-where-can-i-find-the-log-files">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#ive-run-into-a-bug-where-can-i-find-the-log-files">#</doc-anchor-trigger>
+        <span>I&#x27;ve run into a bug. Where can I find the log files?</span>
+    </h3>
+</doc-anchor-target>
+<p>You can find the log files here:</p>
+<p><code v-pre>/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/</code></p>
+<p>You can find any crash reports here:</p>
+<p><code v-pre>/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports</code></p>
 
                                 
                                 <!-- Required only on API pages -->
@@ -251,20 +330,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../troubleshooting/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../faq/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Troubleshooting</span>
+                                                <span class="block mt-1">FAQ</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../hdr-workflow/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../toolbox/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">HDR Workflow</span>
+                                                <span class="block mt-1">Toolbox</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -308,6 +387,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Toolbox", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Troubleshooting", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>

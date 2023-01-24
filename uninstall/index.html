@@ -9,26 +9,24 @@
     <meta name="generator" content="Retype 2.4.0">
 
     <!-- Primary Meta Tags -->
-    <title>Toolbox</title>
-    <meta name="title" content="Toolbox">
-    <meta name="description" content="The BRAW Toolbox Workflow Extension contains a collection of \"Toolbox\" features to help get things in and out of Final Cut Pro." />
+    <title>Uninstall</title>
+    <meta name="title" content="Uninstall">
+    <meta name="description" content="After installation, the BRAW Toolbox files are contained within the following folders:" />
 
     <!-- Canonical -->
-    <link rel="canonical" href="https://brawtoolbox.io/toolbox/" />
+    <link rel="canonical" href="https://brawtoolbox.io/uninstall/" />
 
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://brawtoolbox.io/toolbox/">
-    <meta property="og:title" content="Toolbox">
-    <meta property="og:description" content="The BRAW Toolbox Workflow Extension contains a collection of \"Toolbox\" features to help get things in and out of Final Cut Pro.">
-    <meta property="og:image" content="https://brawtoolbox.io/static/install-19.png">
+    <meta property="og:url" content="https://brawtoolbox.io/uninstall/">
+    <meta property="og:title" content="Uninstall">
+    <meta property="og:description" content="After installation, the BRAW Toolbox files are contained within the following folders:">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://brawtoolbox.io/toolbox/">
-    <meta property="twitter:title" content="Toolbox">
-    <meta property="twitter:description" content="The BRAW Toolbox Workflow Extension contains a collection of \"Toolbox\" features to help get things in and out of Final Cut Pro.">
-    <meta property="twitter:image" content="https://brawtoolbox.io/static/install-19.png">
+    <meta property="twitter:url" content="https://brawtoolbox.io/uninstall/">
+    <meta property="twitter:title" content="Uninstall">
+    <meta property="twitter:description" content="After installation, the BRAW Toolbox files are contained within the following folders:">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
@@ -206,42 +204,56 @@
                                 <div id="docs-sidebar-right-toggle"></div>
                 
                                 <!-- Page content  -->
-<doc-anchor-target id="toolbox" class="break-words">
+<doc-anchor-target id="uninstall" class="break-words">
     <h1>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#toolbox">#</doc-anchor-trigger>
-        <span>Toolbox</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#uninstall">#</doc-anchor-trigger>
+        <span>Uninstall</span>
     </h1>
 </doc-anchor-target>
-<p>The BRAW Toolbox Workflow Extension contains a collection of &quot;Toolbox&quot; features to help get things in and out of Final Cut Pro.</p>
-<hr />
-<doc-anchor-target id="convert-project-to-resolve-friendly-fcpxml">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#convert-project-to-resolve-friendly-fcpxml">#</doc-anchor-trigger>
-        <span>Convert PROJECT to Resolve Friendly FCPXML</span>
-    </h3>
-</doc-anchor-target>
-<p>To convert a project/timeline into something you can easily import into DaVinci Resolve (or other colour grading apps), you can drag your project from the Final Cut Pro Browser to the Toolbox at the bottom of the Workflow Extension.</p>
-<p>This will create a new FCPXML, where it converts the BRAW Toolbox clips into normal BRAW clips.</p>
-<p><figure class="content-center">
-    <img src="../static/install-19.png" alt="Screenshot" />
-    <figcaption class="caption">Screenshot</figcaption>
-</figure>
-</p>
-<hr />
-<doc-anchor-target id="convert-project-to-resolve-friendly-fcpxml-via-cp">
-    <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#convert-project-to-resolve-friendly-fcpxml-via-cp">#</doc-anchor-trigger>
-        <span>Convert PROJECT to Resolve Friendly FCPXML (via CP)</span>
-    </h3>
-</doc-anchor-target>
-<p>This works the same as above, but instead of prompting you for a filename, it&#x27;ll send the processed FCPXML directly to CommandPost for processing.</p>
-<p>The main use-case of this feature is if you&#x27;re using both BRAW files and Sony MP4s with incorrect timecode, as you can send straight to CommandPost&#x27;s Sony Timecode Toolbox.</p>
-<p>For this to work, you need to make sure you select <strong>Send FCPXML to Sony Timecode Toolbox</strong> in the <strong>Drag &amp; Drop File Action</strong> dropdown in the <strong>General</strong> section of CommandPost&#x27;s Preferences.</p>
-<p><figure class="content-center">
-    <img src="../static/commandpost-01.png" alt="Screenshot" />
-    <figcaption class="caption">Screenshot</figcaption>
-</figure>
-</p>
+<p>After installation, the BRAW Toolbox files are contained within the following folders:</p>
+<ul>
+<li><code v-pre>/Applications/BRAW Toolbox.app</code></li>
+<li><code v-pre>~/Library/Application Support/ProApps/Custom LUTs/BRAW Toolbox</code></li>
+<li><code v-pre>~/Library/Application Support/ProApps/Metadata Definitions/BRAW Toolbox.plist</code></li>
+<li><code v-pre>~/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox</code></li>
+<li><code v-pre>~/Library/Containers/com.latenitefilms.BRAWToolbox</code></li>
+<li><code v-pre>~/Library/Containers/com.latenitefilms.BRAWToolbox.Renderer</code></li>
+<li><code v-pre>~/Library/Containers/com.latenitefilms.BRAWToolbox.WorkflowExtension</code></li>
+<li><code v-pre>~/Movies/Motion Templates.localized/Effects.localized/BRAW Toolbox</code></li>
+</ul>
+<blockquote>
+<p><strong>NOTE:</strong> The <code v-pre>~</code> refers to your user folder, i.e. <code v-pre>/Users/YOUR-USER-NAME/</code></p>
+</blockquote>
+<p>You can use the below Bash script to completely uninstall BRAW Toolbox, or run each command individually in Terminal.</p>
+<blockquote>
+<p><strong>NOTE:</strong> You will need to change <strong>YOUR-USER-NAME</strong> with your macOS user name.</p>
+</blockquote>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">#!/bin/bash
+
+# Trash Preferences:
+/usr/bin/defaults delete com.latenitefilms.BRAWToolbox
+/usr/bin/defaults delete com.latenitefilms.BRAWToolbox.Renderer
+/usr/bin/defaults delete com.latenitefilms.BRAWToolbox.WorkflowExtension
+
+# Remove Preferences and Logs:
+rm -R &quot;/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox&quot;
+rm -R &quot;/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox&quot;
+rm -R &quot;/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.Renderer&quot;
+rm -R &quot;/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.WorkflowExtension&quot;
+
+# Remove Motion Templates:
+rm -R &quot;/Users/YOUR-USER-NAME/Movies/Motion Templates.localized/Effects.localized/BRAW Toolbox&quot;
+
+# Remove Metadata Views:
+rm &quot;/Users/YOUR-USER-NAME/Library/Application Support/ProApps/Metadata Definitions/BRAW Toolbox.plist&quot;
+
+# Remove LUTs:
+rm -R &quot;/Users/YOUR-USER-NAME/Library/Application Support/ProApps/Custom LUTs/BRAW Toolbox&quot;
+
+# Restart Preference Manager:
+/usr/bin/killall cfprefsd</code></pre>
+</doc-codeblock></div>
 
                                 
                                 <!-- Required only on API pages -->
@@ -251,20 +263,20 @@
                             
                                 <nav class="flex mt-14">
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../troubleshooting/">
+                                        <a class="px-5 py-4 h-full flex items-center break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-l-lg transition-colors duration-150 relative hover:z-5" href="../release-notes/">
                                             <svg xmlns="http://www.w3.org/2000/svg" class="mr-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19 11H7.41l5.29-5.29a.996.996 0 10-1.41-1.41l-7 7a1 1 0 000 1.42l7 7a1.024 1.024 0 001.42-.01.996.996 0 000-1.41L7.41 13H19c.55 0 1-.45 1-1s-.45-1-1-1z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                             <span>
                                                 <span class="block text-xs font-normal text-gray-400 dark:text-dark-400">Previous</span>
-                                                <span class="block mt-1">Troubleshooting</span>
+                                                <span class="block mt-1">Release Notes</span>
                                             </span>
                                         </a>
                                     </div>
                             
                                     <div class="w-1/2">
-                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../hdr-workflow/">
+                                        <a class="px-5 py-4 -mx-px h-full flex items-center justify-end break-normal font-medium text-blue-500 dark:text-blue-400 border border-gray-300 hover:border-gray-400 dark:border-dark-650 dark:hover:border-dark-450 rounded-r-lg transition-colors duration-150 relative hover:z-5" href="../credits/">
                                             <span>
                                                 <span class="block text-xs font-normal text-right text-gray-400 dark:text-dark-400">Next</span>
-                                                <span class="block mt-1">HDR Workflow</span>
+                                                <span class="block mt-1">Credits</span>
                                             </span>
                                             <svg xmlns="http://www.w3.org/2000/svg" class="ml-3" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" overflow="visible"><path d="M19.92 12.38a1 1 0 00-.22-1.09l-7-7a.996.996 0 10-1.41 1.41l5.3 5.3H5c-.55 0-1 .45-1 1s.45 1 1 1h11.59l-5.29 5.29a.996.996 0 000 1.41c.19.2.44.3.7.3s.51-.1.71-.29l7-7c.09-.09.16-.21.21-.33z" /><path fill="none" d="M0 0h24v24H0z" /></svg>
                                         </a>
@@ -308,6 +320,6 @@
 
     <div id="docs-overlay-target"></div>
 
-    <script>window.__DOCS__ = { "title": "Toolbox", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
+    <script>window.__DOCS__ = { "title": "Uninstall", level: 1, icon: "file", hasPrism: false, hasMermaid: false, hasMath: false }</script>
 </body>
 </html>
