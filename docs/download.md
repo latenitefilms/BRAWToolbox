@@ -1,6 +1,6 @@
 # Download
 
-BRAW Toolbox is currently in **public beta**. There are currently over 223 testers from all over the world.
+BRAW Toolbox is currently in **public beta**. There are currently over 240 testers from all over the world.
 
 > **_[You can download the latest beta via Apple's TestFlight here.](https://testflight.apple.com/join/dbWjWl8e)_**
 
