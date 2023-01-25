@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.727940890107">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.727942734918">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -11,7 +11,7 @@
     <!-- Primary Meta Tags -->
     <title>Toolbox</title>
     <meta name="title" content="Toolbox">
-    <meta name="description" content="The BRAW Toolbox Workflow Extension contains a collection of \"Toolbox\" features to help get things in and out of Final Cut Pro." />
+    <meta name="description" content="The BRAW Toolbox Workflow Extension contains a collection of additional Toolbox features to help get things in and out of Final Cut Pro." />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://brawtoolbox.io/toolbox/" />
@@ -20,23 +20,23 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://brawtoolbox.io/toolbox/">
     <meta property="og:title" content="Toolbox">
-    <meta property="og:description" content="The BRAW Toolbox Workflow Extension contains a collection of \"Toolbox\" features to help get things in and out of Final Cut Pro.">
+    <meta property="og:description" content="The BRAW Toolbox Workflow Extension contains a collection of additional Toolbox features to help get things in and out of Final Cut Pro.">
     <meta property="og:image" content="https://brawtoolbox.io/static/install-19.png">
 
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:url" content="https://brawtoolbox.io/toolbox/">
     <meta property="twitter:title" content="Toolbox">
-    <meta property="twitter:description" content="The BRAW Toolbox Workflow Extension contains a collection of \"Toolbox\" features to help get things in and out of Final Cut Pro.">
+    <meta property="twitter:description" content="The BRAW Toolbox Workflow Extension contains a collection of additional Toolbox features to help get things in and out of Final Cut Pro.">
     <meta property="twitter:image" content="https://brawtoolbox.io/static/install-19.png">
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.727940890107" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=2.4.0.727942734918" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.727940890107" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.727942734918" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.727940890107" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.727942734918" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -212,7 +212,7 @@
         <span>Toolbox</span>
     </h1>
 </doc-anchor-target>
-<p>The BRAW Toolbox Workflow Extension contains a collection of &quot;Toolbox&quot; features to help get things in and out of Final Cut Pro.</p>
+<p>The BRAW Toolbox Workflow Extension contains a collection of additional <strong>Toolbox</strong> features to help get things in and out of Final Cut Pro.</p>
 <hr />
 <doc-anchor-target id="convert-project-to-resolve-friendly-fcpxml">
     <h3>
@@ -239,6 +239,76 @@
 <p>For this to work, you need to make sure you select <strong>Send FCPXML to Sony Timecode Toolbox</strong> in the <strong>Drag &amp; Drop File Action</strong> dropdown in the <strong>General</strong> section of CommandPost&#x27;s Preferences.</p>
 <p><figure class="content-center">
     <img src="../static/commandpost-01.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<hr />
+<doc-anchor-target id="relink-braw-clips-within-an-event">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#relink-braw-clips-within-an-event">#</doc-anchor-trigger>
+        <span>Relink BRAW Clips within an EVENT</span>
+    </h3>
+</doc-anchor-target>
+<p>This Toolbox allows you to relink any BRAW Toolbox clips within an event.</p>
+<p>For example, if you&#x27;ve moved BRAW clips to another folder/machine, you can use this Toolbox to easily adjust the file paths.</p>
+<p>You can manually modify the path of the files (and also do a global <strong>Find &amp; Replace</strong> of all paths).</p>
+<p><figure class="content-center">
+    <img src="../static/relink-01.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>Click the <strong>Refresh &amp; Request Permissions</strong> buttons after you have updated the paths in the list.</p>
+<p>You&#x27;ll be prompted to Grant Permission to any folders/drives that BRAW Toolbox can&#x27;t currently access.</p>
+<p><figure class="content-center">
+    <img src="../static/relink-02.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>Once all the items show a green status icon, you can then press <strong>Relink BRAW Files</strong>, and drag the green icon to your Final Cut Pro library.</p>
+<p>It will create a new Event with the relinked clips.</p>
+<p><figure class="content-center">
+    <img src="../static/relink-03.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<hr />
+<doc-anchor-target id="convert-braw-clips-to-movs-within-an-event">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#convert-braw-clips-to-movs-within-an-event">#</doc-anchor-trigger>
+        <span>Convert BRAW clips to MOV&#x27;s within an EVENT</span>
+    </h3>
+</doc-anchor-target>
+<p>This Toolbox allows you to convert BRAW Toolbox clips to MOV&#x27;s within an Event.</p>
+<p>Simply drag an event to the Toolbox drop zone. You&#x27;ll be presented with a success message.</p>
+<p><figure class="content-center">
+    <img src="../static/braw-to-mov-01.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>You then drag the green icon back into your Final Cut Pro Library.</p>
+<p><figure class="content-center">
+    <img src="../static/braw-to-mov-02.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<hr />
+<doc-anchor-target id="add-braw-toolbox-to-proxy-clips-within-an-event">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#add-braw-toolbox-to-proxy-clips-within-an-event">#</doc-anchor-trigger>
+        <span>Add BRAW Toolbox to Proxy Clips within an EVENT</span>
+    </h3>
+</doc-anchor-target>
+<p>This Toolbox will add the BRAW Toolbox effect to any clips in the event that have an accompanying BRAW file - for example, if you created proxy clips with <a href="https://colorfinale.com/transcoder">Color Finale Transcoder</a> or <a href="https://hedge.video/editready">EditReady</a>.</p>
+<p>It only converts clips in cases where a BRAW file is contained in the same folder as a MOV with the same filename.</p>
+<p>Simply drag an event to the Toolbox drop zone. You&#x27;ll be presented with a success message.</p>
+<p><figure class="content-center">
+    <img src="../static/braw-to-mov-01.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>You then drag the green icon back into your Final Cut Pro Library.</p>
+<p><figure class="content-center">
+    <img src="../static/braw-to-mov-02.png" alt="Screenshot" />
     <figcaption class="caption">Screenshot</figcaption>
 </figure>
 </p>
