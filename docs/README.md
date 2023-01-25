@@ -20,5 +20,3 @@ BRAW Toolbox comes with a Metadata View that allows you to view every piece of B
 There are automatic Decode Quality for both HD and UltraHD projects, and you can also work at a low quality Decode Quality, then apply a "Global Setting" to force Full Quality prior to export. BRAW Toolbox gives you complete freedom and flexibility.
 
 You can also use the Workflow Extension to send your project/timeline to DaVinci Resolve for grading - all using BRAW files directly from the camera!
-
-[Download now!](https://brawtoolbox.io/download/)

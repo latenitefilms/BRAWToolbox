@@ -9,6 +9,11 @@ branding:
   logo: static/logo.png
 
 links:
+- text: Buy on Mac App Store
+  link: https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12
+  icon: desktop-download
+  target: blank
+
 - text: Issues
   link: https://github.com/latenitefilms/brawtoolbox/issues
   icon: issue-opened
