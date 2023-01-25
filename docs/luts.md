@@ -18,4 +18,4 @@ BRAW Toolbox clips don't have the ability to set a traditional **Camera LUT**, b
 
 ![LUT Selection in the Final Cut Pro Inspector](static/luts-02.png)
 
-![Screenshot](static/luts-02.png)
+![LUT Selection in the BRAW Toolbox Workflow Extension](static/luts-03.png)
