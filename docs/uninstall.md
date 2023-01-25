@@ -1,5 +1,31 @@
 # Uninstall
 
+You can download an Uninstall tool [here](https://github.com/latenitefilms/BRAWToolbox/raw/main/uninstall/Uninstall%20BRAW%20Toolbox.zip).
+
+After downloading the above ZIP file, you can extract it to reveal the **Uninstall BRAW Toolbox** application.
+
+![Screenshot](static/uninstall-01.png)
+
+Right click on the **Uninstall BRAW Toolbox** icon and select **Open**.
+
+![Screenshot](static/uninstall-02.png)
+
+You'll be presented with a warning message. Click **Open** again.
+
+![Screenshot](static/uninstall-03.png)
+
+You'll be presented with a final warning. Press the **Uninstall** button.
+
+![Screenshot](static/uninstall-04.png)
+
+Once done, you should get a completion message.
+
+![Screenshot](static/uninstall-05.png)
+
+---
+
+### Manual Uninstall
+
 After installation, the BRAW Toolbox files are contained within the following folders:
 
 - `/Applications/BRAW Toolbox.app`
