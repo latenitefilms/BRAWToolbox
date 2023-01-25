@@ -1,6 +1,12 @@
 # Installation
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ybuRAGcTPuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+### Video
+
+<iframe width="100%" height="315" src="https://www.youtube-nocookie.com/embed/ybuRAGcTPuo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+---
+
+### Instructions
 
 To participate in the beta program, you'll first need to install Apple's TestFlight from the Mac App Store.
 
