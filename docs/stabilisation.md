@@ -2,7 +2,7 @@
 
 If you have a Blackmagic Camera that outputs Gyroscope Metadata, you can use another one of our tools, [Gyroflow Toolbox](https://gyroflowtoolbox.io), to use that gyroscope data to stabilise the footage directly within Final Cut Pro.
 
-> **_[You can download Gyroflow Toolbox here.](https://gyroflowtoolbox.io/download/)_**
+> **_[You can download Gyroflow Toolbox here.](https://gyroflowtoolbox.io/buy/)_**
 
 Simply apply the Gyroflow Toolbox effect to the video layer inside your Synchronised or Multicam clip.
 
