@@ -28,6 +28,7 @@ A companion application, [Gyroflow Toolbox](https://gyroflowtoolbox.io) is also 
 
 - The developer created [CommandPost](https://commandpost.io), a popular Final Cut Pro workflow tool that's been downloaded [over 152,000 times](https://hanadigital.github.io/grev/?user=commandpost&repo=commandpost).
 - The first GitHub commit for BRAW Toolbox was **17th September 2022**.
+- It took 131 days to get from the first commit to final App Store approval.
 - This is the first time the developer has built an Objective-C application from scratch.
 - This is the first time the developer has released an app to the Mac App Store.
 - BRAW Toolbox & Gyroflow Toolbox are the first two applications on the Mac App Store to use Apple's FxPlug4 Effects API.
