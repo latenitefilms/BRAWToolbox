@@ -10,7 +10,7 @@ You can email us via: [producers@latenitefilms.com](mailto:producers@latenitefil
 
 ### Release Information
 
-> _"You can quite literally ship this in its current form and it’s ready for prime time. This plug-in has saved me DAYS of transcoding time between FCP & Resolve. BRAW Toolbox is a plug-in every FCP editor should own."_ [George Elias](https://twitter.com/gwphotographe)
+> _"You can quite literally ship this in its current form and it’s ready for prime time. This plug-in has saved me DAYS of transcoding time between FCP & Resolve. BRAW Toolbox is a plug-in every FCP editor should own." [George Elias](https://twitter.com/gwphotographe)_
 
 After one month of very successful beta testing, with over **253 testers** from all over the world, BRAW Toolbox will be available for download on the Mac App Store at **9am on 30th January (AEDT) / 10pm on 29th January (GMT)**.
 
