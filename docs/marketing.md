@@ -8,6 +8,12 @@ You can email us via: [producers@latenitefilms.com](mailto:producers@latenitefil
 
 ---
 
+### Articles
+
+- [Final Cut Proで.brawが使える「BRAW Toolbox」レビュー (27th January 2023)](https://jp.pronews.com/review/202301270621372484.html)
+
+---
+
 ### About BRAW Toolbox
 
 BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro without transcoding.
