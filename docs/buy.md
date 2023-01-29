@@ -6,4 +6,4 @@ This discount ends **13th February 2023**.
 
 There is no free trial, and it will only be available on the Mac App Store as a one-time payment.
 
-> [:icon-desktop-download: **_Buy on the Mac App Store_**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
+> [:icon-desktop-download: **Buy on the Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
