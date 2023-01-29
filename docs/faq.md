@@ -48,6 +48,14 @@ However, we think the pro's outweight the con's - and all the extra effort to ma
 
 ---
 
+### Did you have Beta Testers?
+
+Yes, prior to public release BRAW Toolbox was in a public beta from 23rd December 2022 to 30th January 2023, and an internal beta before that.
+
+MASSIVE thanks to the **291 users** who took part in this extensive beta program!
+
+---
+
 ### Is BRAW Toolbox Open Source?
 
 Currently the source code for BRAW Toolbox is private, however we may release it under a MIT License at a later date after it's been publicly released on the Mac App Store if there's enough demand and interest.
