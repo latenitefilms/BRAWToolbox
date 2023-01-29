@@ -10,6 +10,7 @@ You can email us via: [producers@latenitefilms.com](mailto:producers@latenitefil
 
 ### Articles
 
+- [AppleInsider: New BRAW Toolbox app brings Blackmagic codecs to Final Cut Pro (28th January 2023)](https://appleinsider.com/articles/23/01/28/new-braw-toolbox-app-brings-blackmagic-codecs-to-final-cut-pro)
 - [ProVideo Coalition: Edit BRAW files in Final Cut Pro with BRAW Toolbox (27th January 2023)](https://www.provideocoalition.com/edit-braw-files-in-final-cut-pro-with-braw-toolbox/)
 - [PRONEWS: Final Cut Proで.brawが使える「BRAW Toolbox」レビュー (27th January 2023)](https://jp.pronews.com/review/202301270621372484.html)
 - [Slashcam: BRAW Toolbox - Blackmagic RAW Import in FCPX ab Montag verfügbar (27th January 2023)](https://www.slashcam.de/news/single/BRAW-Toolbox---Blackmagic-RAW-Import-in-FCPX-ab-Mo-17698.html)
