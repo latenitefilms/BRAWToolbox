@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.728353218935">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.728434503109">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.728353218935" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=2.4.0.728434503109" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.728353218935" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.728434503109" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.728353218935" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.728434503109" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -331,6 +331,26 @@
 </figure>
 </p>
 <hr />
+<doc-anchor-target id="failed-to-install-metadata-view">
+    <h2>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#failed-to-install-metadata-view">#</doc-anchor-trigger>
+        <span>Failed to install Metadata View</span>
+    </h2>
+</doc-anchor-target>
+<p>In rare instances you might run into problems installing the Metadata View.</p>
+<p><figure class="content-center">
+    <img src="../static/failed-to-install-metadata-view.png" alt="Screenshot" />
+    <figcaption class="caption">Screenshot</figcaption>
+</figure>
+</p>
+<p>Please close BRAW Toolbox, then open the <code v-pre>Terminal</code> app, then execute the following command:</p>
+<div class="codeblock-wrapper"><doc-codeblock>
+<pre class="language-none"><code v-pre class="language-none">/usr/bin/defaults delete com.latenitefilms.BRAWToolbox</code></pre>
+</doc-codeblock></div>
+<p>This will delete all the BRAW Toolbox preferences.</p>
+<p>Try running the BRAW Toolbox application again, and be careful to follow <a href="https://brawtoolbox.io/installation/">these exact steps</a>, making sure you don&#x27;t accidentally change the folders when prompted to <strong>Grant Permission</strong>.</p>
+<p>If this still doesn&#x27;t work, please <a href="https://github.com/latenitefilms/brawtoolbox/issues">post an issue</a> and we&#x27;ll try and resolve your specific problem.</p>
+<hr />
 <doc-anchor-target id="ive-run-into-a-bug-where-can-i-find-the-log-files">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#ive-run-into-a-bug-where-can-i-find-the-log-files">#</doc-anchor-trigger>
@@ -341,6 +361,7 @@
 <p><code v-pre>/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/</code></p>
 <p>You can find any crash reports here:</p>
 <p><code v-pre>/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports</code></p>
+<p>You can send the files to LateNite Films <a href="https://latenitefilms.digitalpigeon.com">here</a>.</p>
 
                                 
                                 <!-- Required only on API pages -->
