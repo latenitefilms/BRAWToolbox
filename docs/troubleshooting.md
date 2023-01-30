@@ -88,6 +88,26 @@ When you start Final Cut Pro again, this will force it to re-generate the thumbn
 
 ---
 
+## Failed to install Metadata View
+
+In rare instances you might run into problems installing the Metadata View.
+
+![Screenshot](static/failed-to-install-metadata-view.png)
+
+Please close BRAW Toolbox, then open the `Terminal` app, then execute the following command:
+
+```
+/usr/bin/defaults delete com.latenitefilms.BRAWToolbox
+```
+
+This will delete all the BRAW Toolbox preferences.
+
+Try running the BRAW Toolbox application again, and be careful to follow [these exact steps](https://brawtoolbox.io/installation/), making sure you don't accidentally change the folders when prompted to **Grant Permission**.
+
+If this still doesn't work, please [post an issue](https://github.com/latenitefilms/brawtoolbox/issues) and we'll try and resolve your specific problem.
+
+---
+
 ### I've run into a bug. Where can I find the log files?
 
 You can find the log files here:
@@ -97,3 +117,5 @@ You can find the log files here:
 You can find any crash reports here:
 
 `/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports`
+
+You can send the files to LateNite Films [here](https://latenitefilms.digitalpigeon.com).
