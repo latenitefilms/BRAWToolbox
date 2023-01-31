@@ -88,13 +88,17 @@ When you start Final Cut Pro again, this will force it to re-generate the thumbn
 
 ---
 
-## Failed to install Metadata View
+## Failed to install Motion Template, Metadata View or LUTs
 
-In rare instances you might run into problems installing the Metadata View.
+In very rare instances you might run into problems installing the Motion Template, Metadata View, or LUTs.
 
 ![Screenshot](static/failed-to-install-metadata-view.png)
 
-Please close BRAW Toolbox, then open the `Terminal` app, then execute the following command:
+Please close BRAW Toolbox, then open the `Terminal` app:
+
+![Screenshot](static/terminal-01.png)
+
+...then execute the following command:
 
 ```
 /usr/bin/defaults delete com.latenitefilms.BRAWToolbox
@@ -102,7 +106,27 @@ Please close BRAW Toolbox, then open the `Terminal` app, then execute the follow
 
 This will delete all the BRAW Toolbox preferences.
 
+![Screenshot](static/terminal-02.png)
+
+Alternatively, if you don't feel comfortable opening opening up `Terminal` then you can manually delete this file at the Finder level:
+
+`/Users/YOUR-USER-NAME-GOES-HERE/Library/Containers/com.latenitefilms.BRAWToolbox/Data/Library/Preferences/com.latenitefilms.BRAWToolbox.plist`
+
+![Screenshot](static/plist.png)
+
 Try running the BRAW Toolbox application again, and be careful to follow [these exact steps](https://brawtoolbox.io/installation/), making sure you don't accidentally change the folders when prompted to **Grant Permission**.
+
+Specifically, you should install the **Motion Templates** first, then **Metadata View**, then **LUTs**.
+
+When prompted for access to the **Movies** folder, you should **Grant Access** with the **Movies** folder selected:
+
+![Screenshot](static/install-03.png)
+
+When prompted for access to the **ProApps** folder, you should **Grant Access** with the **ProApps** folder selected:
+
+![Screenshot](static/install-06.png)
+
+The **LUTs** are installed in the same location as the **Metadata View**, so you won't be requested to **Grant Access** again.
 
 If this still doesn't work, please [post an issue](https://github.com/latenitefilms/brawtoolbox/issues) and we'll try and resolve your specific problem.
 
