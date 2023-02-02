@@ -7,6 +7,8 @@ order: 10000
 
 > :icon-trophy: Thanks to everyone who helped us reach #1 in the 'Photo & Video' category on the Australian Mac App Store!
 
+> :icon-rocket: You can buy BRAW Toolbox for **USD$79.99**, however for the **first week only** as a thank you to our early adopters, it will be **50% off**.
+
 BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro **without transcoding**.
 
 **_No more transcoding. No more waiting. No more massive ProRes files._**
