@@ -5,6 +5,8 @@ order: 10000
 ---
 # BRAW Toolbox
 
+> :icon-trophy: Thanks to everyone who helped us reach #1 in the 'Photo & Video' category on the Australian Mac App Store!
+
 BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro **without transcoding**.
 
 **_No more transcoding. No more waiting. No more massive ProRes files._**
