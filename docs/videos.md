@@ -42,3 +42,11 @@ You can watch some BRAW Toolbox Related Videos below.
 <div class="video-container">
     <iframe class="video" src="https://www.youtube-nocookie.com/embed/afFH9r_4bvE?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
+
+---
+
+### finalcutproes
+
+<div class="video-container">
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/sdZmPwyZDGg?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
