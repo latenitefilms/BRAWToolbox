@@ -14,7 +14,7 @@ You can email us via: [producers@latenitefilms.com](mailto:producers@latenitefil
 - [CineD: BRAW Toolbox – Blackmagic RAW in Final Cut Pro (1st Feb 2023)](https://www.cined.com/braw-toolbox-blackmagic-raw-in-final-cut-pro/)
 - [Newsshooter: BRAW Toolbox is now available; import BRAW files natively into Final Cut Pro (1st Feb 2023)](https://www.newsshooter.com/2023/02/01/braw-toolbox-is-now-available-import-braw-files-natively-into-final-cut-pro/)
 - [David French: How to use Blackmagic RAW (BRAW) in Apple’s Final Cut Pro X (1st Feb 2023)](https://www.devonia.media/how-to-use-blackmagic-raw-braw-in-apples-final-cut-pro-x)
-- [fcp.co: BRAW Toolbox and Gyroflow Toolbox (31st Jany 2023)](https://fcp.co/final-cut-pro/news/2610-braw-toolbox-and-gyroflow-toolbox)
+- [fcp.co: BRAW Toolbox and Gyroflow Toolbox (31st Jan 2023)](https://fcp.co/final-cut-pro/news/2610-braw-toolbox-and-gyroflow-toolbox)
 - [AppleInsider: New BRAW Toolbox app brings Blackmagic codecs to Final Cut Pro (28th January 2023)](https://appleinsider.com/articles/23/01/28/new-braw-toolbox-app-brings-blackmagic-codecs-to-final-cut-pro)
 - [ProVideo Coalition: Edit BRAW files in Final Cut Pro with BRAW Toolbox (27th January 2023)](https://www.provideocoalition.com/edit-braw-files-in-final-cut-pro-with-braw-toolbox/)
 - [PRONEWS: Final Cut Proで.brawが使える「BRAW Toolbox」レビュー (27th January 2023)](https://jp.pronews.com/review/202301270621372484.html)
