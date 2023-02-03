@@ -125,7 +125,7 @@ When you start Final Cut Pro again, this will force it to re-generate the thumbn
 
 ---
 
-## Failed to install Motion Template, Metadata View or LUTs
+### Failed to install Motion Template, Metadata View or LUTs
 
 In very rare instances you might run into problems installing the Motion Template, Metadata View, or LUTs.
 
