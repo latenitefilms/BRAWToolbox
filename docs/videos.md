@@ -22,14 +22,6 @@ Thanks to everyone who's made awesome videos promoting and discussion BRAW Toolb
 }
 </style>
 
-### Indigo Film School
-
-<div class="video-container">
-    <iframe class="video" src="https://www.youtube-nocookie.com/embed/wP4XzB3OcwA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
----
-
 ### Ripple Training
 
 <div class="video-container">
