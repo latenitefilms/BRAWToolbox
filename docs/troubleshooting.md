@@ -1,5 +1,21 @@
 # Troubleshooting
 
+### Is my Mac fast enough to play BRAW files?
+
+You can use the free Blackmagic RAW Speed Test to check if your system's GPU is fast enough to play BRAW files.
+
+> [:icon-desktop-download: You can download on the Mac App Store here.](https://apps.apple.com/us/app/blackmagic-raw-speed-test/id1466185689?mt=12)
+
+![Screenshot](static/blackmagic-raw-test.png)
+
+You can also use the free Blackmagic Disk Speed Test to check if your hard drive is fast enough to keep up with BRAW files.
+
+> [You can download on the Mac App Store here.](https://apps.apple.com/au/app/blackmagic-disk-speed-test/id425264550?mt=12)
+
+![Screenshot](static/blackmagic-speed-test.png)
+
+---
+
 ### Why can't I adjust the Custom Gamma Controls?
 
 You can only adjust the Custom Gamma Controls if you select the **Blackmagic Design Custom** Gamma option.
@@ -42,9 +58,13 @@ Sometimes macOS can be a bit temperamental with System Extensions, including Wor
 
 If you can't see BRAW Toolbox in the Workflow Extension button or menu bar, you can try:
 
-1. Restart your Mac.
-2. [Trash Final Cut Pro Preferences](https://support.apple.com/en-au/HT203477) by holding down COMMAND + OPTION when launching Final Cut Pro.
-3. Delete Final Cut Pro and reinstall it from the App Store.
+1. Make sure you've installed all the Motion Templates, Metadata View and LUTs as per the [Installation Instructions](https://brawtoolbox.io/installation/).
+2. Restart your Mac.
+3. [Trash Final Cut Pro Preferences](https://support.apple.com/en-au/HT203477) by holding down **COMMAND + OPTION** when launching Final Cut Pro, and clicking **Delete Preferences**.
+
+![Screenshot](static/delete-fcpx-prefs.png)
+
+4. Delete Final Cut Pro and reinstall it from the App Store.
 
 If none of those things fix it, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
 
@@ -56,11 +76,28 @@ If you see an error message saying "The effect ID is invalid" when trying to imp
 
 You can try:
 
-1. Restart your Mac.
-2. [Trash Final Cut Pro Preferences](https://support.apple.com/en-au/HT203477) by holding down COMMAND + OPTION when launching Final Cut Pro.
-3. Delete Final Cut Pro and reinstall it from the App Store.
+1. Make sure you've installed all the Motion Templates, Metadata View and LUTs as per the [Installation Instructions](https://brawtoolbox.io/installation/).
+2. Restart your Mac.
+3. [Trash Final Cut Pro Preferences](https://support.apple.com/en-au/HT203477) by holding down **COMMAND + OPTION** when launching Final Cut Pro, and clicking **Delete Preferences**.
 
-If none of those things fix it, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
+![Screenshot](static/delete-fcpx-prefs.png)
+
+4. Delete Final Cut Pro and reinstall it from the App Store.
+5. If none of the above fix the issue, you can try entering the below command into macOS Terminal, to see if macOS is detecting the FxPlug4 correctly.
+
+```
+pluginkit -mv -p FxPlug | grep "BRAW Toolbox"
+```
+
+You should see something like this:
+
+```
+com.latenitefilms.BRAWToolbox.Renderer(1.1)	FE230AC8-E59F-4BF6-B49F-A64E27067712	2023-02-03 00:29:14 +0000	/Applications/BRAW Toolbox.app/Contents/PlugIns/BRAW Toolbox Renderer.pluginkit
+```
+
+![Screenshot](static/pluginkit.png)
+
+If you don't see something similar to the above, or things are still not working, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
 
 ---
 
@@ -134,7 +171,11 @@ If this still doesn't work, please [post an issue](https://github.com/latenitefi
 
 ### I've run into a bug. Where can I find the log files?
 
-You can find the log files here:
+You can access your User Library, by clicking on your **Desktop**, then holding down **OPTION** as you click the **Go** menu item in Finder. A **Library** option will appear:
+
+![Screenshot](static/finder-library.png)
+
+Once you have your User Library open, you can find the log files here:
 
 `/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/`
 
@@ -142,4 +183,8 @@ You can find any crash reports here:
 
 `/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports`
 
-You can send the files to LateNite Films [here](https://latenitefilms.digitalpigeon.com).
+There might also be crash logs in the **Retired** folder (these are crash logs that have already been sent to Apple):
+
+`/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports/Retired`
+
+You can send the files to LateNite Films [here](https://latenitefilms.digitalpigeon.com) or [post an issue](https://github.com/latenitefilms/brawtoolbox/issues) with these files in a ZIP, and we'll try and resolve your specific problem.
