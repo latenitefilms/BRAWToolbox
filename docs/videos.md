@@ -1,6 +1,8 @@
 # Videos
 
-You can watch some BRAW Toolbox Related Videos below.
+Below is a collection of videos created by third parties.
+
+Thanks to everyone who's made awesome videos promoting and discussion BRAW Toolbox!
 
 ---
 
@@ -20,6 +22,13 @@ You can watch some BRAW Toolbox Related Videos below.
 }
 </style>
 
+### Indigo Film School
+
+<div class="video-container">
+    <iframe class="video" src="https://www.youtube-nocookie.com/embed/wP4XzB3OcwA?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+---
 
 ### Ripple Training
 
