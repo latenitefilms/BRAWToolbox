@@ -179,12 +179,22 @@ Once you have your User Library open, you can find the log files here:
 
 `/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/`
 
+Please create a ZIP file of this entire **Application Support** folder (by right-clicking and selecting the **Compress** menu item), so that we can review all of these log files:
+
+![Screenshot](static/application-support.png)
+
 You can find any crash reports here:
 
 `/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports`
 
+Any crashes related to BRAW Toolbox will have **BRAW Toolbox** at the start of the filename.
+
 There might also be crash logs in the **Retired** folder (these are crash logs that have already been sent to Apple):
 
 `/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports/Retired`
+
+![Screenshot](static/crash-logs.png)
+
+Again, please ZIP up all of these individual crash logs, so that we can review them all.
 
 You can send the files to LateNite Films [here](https://latenitefilms.digitalpigeon.com) or [post an issue](https://github.com/latenitefilms/brawtoolbox/issues) with these files in a ZIP, and we'll try and resolve your specific problem.
