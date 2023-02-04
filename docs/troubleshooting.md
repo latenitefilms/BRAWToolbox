@@ -2,17 +2,21 @@
 
 ### Is my Mac fast enough to play BRAW files?
 
-You can use the free Blackmagic RAW Speed Test to check if your system's GPU is fast enough to play BRAW files.
+You can use the free **Blackmagic RAW Speed Test** to check if your system's GPU is fast enough to play BRAW files.
 
 > [:icon-desktop-download: You can download on the Mac App Store here.](https://apps.apple.com/us/app/blackmagic-raw-speed-test/id1466185689?mt=12)
 
 ![Screenshot](static/blackmagic-raw-test.png)
 
-You can also use the free Blackmagic Disk Speed Test to check if your hard drive is fast enough to keep up with BRAW files.
+You can use the free **Blackmagic Disk Speed Test** to check if your hard drive is fast enough to keep up with BRAW files.
 
 > [You can download on the Mac App Store here.](https://apps.apple.com/au/app/blackmagic-disk-speed-test/id425264550?mt=12)
 
 ![Screenshot](static/blackmagic-speed-test.png)
+
+You can use the free **Blackmagic RAW Player** to see how your system performs playing back your BRAW files.
+
+> [You can download on the Mac App Store here.](https://apps.apple.com/us/app/blackmagic-raw-player/id1435415804?mt=12)
 
 ---
 
@@ -122,6 +126,14 @@ To try and fix this, you can close Final Cut Pro, right click on the Library in 
 When you start Final Cut Pro again, this will force it to re-generate the thumbnails, and hopefully this time, it works correctly.
 
 ![Screenshot](static/thumbnails.png)
+
+You can also try explicitly granting BRAW Toolbox sandbox access to the drive that contains your footage.
+
+This means that BRAW Toolbox won't have to resolve the security-scoped bookmarks for each file, which can have a minor performance improvement, that might help with thumbnail creation.
+
+If you select a BRAW Toolbox effect in the Final Cut Pro Inspector, you can click the **Global Settings** button to access a **Grant Sandbox Access** menu item.
+
+![Screenshot](static/sandbox.png)
 
 ---
 

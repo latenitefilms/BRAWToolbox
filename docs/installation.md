@@ -132,6 +132,10 @@ This will create a new Keyword Collection with your BRAW clips:
 
 ![Screenshot](static/install-16.png)
 
+You can now drag these Synchronised Clips into a Project/Timeline and start editing, as you would normal video clips.
+
+> **IMPORTANT:** Whilst you can modify the RAW parameters, as explained next, you shouldn't ever "cut" or change the timing of the Generator contained within the Synchronised Clip.
+
 To modify the metadata of a BRAW clip, you can double click on one of the synchronised clips, click on the black video clip, then access the BRAW Toolbox effect in the Effects section of the Inspector:
 
 ![Screenshot](static/install-17.png)
@@ -145,3 +149,4 @@ Frame Metadata and Custom Gamma Controls are key-frame-able.
 > **TIP:** You can only access Custom Gamma Controls if you have the **Blackmagic Design Custom** gamma parameter selected.
 
 You can now edit BRAW files like any other camera media in Final Cut Pro. Woohoo!
+
