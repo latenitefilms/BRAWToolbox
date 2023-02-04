@@ -18,6 +18,8 @@ You can use the free **Blackmagic RAW Player** to see how your system performs p
 
 > [You can download on the Mac App Store here.](https://apps.apple.com/us/app/blackmagic-raw-player/id1435415804?mt=12)
 
+![Screenshot](static/braw-player.png)
+
 ---
 
 ### Why can't I adjust the Custom Gamma Controls?
