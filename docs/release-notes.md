@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.0.0 (27) - Public Release on Mac App Store
+
+**🎉 Released:**
+- 30th January 2023
+
+**📝 Note:**
+- This is the first public release of BRAW Toolbox on the Mac App Store. It's the same as Public Beta 14.
+
+---
+
 ### 1.0.0 (27) - Public Beta 14
 
 **🎉 Released:**
