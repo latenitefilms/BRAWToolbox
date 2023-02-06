@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.728968671930">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.728971477196">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,11 +30,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.728968671930" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=2.4.0.728971477196" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.728968671930" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.728971477196" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.728968671930" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.728971477196" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -230,6 +230,48 @@
         <span>Release Notes</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="101-30">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#101-30">#</doc-anchor-trigger>
+        <span>1.0.1 (30)</span>
+    </h3>
+</doc-anchor-target>
+<p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
+<ul>
+<li>COMING SOON!</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F528;</span> Improvements:</strong></p>
+<ul>
+<li>Added suppression options to all the Inspector button dialog boxes in the Workflow Extension.</li>
+<li>The <strong>Apply Checked To All</strong> button no longer aborts if it runs into an error.</li>
+<li>We now select the next clip when removing a clip in Workflow Extension. Thanks Tom Wolsky!</li>
+<li>You can now <strong>Reveal in Browser</strong> and <strong>Removed Selected</strong> by right-clicking on a BRAW clip in the File List in the Workflow Extension. Thanks Tom Wolsky!</li>
+<li>We now select the first clip after import in the Workflow Extension. Thanks Tom Wolsky!</li>
+<li>Removed the blue outline from the file list in the Workflow Extension.</li>
+<li>We now focus on the file list after importing files in the Workflow Extension.</li>
+<li>Added a file count to the bottom of the file list in the Workflow Extension. Thanks Tom Wolsky!</li>
+<li>You can now press <strong>delete</strong> or <strong>backspace</strong> to remove files in the Workflow Extension. Thanks Tom Wolsky!</li>
+<li>Added an <strong>Open User Guide</strong> button in the Workflow Extension. Thanks Vigneswaran Rajkumar!</li>
+<li>Added counter and current file to <strong>Processing BRAW Files</strong> alert. Thanks George Elias!</li>
+<li>We now toggle between <strong>Check All</strong> and <strong>Uncheck All</strong> in the Workflow Extension. Thanks Iain Anderson!</li>
+<li>When you click <strong>Prepare BRAW Files</strong> the first time, we now only prompt for the audio folder if one of the imported clips actually has audio. Thanks Vigneswaran Rajkumar!</li>
+<li>The Toolbox Drop Zone label now changes depending on the currently selected Toolbox item. Thanks Vigneswaran Rajkumar!</li>
+<li>We now default to using Dual Mono Audio instead of Stereo. Thanks Marks07-stack!</li>
+<li>Add setting to <strong>Change Import Event Name</strong> in the Workflow Extension. Thanks George Elias!</li>
+<li>If you press play and change clips in the Workflow Extension, we now continue playing. Thanks Daniel Horvath!</li>
+<li>You can now use the <strong>J</strong> and <strong>L</strong> keyboard shortcuts to control the playback speed in the Workflow Extension. Thanks Indigo Film School!</li>
+<li>We have simplified the FCPXML that BRAW Toolbox generates to speed up Final Cut Pro importing BRAW clips.</li>
+<li>We now use a Bilinear Scale filter instead of a Lanczos Scale filter for processing thumbnails, to speed up Final Cut Pro&#x27;s thumbnail creation.</li>
+<li>Added a <strong>Reveal in Finder</strong> menu item to the <strong>Global Settings</strong> button in the Final Cut Pro Inspector.</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
+<ul>
+<li>Fixed a bug which prevented the <strong>Reset Checked Items</strong> from doing anything. Thanks Iain Anderson!</li>
+<li>The Custom Gamma Selection Checkboxes now enabled/disable correctly when changing the Gamma mode. Thanks Iain Anderson!</li>
+<li>Fixed a bug which caused the Workflow Extension to freeze, when importing <strong>Panasonic S1H</strong> clips. Thanks for reporting Jamie Nyhan!</li>
+<li>We now resolve symbolic links correctly when installing the Motion Templates, for instances where users have created an symlink for their Motion Templates folder. Thanks thermidorthelobster!</li>
+</ul>
+<hr />
 <doc-anchor-target id="100-27---public-release-on-mac-app-store">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#100-27---public-release-on-mac-app-store">#</doc-anchor-trigger>
@@ -292,7 +334,7 @@
 <li>Added a <strong>Do not show this message again</strong> button to the <strong>Convert PROJECT to Resolve Friendly FCPXML</strong> Toolbox success popup message.</li>
 <li>The default image in the Workflow Extension Player has been changed to make it look a bit nicer.</li>
 </ul>
-<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li>Fixed a bug where the player controls weren&#x27;t always updating the player content correctly.</li>
 <li>Fixed a bug where if you didn&#x27;t have any BRAW clips selected, certain parameters would still be accessible.</li>
@@ -312,7 +354,7 @@
 <ul>
 <li>There are no changes to the Motion Template, Metadata View or LUTs in this beta.</li>
 </ul>
-<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li>Fixed a bug in the <strong>Convert PROJECT to Resolve Friendly FCPXML</strong> Toolbox, where the Toolbox would fail if there&#x27;s any BRAW Toolbox clips in the project/timeline where there hasn&#x27;t been any BRAW files loaded. Thanks for discovering Kevin Luk!</li>
 </ul>
@@ -335,7 +377,7 @@
 <ul>
 <li>After clicking <strong>Prepare BRAW Files</strong>, once complete, the draggable FCPXML icon now turns green. This is useful if you have selected <strong>Do not show this message again</strong>, on the <strong>Successfully Processed</strong> popup. Thanks for suggesting Chris Gosling!</li>
 </ul>
-<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li>Fixed a bug in the <strong>DWG Intermediate to Rec. 2020 PQ</strong> Motion Template. Thanks for reporting Jamie Lejeune!</li>
 </ul>
@@ -359,7 +401,7 @@
 <li>Added a checkbox that says &quot;Do not show this message again&quot; to the bottom of various messages in the Workflow Extension. You can &quot;Reset Dialog Warnings&quot; via the Settings button. Thanks for suggesting Chris Gosling!</li>
 <li>We&#x27;re now using FxPlug v4.2.5 (instead of v4.2.4). According to the release notes this should have improved reconnection with plug-ins after a memory jetsam event and improved the speed of reconnection with plug-ins after a crash, or plug-in process suspension by macOS.</li>
 </ul>
-<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li>Still attempting to fix issues with rendering on Mac Pro&#x27;s with Dual GPUs. Thanks for reporting Jamie Lejeune &amp; <a href="https://github.com/tangierc">@tangierc</a>!</li>
 </ul>
@@ -378,7 +420,7 @@
 <ul>
 <li>There are no changes to the Motion Template, Metadata View or LUTs in this beta.</li>
 </ul>
-<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li>Still attempting to fix issues with rendering on Mac Pro&#x27;s with Dual GPUs. Thanks for reporting Jamie Lejeune &amp; <a href="https://github.com/tangierc">@tangierc</a>!</li>
 </ul>
@@ -397,7 +439,7 @@
 <ul>
 <li>There are no changes to the Motion Template, Metadata View or LUTs in this beta.</li>
 </ul>
-<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li>Still attempting to fix issues with rendering on Mac Pro&#x27;s with Dual GPUs. Thanks for reporting Jamie Lejeune &amp; <a href="https://github.com/tangierc">@tangierc</a>!</li>
 </ul>
@@ -474,7 +516,7 @@
 <ul>
 <li>There are no changes to the Motion Template or Metadata View in this beta.</li>
 </ul>
-<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li>Fixed a bug where we were releasing <code v-pre>copiedParameters</code> incorrectly when the Workflow Extension was closed.</li>
 </ul>
