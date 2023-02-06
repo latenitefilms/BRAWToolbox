@@ -5,22 +5,50 @@ order: 10000
 ---
 # BRAW Toolbox
 
-> :icon-trophy: **Thanks to everyone who helped us reach #1 in the Photo & Video category on the Australian Mac App Store!**
-
-> :icon-rocket: **You can buy BRAW Toolbox for USD$79.99, however for the first week only as a thank you to our early adopters, it will be 50% off.**
-
 BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro **without transcoding**.
 
 **_No more transcoding. No more waiting. No more massive ProRes files._**
 
-![_Screenshot of BRAW Toolbox in Action. Surf footage by Adrian Emerton._](static/screenshot-01.png)
+> [:icon-desktop-download: **Click here to buy on the Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
 
-The BRAW Toolbox Workflow Extension allows you to prepare all your footage prior to import, allowing you to easily and quickly change all the RAW metadata, and copy and paste metadata from different BRAW clips. You can even save Presets for specific Metadata Attributes.
+> :icon-trophy: Thanks to everyone who helped us reach **#1 in the Photo & Video** category on the Australian Mac App Store!
 
-Once imported into Final Cut Pro, you can still modify the RAW metadata at any time - and you can even keyframe the ISO, Exposure, Color Temp and Tint.
+![_Screenshot of BRAW Toolbox in Action. Surf footage by Adrian Emerton._](static/hero-banner.png)
+
+---
+
+## Prepare Your Footage
+
+Our Workflow Extension allows you to prepare all your footage prior to import, allowing you to easily and quickly change all the RAW parameters, and copy and paste attributes from different BRAW clips.
+
+You can even save Presets for specific Metadata Attributes.
+
+![_Screenshot of BRAW Toolbox in Action. Surf footage by Adrian Emerton._](static/install-13.png)
+
+---
+
+## Full RAW Control
+
+Once imported into Final Cut Pro, you can still modify the RAW parameters at any time - and you can even keyframe the ISO, Exposure, Color Temp, Tint and Custom Gamma Controls!
+
+There are automatic Decode Quality options for both HD and UltraHD projects, and you can also work at a low quality Decode Quality, then apply a **Global Setting** to force Full Quality prior to export. BRAW Toolbox gives you complete freedom and flexibility.
+
+![_Screenshot of BRAW Toolbox in Action._](static/install-18.png)
+
+---
+
+## Powerful Metadata
 
 BRAW Toolbox comes with a Metadata View that allows you to view every piece of BRAW Metadata directly within the Final Cut Pro Inspector.
 
-There are automatic Decode Quality options for both HD and UltraHD projects, and you can also work at a low quality Decode Quality, then apply a "Global Setting" to force Full Quality prior to export. BRAW Toolbox gives you complete freedom and flexibility.
+![_Screenshot of BRAW Toolbox in Action._](static/metadata.png)
+
+---
+
+## Send to DaVinci Resolve
 
 You can also use the Workflow Extension to send your project/timeline to DaVinci Resolve for grading - all using BRAW files directly from the camera!
+
+![_Screenshot of BRAW Toolbox in Action._](static/davinci-resolve.png)
+
+> [:icon-desktop-download: **Click here to buy on the Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
