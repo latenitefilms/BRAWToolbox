@@ -1,6 +1,8 @@
 # Uninstall
 
-You can download an Uninstall tool [here](https://github.com/latenitefilms/BRAWToolbox/raw/main/uninstall/Uninstall%20BRAW%20Toolbox.zip).
+If you're on Big Sur or Monterey, you can download an Uninstall tool [here](https://github.com/latenitefilms/BRAWToolbox/raw/main/uninstall/Uninstall%20BRAW%20Toolbox.zip).
+
+Unfortunately due to increased security in macOS Ventura, this Uninstall tool doesn't work unless you give it **Full Disk Access**. This will be fixed in the future.
 
 After downloading the above ZIP file, you can extract it to reveal the **Uninstall BRAW Toolbox** application.
 
