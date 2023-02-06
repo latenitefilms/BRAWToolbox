@@ -1,5 +1,41 @@
 # Release Notes
 
+### 1.0.1 (30)
+
+**🎉 Released:**
+- COMING SOON!
+
+**🔨 Improvements:**
+- Added suppression options to all the Inspector button dialog boxes in the Workflow Extension.
+- The **Apply Checked To All** button no longer aborts if it runs into an error.
+- We now select the next clip when removing a clip in Workflow Extension. Thanks Tom Wolsky!
+- You can now **Reveal in Browser** and **Removed Selected** by right-clicking on a BRAW clip in the File List in the Workflow Extension. Thanks Tom Wolsky!
+- We now select the first clip after import in the Workflow Extension. Thanks Tom Wolsky!
+- Removed the blue outline from the file list in the Workflow Extension.
+- We now focus on the file list after importing files in the Workflow Extension.
+- Added a file count to the bottom of the file list in the Workflow Extension. Thanks Tom Wolsky!
+- You can now press **delete** or **backspace** to remove files in the Workflow Extension. Thanks Tom Wolsky!
+- Added an **Open User Guide** button in the Workflow Extension. Thanks Vigneswaran Rajkumar!
+- Added counter and current file to **Processing BRAW Files** alert. Thanks George Elias!
+- We now toggle between **Check All** and **Uncheck All** in the Workflow Extension. Thanks Iain Anderson!
+- When you click **Prepare BRAW Files** the first time, we now only prompt for the audio folder if one of the imported clips actually has audio. Thanks Vigneswaran Rajkumar!
+- The Toolbox Drop Zone label now changes depending on the currently selected Toolbox item. Thanks Vigneswaran Rajkumar!
+- We now default to using Dual Mono Audio instead of Stereo. Thanks Marks07-stack!
+- Add setting to **Change Import Event Name** in the Workflow Extension. Thanks George Elias!
+- If you press play and change clips in the Workflow Extension, we now continue playing. Thanks Daniel Horvath!
+- You can now use the **J** and **L** keyboard shortcuts to control the playback speed in the Workflow Extension. Thanks Indigo Film School!
+- We have simplified the FCPXML that BRAW Toolbox generates to speed up Final Cut Pro importing BRAW clips.
+- We now use a Bilinear Scale filter instead of a Lanczos Scale filter for processing thumbnails, to speed up Final Cut Pro's thumbnail creation.
+- Added a **Reveal in Finder** menu item to the **Global Settings** button in the Final Cut Pro Inspector.
+
+**🐞 Bug Fixes:**
+- Fixed a bug which prevented the **Reset Checked Items** from doing anything. Thanks Iain Anderson!
+- The Custom Gamma Selection Checkboxes now enabled/disable correctly when changing the Gamma mode. Thanks Iain Anderson!
+- Fixed a bug which caused the Workflow Extension to freeze, when importing **Panasonic S1H** clips. Thanks for reporting Jamie Nyhan!
+- We now resolve symbolic links correctly when installing the Motion Templates, for instances where users have created an symlink for their Motion Templates folder. Thanks thermidorthelobster!
+
+---
+
 ### 1.0.0 (27) - Public Release on Mac App Store
 
 **🎉 Released:**
@@ -44,7 +80,7 @@
 - Added a **Do not show this message again** button to the **Convert PROJECT to Resolve Friendly FCPXML** Toolbox success popup message.
 - The default image in the Workflow Extension Player has been changed to make it look a bit nicer.
 
-**🐞 Bug Fix:**
+**🐞 Bug Fixes:**
 - Fixed a bug where the player controls weren't always updating the player content correctly.
 - Fixed a bug where if you didn't have any BRAW clips selected, certain parameters would still be accessible.
 
@@ -58,7 +94,7 @@
 **📝 Note:**
 - There are no changes to the Motion Template, Metadata View or LUTs in this beta.
 
-**🐞 Bug Fix:**
+**🐞 Bug Fixes:**
 - Fixed a bug in the **Convert PROJECT to Resolve Friendly FCPXML** Toolbox, where the Toolbox would fail if there's any BRAW Toolbox clips in the project/timeline where there hasn't been any BRAW files loaded. Thanks for discovering Kevin Luk!
 
 ---
@@ -74,7 +110,7 @@
 **🔨 Improvements:**
 - After clicking **Prepare BRAW Files**, once complete, the draggable FCPXML icon now turns green. This is useful if you have selected **Do not show this message again**, on the **Successfully Processed** popup. Thanks for suggesting Chris Gosling!
 
-**🐞 Bug Fix:**
+**🐞 Bug Fixes:**
 - Fixed a bug in the **DWG Intermediate to Rec. 2020 PQ** Motion Template. Thanks for reporting Jamie Lejeune!
 
 ---
@@ -91,7 +127,7 @@
 - Added a checkbox that says "Do not show this message again" to the bottom of various messages in the Workflow Extension. You can "Reset Dialog Warnings" via the Settings button. Thanks for suggesting Chris Gosling!
 - We're now using FxPlug v4.2.5 (instead of v4.2.4). According to the release notes this should have improved reconnection with plug-ins after a memory jetsam event and improved the speed of reconnection with plug-ins after a crash, or plug-in process suspension by macOS.
 
-**🐞 Bug Fix:**
+**🐞 Bug Fixes:**
 - Still attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
 
 ---
@@ -104,7 +140,7 @@
 **📝 Note:**
 - There are no changes to the Motion Template, Metadata View or LUTs in this beta.
 
-**🐞 Bug Fix:**
+**🐞 Bug Fixes:**
 - Still attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
 
 ---
@@ -117,7 +153,7 @@
 **📝 Note:**
 - There are no changes to the Motion Template, Metadata View or LUTs in this beta.
 
-**🐞 Bug Fix:**
+**🐞 Bug Fixes:**
 - Still attempting to fix issues with rendering on Mac Pro's with Dual GPUs. Thanks for reporting Jamie Lejeune & [@tangierc](https://github.com/tangierc)!
 
 ---
@@ -174,7 +210,7 @@
 **📝 Note:**
 - There are no changes to the Motion Template or Metadata View in this beta.
 
-**🐞 Bug Fix:**
+**🐞 Bug Fixes:**
 - Fixed a bug where we were releasing `copiedParameters` incorrectly when the Workflow Extension was closed.
 
 ---
