@@ -109,6 +109,14 @@ If you don't see something similar to the above, or things are still not working
 
 ### Bad Frames in the Final Cut Pro Browser
 
+Generally speaking Final Cut Pro seems to work better with Multicam Clips, as opposed to Synchronised Clips. We're currently working with the Final Cut Pro team to find out why.
+
+We suggest ticking the **Create Multicam Clips** option in the BRAW Toolbox Workflow Extension settings before importing BRAW clips into Final Cut Pro.
+
+![Screenshot](static/install-20.png)
+
+We recommend only using Synchronised Clips if you need to sync to dual system audio, using something like [Sync-N-Link](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12).
+
 In rare instances in the Final Cut Pro Browser you might see black frames, or red error message frames in the thumbnails of BRAW Toolbox clips.
 
 ![Screenshot](static/bad-frame.png)

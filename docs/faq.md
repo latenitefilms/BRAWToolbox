@@ -73,7 +73,7 @@ There are heaps of awesome clips to test with on the Blackmagic Website:
 
 ### Does BRAW Toolbox work with Sync-N-Link?
 
-Yes, BRAW Toolbox is compatible with **Sync-N-Link v1.1.4** on the Mac App Store.
+Yes, BRAW Toolbox is compatible with **Sync-N-Link v1.1.4** or later on the Mac App Store.
 
 You should use Synchronised Clips in BRAW Toolbox, and it can combine multiple clips with location audio into a multicam.
 
