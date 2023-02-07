@@ -1,6 +1,6 @@
 # Release Notes
 
-### 1.0.1 (31)
+### 1.0.1 (33)
 
 **🎉 Released:**
 - **COMING SOON!** If you're interested in beta testing - please [get in touch](https://brawtoolbox.io/support/).
