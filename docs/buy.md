@@ -7,3 +7,5 @@ There is currently no free trial, and it is only be available on the Mac App Sto
 You can find information about Educational Pricing [here](https://brawtoolbox.io/educational/).
 
 Thank you to all our beta testers and early adopters, who were able to purchase BRAW Toolbox for 50% off during the first week of its release!
+
+![Screenshot](static/app-store-number-1.png)
