@@ -9,3 +9,5 @@ Before you purchase, you should make sure that your system has a fast enough GPU
 You can use Blackmagic's free [Blackmagic RAW Speed Test](https://apps.apple.com/us/app/blackmagic-raw-speed-test/id1466185689?mt=12) and [Blackmagic Disk Speed Test](https://apps.apple.com/au/app/blackmagic-disk-speed-test/id425264550?mt=12) tools to ensure your system is fast enough for the footage you want to work with.
 
 You can also use Blackmagic's free [Blackmagic RAW Player](https://apps.apple.com/us/app/blackmagic-raw-player/id1435415804?mt=12) to test playing back BRAW files on your system.
+
+![Screenshot](static/blackmagic-raw-test.png)
