@@ -1,9 +1,9 @@
 # Release Notes
 
-### 1.0.1 (30)
+### 1.0.1 (31)
 
 **🎉 Released:**
-- COMING SOON!
+- **COMING SOON!** If you're interested in beta testing - please [get in touch](https://brawtoolbox.io/support/).
 
 **🔨 Improvements:**
 - Added suppression options to all the Inspector button dialog boxes in the Workflow Extension.
@@ -29,9 +29,10 @@
 - Added a **Reveal in Finder** menu item to the **Global Settings** button in the Final Cut Pro Inspector.
 
 **🐞 Bug Fixes:**
+- We now attempt to render each BRAW frame five times before giving up. This will hopefully reduce the chances of seeing any red error frames.
 - Fixed a bug which prevented the **Reset Checked Items** from doing anything. Thanks Iain Anderson!
 - The Custom Gamma Selection Checkboxes now enabled/disable correctly when changing the Gamma mode. Thanks Iain Anderson!
-- Fixed a bug which caused the Workflow Extension to freeze, when importing **Panasonic S1H** clips. Thanks for reporting Jamie Nyhan!
+- Fixed a bug which caused the Workflow Extension to freeze, when importing **Panasonic S1H** clips that don't have timecode. Thanks for reporting Jamie Nyhan!
 - We now resolve symbolic links correctly when installing the Motion Templates, for instances where users have created an symlink for their Motion Templates folder. Thanks thermidorthelobster!
 
 ---
