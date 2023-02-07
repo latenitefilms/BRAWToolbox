@@ -3,7 +3,7 @@
 ### 1.0.1 (33)
 
 **🎉 Released:**
-- **COMING SOON!** If you're interested in beta testing - please [get in touch](https://brawtoolbox.io/support/).
+- **COMING SOON!** If you're interested in beta testing - please find the TestFlight link in [this discussion](https://github.com/latenitefilms/BRAWToolbox/discussions/74).
 
 **🔨 Improvements:**
 - Added suppression options to all the Inspector button dialog boxes in the Workflow Extension.
