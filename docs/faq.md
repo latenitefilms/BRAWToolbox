@@ -6,6 +6,8 @@
 
 There's also the incredible [EditReady](https://hedge.video/editready) which is also fantastic at just converting BRAW to ProRes with lots of power and controls. Again, we recommend everyone purchases it.
 
+And of course, DaVinci Resolve is free and even has the **Blackmagic Proxy Generator** app to easily convert BRAW to proxies.
+
 However, the downside to having to transcode footage is that it **takes extra time**, and it **takes extra storage**.
 
 As hardcore Final Cut Pro users, we got frustrated when clients would hand over SSDs with 2-4TB's worth of BRAW footage, that we'd need to convert to ProRes to start editing with it in Final Cut Pro.
