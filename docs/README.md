@@ -39,7 +39,15 @@ There are automatic Decode Quality options for both HD and UltraHD projects, and
 
 BRAW Toolbox comes with a Metadata View that allows you to view every piece of BRAW Metadata directly within the Final Cut Pro Inspector.
 
-![_Screenshot of BRAW Toolbox in Action._](static/metadata.png)
+![_Screenshot of BRAW Toolbox in Action._](static/metadata-small.png)
+
+---
+
+## Gyroscope Stabilisation
+
+You can combine BRAW Toolbox with [Gyroflow Toolbox](https://gyroflowtoolbox.io) to bring gyroscope stabilisation directly to Final Cut Pro!
+
+![_Screenshot of BRAW Toolbox in Action._](static/stabilisation.png)
 
 ---
 
@@ -48,14 +56,6 @@ BRAW Toolbox comes with a Metadata View that allows you to view every piece of B
 You can also use the Workflow Extension to send your project/timeline to DaVinci Resolve for grading - all using BRAW files directly from the camera!
 
 ![_Screenshot of BRAW Toolbox in Action._](static/davinci-resolve.png)
-
----
-
-## Gyroscope Stabilisation
-
-You can combine BRAW Toolbox with Gyroflow Toolbox to bring gyroscope stabilisation directly to Final Cut Pro!
-
-![_Screenshot of BRAW Toolbox in Action._](static/stabilisation.png)
 
 ---
 
