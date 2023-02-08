@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.729129688799">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.729177957730">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,11 +30,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=2.4.0.729129688799" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=2.4.0.729177957730" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.729129688799" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=2.4.0.729177957730" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.729129688799" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=2.4.0.729177957730" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -230,10 +230,10 @@
         <span>Release Notes</span>
     </h1>
 </doc-anchor-target>
-<doc-anchor-target id="101-33">
+<doc-anchor-target id="101-34">
     <h3>
-        <doc-anchor-trigger class="header-anchor-trigger" to="#101-33">#</doc-anchor-trigger>
-        <span>1.0.1 (33)</span>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#101-34">#</doc-anchor-trigger>
+        <span>1.0.1 (34)</span>
     </h3>
 </doc-anchor-target>
 <p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
@@ -263,9 +263,11 @@
 <li>We have simplified the FCPXML that BRAW Toolbox generates to speed up Final Cut Pro importing BRAW clips.</li>
 <li>We now use a Bilinear Scale filter instead of a Lanczos Scale filter for processing thumbnails, to speed up Final Cut Pro&#x27;s thumbnail creation.</li>
 <li>Added a <strong>Reveal in Finder</strong> menu item to the <strong>Global Settings</strong> button in the Final Cut Pro Inspector.</li>
+<li>If you go inside a BRAW Toolbox Synchronised Clip, you&#x27;ll now see the Generator is labelled &quot;This is just a Custom Solid Generator that contains the BRAW Toolbox effect. Do not cut or trim. You can access the RAW attributes via the BRAW Toolbox effect on this clip.&quot; - to help avoid any confusion.</li>
 </ul>
 <p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
+<li>We&#x27;ve re-engineered how we render BRAW frames, so that we don&#x27;t use up hundreds or thousands of threads. Thanks to Blackmagic &amp; Apple for all their help solving this!</li>
 <li>We now attempt to render each BRAW frame five times before giving up. This will hopefully reduce the chances of seeing any red error frames.</li>
 <li>Fixed a bug which prevented the <strong>Reset Checked Items</strong> from doing anything. Thanks Iain Anderson!</li>
 <li>The Custom Gamma Selection Checkboxes now enabled/disable correctly when changing the Gamma mode. Thanks Iain Anderson!</li>
