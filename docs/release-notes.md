@@ -1,6 +1,6 @@
 # Release Notes
 
-### 1.0.1 (33)
+### 1.0.1 (34)
 
 **🎉 Released:**
 - **COMING SOON!** If you're interested in beta testing - please find the TestFlight link in [this discussion](https://github.com/latenitefilms/BRAWToolbox/discussions/74).
@@ -27,8 +27,10 @@
 - We have simplified the FCPXML that BRAW Toolbox generates to speed up Final Cut Pro importing BRAW clips.
 - We now use a Bilinear Scale filter instead of a Lanczos Scale filter for processing thumbnails, to speed up Final Cut Pro's thumbnail creation.
 - Added a **Reveal in Finder** menu item to the **Global Settings** button in the Final Cut Pro Inspector.
+- If you go inside a BRAW Toolbox Synchronised Clip, you'll now see the Generator is labelled "This is just a Custom Solid Generator that contains the BRAW Toolbox effect. Do not cut or trim. You can access the RAW attributes via the BRAW Toolbox effect on this clip." - to help avoid any confusion.
 
 **🐞 Bug Fixes:**
+- We've re-engineered how we render BRAW frames, so that we don't use up hundreds or thousands of threads. Thanks to Blackmagic & Apple for all their help solving this!
 - We now attempt to render each BRAW frame five times before giving up. This will hopefully reduce the chances of seeing any red error frames.
 - Fixed a bug which prevented the **Reset Checked Items** from doing anything. Thanks Iain Anderson!
 - The Custom Gamma Selection Checkboxes now enabled/disable correctly when changing the Gamma mode. Thanks Iain Anderson!
