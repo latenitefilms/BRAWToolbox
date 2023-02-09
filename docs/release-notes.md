@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.0.2 (36)
+
+**🎉 Released:**
+- **COMING SOON! We're currently waiting for Apple to approve for App Store Release.**
+
+**🐞 Bug Fixes:**
+- Fixed a regression in v1.0.1 that caused BRAW clips to look low quality when adjusting scale/position.
+- Fixed a bug that would cause the Workflow Extension to not load on older Mac's like the 2017 MacBook Air. Thanks for reporting Simon Nunn!
+
+---
+
 ### 1.0.1 (34)
 
 **🎉 Released:**
