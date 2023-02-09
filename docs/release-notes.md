@@ -3,7 +3,7 @@
 ### 1.0.2 (36)
 
 **🎉 Released:**
-- **COMING SOON! We're currently waiting for Apple to approve for App Store Release.**
+- 10th February 2023
 
 **🐞 Bug Fixes:**
 - Fixed a regression in v1.0.1 that caused BRAW clips to look low quality when adjusting scale/position.
