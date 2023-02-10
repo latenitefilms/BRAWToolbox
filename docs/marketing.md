@@ -56,15 +56,19 @@ The incredible surf footage (as seen in the above screenshots) was captured by S
 
 > _"You can quite literally ship this in its current form and it’s ready for prime time. This plug-in has saved me DAYS of transcoding time between FCP & Resolve. BRAW Toolbox is a plug-in every FCP editor should own." [George Elias](https://twitter.com/gwphotographe)_
 
-After one month of very successful beta testing, with over **253 testers** from all over the world, BRAW Toolbox will be available for download on the Mac App Store at **9am on 30th January (AEDT) / 10pm on 29th January (GMT)**.
+After one month of very successful beta testing, with over **253 testers** from all over the world, BRAW Toolbox was available for download on the Mac App Store at **9am on 30th January (AEDT) / 10pm on 29th January (GMT)**.
 
-You can currently [pre-order on the Mac App Store](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12).
+BRAW Toolbox was sold for **50% off** for the first week, as a small thank you to our early adopters and beta testers.
 
-The cost will be **USD$79.99**, however for the **first week only** as a thank you to our early adopters, it will be **50% off**.
+It's now available on the Mac App Store for **USD$79.99**.
 
-There will be no free trial, and it will only be available on the Mac App Store as a one-time payment.
+> [:icon-desktop-download: **Click here to buy on the Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
+
+There is no free trial, and it will only be available on the Mac App Store as a one-time payment.
 
 A companion application, [Gyroflow Toolbox](https://gyroflowtoolbox.io) is also now available on the Mac App Store for purchase for USD$5.
+
+> **_[You can download Gyroflow Toolbox here.](https://gyroflowtoolbox.io/buy/)_**
 
 ---
 
