@@ -1,28 +1,28 @@
 # Uninstall
 
-If you're on Big Sur or Monterey, you can download an Uninstall tool [here](https://github.com/latenitefilms/BRAWToolbox/raw/main/uninstall/Uninstall%20BRAW%20Toolbox.zip).
-
-Unfortunately due to increased security in macOS Ventura, this Uninstall tool doesn't work unless you give it **Full Disk Access**. This will be fixed in the future.
+You can download the Uninstall tool [here](https://github.com/latenitefilms/BRAWToolbox/raw/main/uninstall/Uninstall%20BRAW%20Toolbox.zip).
 
 After downloading the above ZIP file, you can extract it to reveal the **Uninstall BRAW Toolbox** application.
 
 ![Screenshot](static/uninstall-01.png)
 
-Right click on the **Uninstall BRAW Toolbox** icon and select **Open**.
+Double click the **Uninstall BRAW Toolbox** icon to run the Uninstall Tool, then click **Remove BRAW Toolbox**.
 
 ![Screenshot](static/uninstall-02.png)
 
-You'll be presented with a warning message. Click **Open** again.
+You'll be presented with a window to grant access to your Movies folder. Click **Grant Access*:
 
 ![Screenshot](static/uninstall-03.png)
 
-You'll be presented with a final warning. Press the **Uninstall** button.
+You'll be presented with a window to grant access to your users Library folder. Click **Grant Access*:
 
 ![Screenshot](static/uninstall-04.png)
 
-Once done, you should get a completion message.
+Once done, you'll get a completed successfully message:
 
 ![Screenshot](static/uninstall-05.png)
+
+You can now move the **Uninstall BRAW Toolbox.app** and the downloaded ZIP file to Trash/Bin, and empty the Trash/Bin..
 
 ---
 
