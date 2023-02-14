@@ -22,7 +22,11 @@ Once done, you'll get a completed successfully message:
 
 ![Screenshot](static/uninstall-05.png)
 
-You can now move the **Uninstall BRAW Toolbox.app** and the downloaded ZIP file to Trash/Bin, and empty the Trash/Bin..
+This remove all of the Preferences, Logs, Motion Templates, Metadata Views and LUTs from your system.
+
+However, due to sandbox restrictions, it doesn't remove the **BRAW Toolbox.app** from your Applications folder. You should manually delete this.
+
+Once done, you can now also move the **Uninstall BRAW Toolbox.app** and the downloaded ZIP file to Trash/Bin, and empty the Trash/Bin..
 
 ---
 
