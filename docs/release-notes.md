@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.0.3 (37)
+
+**🎉 Released:**
+- **COMING SOON!**
+
+**🔨 Improvements:**
+- We now show Packages (such as a Final Cut Pro Library) as ordinary folders in the **Import BRAW Files** and **Choose Audio Folder** open panels. This allows you to more easily keep your BRAW files and audio files within a Final Cut Pro Library, for easy media management. Thanks for suggesting [thermidorthelobster](https://github.com/thermidorthelobster)!
+
+---
+
 ### 1.0.2 (36)
 
 **🎉 Released:**
