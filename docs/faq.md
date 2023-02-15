@@ -50,17 +50,35 @@ However, we think the pro's outweight the con's - and all the extra effort to ma
 
 ---
 
+### Why is BRAW Toolbox so expensive?
+
+BRAW Toolbox is a very niche app with a relatively small group of users, so we need to charge a reasonable amount to justify the continued support and development.
+
+We spent over 225 hours developing version v1.0.0, and will continue to devote a lot of time to adding features and making it faster and more useful for Final Cut Pro editors.
+
+It's also something that Apple will "Sherlock" eventually, as I'm sure native BRAW support is on their roadmap.
+
+For the first week, we released BRAW Toolbox at 50% off as a small thank you to our early adopters who helped with beta testing and promoting BRAW Toolbox.
+
+You can always use [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) for free if you want to convert BRAW to ProRes to edit in Final Cut Pro.
+
+We are also big fans of [Color Finale Transcoder](https://colorfinale.com/transcoder) and [EditReady](https://hedge.video/editready).
+
+---
+
 ### Did you have Beta Testers?
 
 Yes, prior to public release BRAW Toolbox was in a public beta from 23rd December 2022 to 30th January 2023, and an internal beta before that.
 
 MASSIVE thanks to the **291 users** who took part in this extensive beta program!
 
+We also occasionally post new TestFlight builds on the [Discussion](https://github.com/latenitefilms/BRAWToolbox/discussions) page as we test new features.
+
 ---
 
 ### Is BRAW Toolbox Open Source?
 
-Currently the source code for BRAW Toolbox is private, however we may release it under a MIT License at a later date after it's been publicly released on the Mac App Store if there's enough demand and interest.
+Currently the source code for BRAW Toolbox is closed/private, however we may release it under a MIT License at a later date if there's enough demand and interest.
 
 ---
 
@@ -78,6 +96,16 @@ There are heaps of awesome clips to test with on the Blackmagic Website:
 Yes, BRAW Toolbox is compatible with **Sync-N-Link v1.1.4** or later on the Mac App Store.
 
 You should use Synchronised Clips in BRAW Toolbox, and it can combine multiple clips with location audio into a multicam.
+
+---
+
+### Does BRAW Toolbox work with Lumberjack Builder?
+
+Yes, BRAW Toolbox is compatible with **Lumberjack Builder v4.0.6** or later.
+
+You can download Lumberjack Builder [here](https://www.lumberjacksystem.com/builder-nle-2/).
+
+![Screenshot](static/builder.png)
 
 ---
 
