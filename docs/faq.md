@@ -60,6 +60,8 @@ It's also something that Apple will "Sherlock" eventually, as I'm sure native BR
 
 For the first week, we released BRAW Toolbox at 50% off as a small thank you to our early adopters who helped with beta testing and promoting BRAW Toolbox.
 
+It was also available a few weeks prior to release as a pre-sale with the 50% discount.
+
 You can always use [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) for free if you want to convert BRAW to ProRes to edit in Final Cut Pro.
 
 We are also big fans of [Color Finale Transcoder](https://colorfinale.com/transcoder) and [EditReady](https://hedge.video/editready).
