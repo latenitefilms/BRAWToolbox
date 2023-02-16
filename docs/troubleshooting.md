@@ -103,7 +103,9 @@ com.latenitefilms.BRAWToolbox.Renderer(1.1)	FE230AC8-E59F-4BF6-B49F-A64E27067712
 
 ![Screenshot](static/pluginkit.png)
 
-If you don't see something similar to the above, or things are still not working, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
+You can also try completely [uninstall BRAW Toolbox](https://brawtoolbox.io/uninstall/) and reinstall from the Mac App Store.
+
+If things are still not working, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
 
 ---
 
@@ -153,7 +155,9 @@ In very rare instances you might run into problems installing the Motion Templat
 
 ![Screenshot](static/failed-to-install-metadata-view.png)
 
-Please close BRAW Toolbox, then open the `Terminal` app:
+You can try completely [uninstall BRAW Toolbox](https://brawtoolbox.io/uninstall/) and reinstall from the Mac App Store.
+
+Alternatively, please close BRAW Toolbox, then open the `Terminal` app:
 
 ![Screenshot](static/terminal-01.png)
 
