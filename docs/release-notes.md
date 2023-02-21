@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.0.4 (38)
+
+**🎉 Released:**
+- **COMING SOON! Waiting for App Store Approval.**
+
+**🐞 Bug Fixes:**
+- Fixed the FxPlug4 code for how we release objects which improves reliability on the 2022 Mac Studio. Thanks for reporting Justin VanDommelen!
+
+---
+
 ### 1.0.3 (37)
 
 **🎉 Released:**
