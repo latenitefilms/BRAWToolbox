@@ -1,6 +1,10 @@
 # Stabilisation
 
-If you have a Blackmagic Camera that outputs Gyroscope Metadata, you can use another one of our tools, [Gyroflow Toolbox](https://gyroflowtoolbox.io), to use that gyroscope data to stabilise the footage directly within Final Cut Pro.
+Unfortunately Final Cut Pro doesn't allow stabilisation of Multicam Clips and Synchronised Clips.
+
+To workaround this, you can export a ProRes file of the clip you want to stabilise, and bring it back into Final Cut Pro, or use a third party tool such as [CoreMelt's Lock & Load X](https://coremelt.com/products/lock-and-load-x).
+
+However, if you have a Blackmagic Camera that outputs Gyroscope Metadata such as the Blackmagic Pocket Cinema Camera 4K/6K, you can use one of our companion tools, [Gyroflow Toolbox](https://gyroflowtoolbox.io), to use that gyroscope data to stabilise the footage directly within Final Cut Pro.
 
 > **_[You can download Gyroflow Toolbox here.](https://gyroflowtoolbox.io/buy/)_**
 
