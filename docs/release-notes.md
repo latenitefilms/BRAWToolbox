@@ -1,5 +1,17 @@
 # Release Notes
 
+### 1.0.5 (39)
+
+**🎉 Released:**
+- **COMING SOON! Waiting for App Store Approval.**
+
+**🐞 Bug Fixes:**
+- Fixed a sandboxing issue where the BRAW Toolbox Workflow Extension didn't have read access to sidecar files. Thanks for reporting Uli Plank!
+- Fixed a sandboxing issue where the BRAW Toolbox Workflow Extension and FxPlug4 Renderer didn't have read access to spanned BRAW clips. Thanks for reporting Big Emus!
+- The BRAW Toolbox Wrapper application no longer requests Owner Rank for BRAW files. Thanks for reporting Uli Plank!
+
+---
+
 ### 1.0.4 (38)
 
 **🎉 Released:**
