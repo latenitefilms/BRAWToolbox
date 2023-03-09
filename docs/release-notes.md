@@ -3,7 +3,7 @@
 ### 1.0.5 (39)
 
 **🎉 Released:**
-- **COMING SOON! Waiting for App Store Approval.**
+- 28th February 2023
 
 **🐞 Bug Fixes:**
 - Fixed a sandboxing issue where the BRAW Toolbox Workflow Extension didn't have read access to sidecar files. Thanks for reporting Uli Plank!
