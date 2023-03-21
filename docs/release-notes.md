@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.0.6 (44)
+
+**🎉 Released:**
+- COMING SOON! Waiting for App Store Approval.
+
+**🐞 Bug Fixes:**
+- Fixed a maths rounding bug, where clips could occasionally show two duplicate frames. Thanks for reporting Leigh Emmerson!
+
+---
+
 ### 1.0.5 (39)
 
 **🎉 Released:**
