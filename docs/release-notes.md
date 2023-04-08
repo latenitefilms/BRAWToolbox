@@ -1,9 +1,19 @@
 # Release Notes
 
-### 1.0.6 (44)
+### 1.0.7 (45)
 
 **🎉 Released:**
 - COMING SOON! Waiting for App Store Approval.
+
+**🐞 Bug Fixes:**
+- Fixed a bug where the "Show Parameters" button wouldn't do anything if a BRAW clip's security-scope bookmark could not be resolved. This could happen if you were using the "Grant Sandbox Access" to access a BRAW clip. Thanks for reporting Tangier Clarke!
+
+---
+
+### 1.0.6 (44)
+
+**🎉 Released:**
+- 2nd March 2023
 
 **🐞 Bug Fixes:**
 - Fixed a maths rounding bug, where clips could occasionally show two duplicate frames. Thanks for reporting Leigh Emmerson!
