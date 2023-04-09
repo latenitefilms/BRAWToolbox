@@ -3,7 +3,7 @@
 ### 1.0.8 (46)
 
 **🎉 Released:**
-- COMING SOON! Waiting for App Store Approval.
+- 10th April 2023
 
 **🐞 Bug Fixes:**
 - Fixed a bug in the main installation application where the **Install LUTs** button could fail in certain circumstances. Thanks for reporting Tangier Clarke!
