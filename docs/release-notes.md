@@ -14,7 +14,7 @@
 ### 1.0.7 (45)
 
 **🎉 Released:**
-- COMING SOON! Waiting for App Store Approval.
+- 9th April 2023
 
 **🐞 Bug Fixes:**
 - Fixed a bug where the **Show Parameters** button wouldn't do anything if a BRAW clip's security-scope bookmark could not be resolved. This could happen if you were using the "Grant Sandbox Access" to access a BRAW clip. Thanks for reporting Tangier Clarke!
