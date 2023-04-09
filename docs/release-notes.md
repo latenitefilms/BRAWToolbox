@@ -1,12 +1,23 @@
 # Release Notes
 
+### 1.0.8 (46)
+
+**🎉 Released:**
+- COMING SOON! Waiting for App Store Approval.
+
+**🐞 Bug Fixes:**
+- Fixed a bug in the main installation application where the **Install LUTs** button could fail in certain circumstances. Thanks for reporting Tangier Clarke!
+- We now use a different method to detect the users home directory, to workaround a rare case where the home directory is different than what macOS reports due to a previous macOS installation. Thanks for reporting Kevin Lyons!
+
+---
+
 ### 1.0.7 (45)
 
 **🎉 Released:**
 - COMING SOON! Waiting for App Store Approval.
 
 **🐞 Bug Fixes:**
-- Fixed a bug where the "Show Parameters" button wouldn't do anything if a BRAW clip's security-scope bookmark could not be resolved. This could happen if you were using the "Grant Sandbox Access" to access a BRAW clip. Thanks for reporting Tangier Clarke!
+- Fixed a bug where the **Show Parameters** button wouldn't do anything if a BRAW clip's security-scope bookmark could not be resolved. This could happen if you were using the "Grant Sandbox Access" to access a BRAW clip. Thanks for reporting Tangier Clarke!
 
 ---
 
