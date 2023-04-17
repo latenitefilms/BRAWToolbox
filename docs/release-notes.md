@@ -1,5 +1,18 @@
 # Release Notes
 
+### 1.1.0 (47)
+
+**🎉 Released:**
+- COMING SOON! Waiting on Apple App Store Approval.
+
+**🔨 Improvements:**
+- Added support for Blackmagic URSA Mini Pro 12K OLPF.
+- Added support for automatically rotating vertical video clips.
+- Added metadata descriptions for Offspeed and Rotation.
+- Updated from Blackmagic RAW SDK v2.8 to v3.0.
+
+---
+
 ### 1.0.8 (46)
 
 **🎉 Released:**
