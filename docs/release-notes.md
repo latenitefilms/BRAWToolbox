@@ -3,7 +3,7 @@
 ### 1.1.0 (47)
 
 **🎉 Released:**
-- COMING SOON! Waiting on Apple App Store Approval.
+- 18th April 2023
 
 **🔨 Improvements:**
 - Added support for Blackmagic URSA Mini Pro 12K OLPF.
