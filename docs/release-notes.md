@@ -1,5 +1,18 @@
 # Release Notes
 
+### 1.1.1 (48)
+
+**🎉 Released:**
+- 9th May 2023
+
+**🔨 Improvements:**
+- **Create Multicam Clips** is now enabled by default. When disabling this setting, you're now also presented with some warning information. This is due to a bug in Final Cut Pro 10.6.5 that sometimes incorrectly plays the wrong frames in Synchronised Clips. We now recommend always using Multicam Clips, unless you're planning to create new Multicam Clips by either manually creating them in Final Cut Pro, or using a third-party tool such as Sync-N-Link.
+
+**🐞 Bug Fixes:**
+- Fixed a bug introduced in v1.1.0 where error messages are incorrectly flipped vertically.
+
+---
+
 ### 1.1.0 (47)
 
 **🎉 Released:**
