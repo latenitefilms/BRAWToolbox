@@ -1,5 +1,17 @@
 # Release Notes
 
+### 1.1.2 (49)
+
+**🎉 Released:**
+- 25th May 2023
+
+**🔨 Improvements:**
+
+- Added support for Panasonic LUMIX S5II and S5IIX Blackmagic RAW clips.
+- Updated from Blackmagic RAW SDK v3.0 to v3.1.
+
+---
+
 ### 1.1.1 (48)
 
 **🎉 Released:**
