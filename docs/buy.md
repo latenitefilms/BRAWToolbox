@@ -6,7 +6,7 @@
 
 This is generally **79.99** in your local currency (i.e. **AUD79.99**, **USD79.99**, **CAD79.99**).
 
-However, if your country doesn't have an equivalent of 79.99 (i.e. Rp1299000 in Indonesia), it will default to a **USD$79.99 equivalent**.
+However, if your country doesn't have an equivalent of 79.99 (i.e. Rp1,299,000 in Indonesia), it will default to a **USD$79.99 equivalent**.
 
 There is currently no free trial, and it is only be available on the Mac App Store as a **one-time payment**.
 
