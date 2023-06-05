@@ -3,7 +3,7 @@
 ### 1.1.3 (50)
 
 **🎉 Released:**
-- COMING SOON!
+- Monday 5th June 2023
 
 **🔨 Improvements:**
 
