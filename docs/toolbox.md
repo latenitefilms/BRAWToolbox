@@ -60,6 +60,10 @@ You'll be asked to select a library to import to, and then whether or not you wa
 
 Generally speaking, as you're relinking you want to **Replace**, however FCPXML isn't lossless or perfect, so you should only select **Replace** if you only dragged in BRAW Toolbox Clips - not projects/timelines.
 
+This new **Send FCPXML to Final Cut Pro** button works differently than the way the previous **Relink BRAW Clips within an EVENT** toolbox - as there's no dragging and dropping involved.
+
+Pressing this button will trigger the import process within Final Cut Pro - no drag and drop required.
+
 ---
 
 ### Convert PROJECT to Resolve Friendly FCPXML
