@@ -8,7 +8,7 @@ This means if you move that Final Cut Pro Library to another machine, Final Cut 
 
 To solve this issue, if you select a BRAW Toolbox effect in the Final Cut Pro Inspector, you can click the **Global Settings** button to access a **Grant Sandbox Access** menu item.
 
-![Screenshot](static/sandbox.png)
+![](static/sandbox.png)
 
 This allows you to easily give BRAW Toolbox read-access to an external hard-drive or network share.
 

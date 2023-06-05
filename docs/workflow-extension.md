@@ -6,13 +6,13 @@ This is where we import our BRAW clips into Final Cut Pro, and do any initial ch
 
 The Workflow Extension has different areas:
 
-![Screenshot](static/workflow-extension-01.png)
+![](static/workflow-extension-01.png)
 
 ---
 
 ### Player
 
-![Screenshot](static/workflow-extension-02.png)
+![](static/workflow-extension-02.png)
 
 The player is where you can preview BRAW footage prior to importing.
 
@@ -34,7 +34,7 @@ There are buttons to:
 
 ### File List
 
-![Screenshot](static/workflow-extension-03.png)
+![](static/workflow-extension-03.png)
 
 The file list is where you import clips, and select the clip you want to work with.
 
@@ -52,11 +52,11 @@ You can right click on the columns to show/hide specific columns, and you can dr
 
 ### Settings
 
-![Screenshot](static/workflow-extension-04.png)
+![](static/workflow-extension-04.png)
 
 The Settings button opens up a menu with various options:
 
-![Screenshot](static/workflow-extension-05.png)
+![](static/workflow-extension-05.png)
 
 **Create Multicam Clips** allows you to create Multicam clips instead of Synchronised Clips.
 
@@ -72,7 +72,7 @@ The **COLOR SPACE** options allow you to set the Color Space that best matches y
 
 ### Inspector
 
-![Screenshot](static/workflow-extension-06.png)
+![](static/workflow-extension-06.png)
 
 The Inspector is similar to Final Cut Pro - it's where you adjust BRAW parameters.
 
@@ -82,13 +82,13 @@ You can only adjust one clip at the time. This is a deliberate decision, as each
 
 If you're working in a HD timeline, we recommend just using the **Automatic (HD)** option, then using the **Force Full Quality** option in the Final Cut Pro Inspector when you're ready to export or render at full quality.
 
-![Screenshot](static/workflow-extension-07.png)
+![](static/workflow-extension-07.png)
 
 The checkboxes next to each parameter are selection options (as opposed to something that might enable/disable something).
 
 For example, you can use them to reset multiple parameters, like in the below screenshot:
 
-![Screenshot](static/workflow-extension-08.png)
+![](static/workflow-extension-08.png)
 
 With **Exposure** and **Color Temp** checked, clicking the **Reset Checked Items** will reset these two parameters for only the selected clip.
 

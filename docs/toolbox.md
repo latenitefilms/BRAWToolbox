@@ -4,13 +4,71 @@ The BRAW Toolbox Workflow Extension contains a collection of additional **Toolbo
 
 ---
 
+### Relink BRAW Clips within an LIBRARY / EVENT / PROJECT
+
+This Toolbox allows you to relink any BRAW Toolbox clips within a library, event or project.
+
+For example, if you've moved BRAW clips to another folder/machine, you can use this Toolbox to easily adjust the file paths.
+
+This is how an offline clip will look in Final Cut Pro:
+
+![](static/relink-toolbox-06.png)
+
+To use this toolbox, simply drag a library, event or project from the Final Cut Pro Browser into the Toolbox at the bottom of the BRAW Toolbox Workflow Extension.
+
+![](static/relink-toolbox-01.png)
+
+You'll be presented with a Relink BRAW Files panel like this:
+
+![](static/relink-toolbox-02.png)
+
+If the status of a clip is **red**, it means the path to the BRAW file is invalid, and you'll need to manually correct it.
+
+If the status of a clip is **orange**, it means that the security-scope bookmark is still working, but it's stale and needs updating.
+
+You can correct it in the path list, or you can use the Find & Replace functionality.
+
+For example, if you've moved your BRAW files to a new external drive, you can right click on the folder where they are in Finder, hold down **OPTION**, then click **Copy as Pathname**.
+
+This will copy the path of the folder to the pasteboard. You can then press the **Paste** button next to the **Replace** textbox to paste it there.
+
+![](static/relink-toolbox-03.png)
+
+You can now press the **Process Find & Replace** button to apply this Find & Replace to everything in the above list.
+
+Once complete you'll be presented with a success message:
+
+![](static/relink-toolbox-04.png)
+
+Everything will still be read, as you've only updated the paths - you haven't relinked anything yet.
+
+When you press the **Refresh & Request Permissions** button, you'll be presented with this:
+
+![](static/relink-toolbox-05.png)
+
+You'll then be Grant Sandbox Access to any drives/folders/network shares that contain your BRAW clips. Click **Grant Access** for each one.
+
+Once complete, all your clips should now be green:
+
+![](static/relink-toolbox-07.png)
+
+You can now press the **Send FCPXML to Final Cut Pro** button.
+
+You'll be asked to select a library to import to, and then whether or not you want to **Keep Both** or **Replace** the files:
+
+![](static/relink-toolbox-08.png)
+
+Generally speaking, as you're relinking you want to **Replace**, however FCPXML isn't lossless or perfect, so you should only select **Replace** if you only dragged in BRAW Toolbox Clips - not projects/timelines.
+
+---
+
 ### Convert PROJECT to Resolve Friendly FCPXML
 
 To convert a project/timeline into something you can easily import into DaVinci Resolve (or other colour grading apps), you can drag your project from the Final Cut Pro Browser to the Toolbox at the bottom of the Workflow Extension.
 
 This will create a new FCPXML, where it converts the BRAW Toolbox clips into normal BRAW clips.
 
-![Screenshot](static/install-19.png)
+![](static/install-19.png)
 
 ---
 
@@ -22,49 +80,37 @@ The main use-case of this feature is if you're using both BRAW files and Sony MP
 
 For this to work, you need to make sure you select **Send FCPXML to Sony Timecode Toolbox** in the **Drag & Drop File Action** dropdown in the **General** section of CommandPost's Preferences.
 
-![Screenshot](static/commandpost-01.png)
-
----
-
-### Relink BRAW Clips within an EVENT
-
-This Toolbox allows you to relink any BRAW Toolbox clips within an event.
-
-For example, if you've moved BRAW clips to another folder/machine, you can use this Toolbox to easily adjust the file paths.
-
-You can manually modify the path of the files (and also do a global **Find & Replace** of all paths).
-
-![Screenshot](static/relink-01.png)
-
-Click the **Refresh & Request Permissions** buttons after you have updated the paths in the list.
-
-You'll be prompted to Grant Permission to any folders/drives that BRAW Toolbox can't currently access.
-
-![Screenshot](static/relink-02.png)
-
-Once all the items show a green status icon, you can then press **Relink BRAW Files**, and drag the green icon to your Final Cut Pro library.
-
-It will create a new Event with the relinked clips.
-
-![Screenshot](static/relink-03.png)
+![](static/commandpost-01.png)
 
 ---
 
 ### Convert BRAW clips to MOV's within an EVENT
 
+!!!danger
+This Toolbox currently only works if you have BRAW files and MOV files in the same folder next to each other.
+
+We will improve this in a future update.
+!!!
+
 This Toolbox allows you to convert BRAW Toolbox clips to MOV's within an Event.
 
 Simply drag an event to the Toolbox drop zone. You'll be presented with a success message.
 
-![Screenshot](static/braw-to-mov-01.png)
+![](static/braw-to-mov-01.png)
 
 You then drag the green icon back into your Final Cut Pro Library.
 
-![Screenshot](static/braw-to-mov-02.png)
+![](static/braw-to-mov-02.png)
 
 ---
 
 ### Add BRAW Toolbox to Proxy Clips within an EVENT
+
+!!!danger
+This Toolbox currently has some issue which will be addressed in a future update.
+
+You can learn more [here](https://github.com/latenitefilms/BRAWToolbox/issues/124#issuecomment-1532247236){target="_blank"}.
+!!!
 
 This Toolbox will add the BRAW Toolbox effect to any clips in the event that have an accompanying BRAW file - for example, if you created proxy clips with [Color Finale Transcoder](https://colorfinale.com/transcoder) or [EditReady](https://hedge.video/editready).
 
@@ -72,8 +118,8 @@ It only converts clips in cases where a BRAW file is contained in the same folde
 
 Simply drag an event to the Toolbox drop zone. You'll be presented with a success message.
 
-![Screenshot](static/braw-to-mov-01.png)
+![](static/braw-to-mov-01.png)
 
 You then drag the green icon back into your Final Cut Pro Library.
 
-![Screenshot](static/braw-to-mov-02.png)
+![](static/braw-to-mov-02.png)

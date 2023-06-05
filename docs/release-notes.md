@@ -1,5 +1,17 @@
 # Release Notes
 
+### 1.1.3 (50)
+
+**🎉 Released:**
+- COMING SOON!
+
+**🔨 Improvements:**
+
+- We've redesigned our re-linking toolbox, and renamed it "Relink BRAW Clips within an LIBRARY / EVENT / PROJECT". You can now relink libraries, events and projects! Thanks for your on-going help and support Tangier Clarke!
+- We've improved the error messaging in Final Cut Pro when a BRAW Toolbox clip is offline.
+
+---
+
 ### 1.1.2 (49)
 
 **🎉 Released:**

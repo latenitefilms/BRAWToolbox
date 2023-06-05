@@ -4,23 +4,23 @@ You can download the Uninstall tool [here](https://github.com/latenitefilms/BRAW
 
 After downloading the above ZIP file, you can extract it to reveal the **Uninstall BRAW Toolbox** application.
 
-![Screenshot](static/uninstall-01.png)
+![](static/uninstall-01.png)
 
 Double click the **Uninstall BRAW Toolbox** icon to run the Uninstall Tool, then click **Remove BRAW Toolbox**.
 
-![Screenshot](static/uninstall-02.png)
+![](static/uninstall-02.png)
 
 You'll be presented with a window to grant access to your Movies folder. Click **Grant Access*:
 
-![Screenshot](static/uninstall-03.png)
+![](static/uninstall-03.png)
 
 You'll be presented with a window to grant access to your users Library folder. Click **Grant Access*:
 
-![Screenshot](static/uninstall-04.png)
+![](static/uninstall-04.png)
 
 Once done, you'll get a completed successfully message:
 
-![Screenshot](static/uninstall-05.png)
+![](static/uninstall-05.png)
 
 This remove all of the Preferences, Logs, Motion Templates, Metadata Views and LUTs from your system.
 

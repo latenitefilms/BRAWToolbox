@@ -62,6 +62,10 @@ For the first week, we released BRAW Toolbox at 50% off as a small thank you to 
 
 It was also available a few weeks prior to release as a pre-sale with the 50% discount.
 
+You can find educational pricing [here](https://brawtoolbox.io/educational/).
+
+We also support and encourage independent filmmakers and film school students to [reach out](https://brawtoolbox.io/support/) if cost becomes an issue.
+
 You can always use [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) for free if you want to convert BRAW to ProRes to edit in Final Cut Pro.
 
 We are also big fans of [Color Finale Transcoder](https://colorfinale.com/transcoder) and [EditReady](https://hedge.video/editready).
@@ -81,6 +85,8 @@ We also occasionally post new TestFlight builds on the [Discussion](https://gith
 ### Is BRAW Toolbox Open Source?
 
 Currently the source code for BRAW Toolbox is closed/private, however we may release it under a MIT License at a later date if there's enough demand and interest.
+
+However, if you're looking for an example FxPlug4 codebase, check out [Gyroflow Toolbox](https://github.com/latenitefilms/gyroflowtoolbox/).
 
 ---
 
@@ -107,16 +113,20 @@ Yes, BRAW Toolbox is compatible with **Lumberjack Builder v4.0.6** or later.
 
 You can download Lumberjack Builder [here](https://www.lumberjacksystem.com/builder-nle-2/).
 
-![Screenshot](static/builder.png)
+![](static/builder.png)
 
 ---
 
 ### I don't like Synchronised Clips. Can I import a Multicam clips instead?
 
-Yes, you can click the **Settings** button (the gear icon, next to "Remove All") to **Create Multicam Clips** instead.
+Starting in v1.1.1 of BRAW Toolbox, we now enable **Create Multicam Clips** by default to get around a [Final Cut Pro bug](https://github.com/latenitefilms/BRAWToolbox/issues/128).
+
+However, we still allow you to disable this, if you need to create Synchronised Clips for Sync-N-Link, for example.
+
+You can click the **Settings** button (the gear icon, next to "Remove All") to select **Create Multicam Clips**.
 
 Please note that this doesn't sync multiple BRAW files together - it just creates a single Multicam Clip for each BRAW file.
 
 You'll still need to use something like [Sync-N-Link](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12) if you want to sync BRAW files with external audio.
 
-![Screenshot](static/install-20.png)
+![](static/install-20.png)

@@ -1,6 +1,8 @@
 # System Requirements
 
-BRAW Toolbox requires **Final Cut Pro 10.6.5** or later.
+BRAW Toolbox requires **Final Cut Pro 10.6.5** or later. It works great with **Final Cut Pro 10.6.6**.
+
+Unfortunately, currently BRAW Toolbox won't work on Final Cut Pro for iPad, however if Apple does add third party FxPlug4 support, we'll definitely look into this!
 
 You can find Final Cut Pro's system requirements [here](https://www.apple.com/au/final-cut-pro/specs/).
 
@@ -10,4 +12,4 @@ You can use Blackmagic's free [Blackmagic RAW Speed Test](https://apps.apple.com
 
 You can also use Blackmagic's free [Blackmagic RAW Player](https://apps.apple.com/us/app/blackmagic-raw-player/id1435415804?mt=12) to test playing back BRAW files on your system.
 
-![Screenshot](static/blackmagic-raw-test.png)
+![](static/blackmagic-raw-test.png)

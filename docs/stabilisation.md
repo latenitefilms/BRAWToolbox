@@ -10,7 +10,7 @@ However, if you have a Blackmagic Camera that outputs Gyroscope Metadata such as
 
 Simply apply the Gyroflow Toolbox effect to the video layer inside your Synchronised or Multicam clip.
 
-![Screenshot](static/stabilisation.png)
+![](static/stabilisation.png)
 
 ---
 

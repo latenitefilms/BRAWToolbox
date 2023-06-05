@@ -9,6 +9,8 @@ BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut P
 
 **_No more transcoding. No more waiting. No more massive ProRes files._**
 
+BRAW Toolbox is used by over **950** Final Cut Pro editors all around the world!
+
 > [:icon-desktop-download: **Click here to buy on the Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
 
 ![_Screenshot of BRAW Toolbox in Action. Surf footage by Adrian Emerton._](static/hero-banner.png)
@@ -62,6 +64,8 @@ You can also use the Workflow Extension to send your project/timeline to DaVinci
 ## Number One
 
 :icon-trophy: Thanks to everyone who helped us reach **#1** in the **Photo & Video** category on the Mac App Store at various places around the world during our first week!
+
+Since then, BRAW Toolbox has continued to reach the top lists on a regular basis! Thanks for your continued support!
 
 ![_Screenshot of the Mac App Store._](static/app-store.png)
 

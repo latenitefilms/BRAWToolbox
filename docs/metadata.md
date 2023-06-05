@@ -4,4 +4,4 @@ The Synchronised Clip & Multicam Clip you import via BRAW Toolbox has full acces
 
 You can access it via the **BRAW Toolbox** Metadata View in the **Info Inspector** in Final Cut Pro.
 
-![Screenshot](static/metadata.png)
+![](static/metadata.png)
