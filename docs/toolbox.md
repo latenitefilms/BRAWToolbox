@@ -4,6 +4,38 @@ The BRAW Toolbox Workflow Extension contains a collection of additional **Toolbo
 
 ---
 
+### Repair Synchronized Clips (prior to v1.1.3)
+
+Thanks to the help and support of the awesome Final Cut Pro team, we finally have a workaround to the Synchronised Clips bug.
+
+Previously, Synchronised Clips could cause random glitches during playback, and produce unexpected results in some, but not all, cases.
+
+As a result, in BRAW Toolbox v1.1.1 we made **Create Multicam Clips** the default option as a workaround to this issue.
+
+We now know this was actually due to the fact that we're applying the BRAW Toolbox effect to a **Custom** Solids Generator.
+
+Whilst Final Cut Pro worked correctly when scrubbing and skimming a clip, during playback, because the Custom generator normally doesn't change its output (i.e. it's always a static colour), Final Cut Pro was using a cached frame, rather than rendering a new frame, which caused the glitches.
+
+Essentially, it's very unusual for an Effect to change the output of a Generator, so we were getting unpredictable results.
+
+We now workaround this issue by simply applying keyframes to the Custom Solid, so that Final Cut Pro always renders the frames - simple, but effective.
+
+To fix Synchronized Clips created in earlier versions of BRAW Toolbox, we've added a **Repair Synchronized Clips (prior to v1.1.3)** Toolbox, which will add keyframes to all your Generators within the BRAW Toolbox Clip.
+
+HUGE thank you to Tangier Clarke for supplying a reproducible library to help us solve this annoying bug. We'll leave **Create Multicam Clips** on by default, however you will no longer get a warning message when you toggle this preference.
+
+To use this Toolbox simply drag a Library, Event or Project into the Toolbox.
+
+You'll be asked to select a library to import to, and then whether or not you want to **Keep Both** or **Replace** the files:
+
+![](static/relink-toolbox-08.png)
+
+Generally speaking, as you're repairing clips you want to **Replace**, however FCPXML isn't lossless or perfect, so you should only select **Replace** if you only dragged in BRAW Toolbox Clips - not projects/timelines.
+
+Pressing this button will trigger the import process within Final Cut Pro - no drag and drop required.
+
+---
+
 ### Relink BRAW Clips within an LIBRARY / EVENT / PROJECT
 
 This Toolbox allows you to relink any BRAW Toolbox clips within a library, event or project.
