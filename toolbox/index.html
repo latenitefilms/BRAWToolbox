@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.2.739304241835">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.0.3.739963587196">
 
     <!-- See retype.com -->
-    <meta name="generator" content="Retype 3.0.2">
+    <meta name="generator" content="Retype 3.0.3">
 
     <!-- Primary Meta Tags -->
     <title>Toolbox</title>
@@ -32,11 +32,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.0.2.739304241835" rel="stylesheet" />
+    <link href="../resources/css/retype.css?v=3.0.3.739963587196" rel="stylesheet" />
 
-    <script type="text/javascript" src="../resources/js/config.js?v=3.0.2.739304241835" data-turbo-eval="false" defer></script>
-    <script type="text/javascript" src="../resources/js/retype.js?v=3.0.2" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.2.739304241835" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/config.js?v=3.0.3.739963587196" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../resources/js/retype.js?v=3.0.3" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../resources/js/lunr.js?v=3.0.3.739963587196" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -282,6 +282,31 @@
     </h1>
 </doc-anchor-target>
 <p>The BRAW Toolbox Workflow Extension contains a collection of additional <strong>Toolbox</strong> features to help get things in and out of Final Cut Pro.</p>
+<hr />
+<doc-anchor-target id="repair-synchronized-clips-prior-to-v113">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#repair-synchronized-clips-prior-to-v113">#</doc-anchor-trigger>
+        <span>Repair Synchronized Clips (prior to v1.1.3)</span>
+    </h3>
+</doc-anchor-target>
+<p>Thanks to the help and support of the awesome Final Cut Pro team, we finally have a workaround to the Synchronised Clips bug.</p>
+<p>Previously, Synchronised Clips could cause random glitches during playback, and produce unexpected results in some, but not all, cases.</p>
+<p>As a result, in BRAW Toolbox v1.1.1 we made <strong>Create Multicam Clips</strong> the default option as a workaround to this issue.</p>
+<p>We now know this was actually due to the fact that we&#x27;re applying the BRAW Toolbox effect to a <strong>Custom</strong> Solids Generator.</p>
+<p>Whilst Final Cut Pro worked correctly when scrubbing and skimming a clip, during playback, because the Custom generator normally doesn&#x27;t change its output (i.e. it&#x27;s always a static colour), Final Cut Pro was using a cached frame, rather than rendering a new frame, which caused the glitches.</p>
+<p>Essentially, it&#x27;s very unusual for an Effect to change the output of a Generator, so we were getting unpredictable results.</p>
+<p>We now workaround this issue by simply applying keyframes to the Custom Solid, so that Final Cut Pro always renders the frames - simple, but effective.</p>
+<p>To fix Synchronized Clips created in earlier versions of BRAW Toolbox, we&#x27;ve added a <strong>Repair Synchronized Clips (prior to v1.1.3)</strong> Toolbox, which will add keyframes to all your Generators within the BRAW Toolbox Clip.</p>
+<p>HUGE thank you to Tangier Clarke for supplying a reproducible library to help us solve this annoying bug. We&#x27;ll leave <strong>Create Multicam Clips</strong> on by default, however you will no longer get a warning message when you toggle this preference.</p>
+<p>To use this Toolbox simply drag a Library, Event or Project into the Toolbox.</p>
+<p>You&#x27;ll be asked to select a library to import to, and then whether or not you want to <strong>Keep Both</strong> or <strong>Replace</strong> the files:</p>
+<p><figure class="content-center">
+    <img src="../static/relink-toolbox-08.png" alt="" />
+    <figcaption class="caption"></figcaption>
+</figure>
+</p>
+<p>Generally speaking, as you&#x27;re repairing clips you want to <strong>Replace</strong>, however FCPXML isn&#x27;t lossless or perfect, so you should only select <strong>Replace</strong> if you only dragged in BRAW Toolbox Clips - not projects/timelines.</p>
+<p>Pressing this button will trigger the import process within Final Cut Pro - no drag and drop required.</p>
 <hr />
 <doc-anchor-target id="relink-braw-clips-within-an-library--event--project">
     <h3>
