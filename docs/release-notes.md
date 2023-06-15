@@ -1,5 +1,17 @@
 # Release Notes
 
+### 1.2.0 (52)
+
+**🎉 Released:**
+- Thursday 15th June 2023
+
+**🔨 Improvements:**
+
+- Added support for Fujifilm X-S20 Blackmagic RAW clips.
+- Updated from Blackmagic RAW SDK v3.1 to v3.2.
+
+---
+
 ### 1.1.4 (51)
 
 **🎉 Released:**
