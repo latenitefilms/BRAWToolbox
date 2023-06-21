@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.2.2 (54)
+
+**🎉 Released:**
+- Thursday 22nd June 2023
+
+**🐞 Bug Fix:**
+- We've added a bunch of additional checks to the FxPlug4 Renderer, to ensure that all objects received from the Blackmagic RAW SDK are valid and correct to avoid any potential crashes due to referencing null pointers. Thanks for reporting Dominik Radecki! Big thanks to the Blackmagic RAW team and Final Cut Pro team for all their help and support!
+
+---
+
 ### 1.2.1 (53)
 
 **🎉 Released:**
