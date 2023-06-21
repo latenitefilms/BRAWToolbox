@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.2.1 (53)
+
+**🎉 Released:**
+- Thursday 22nd June 2023
+
+**🐞 Bug Fix:**
+- The Workflow Extension now gracefully aborts (instead of crashing), and shows an error message if a BRAW clip is corrupt, and the metadata can't be read. Thanks for reporting Dominik Radecki!
+
+---
+
 ### 1.2.0 (52)
 
 **🎉 Released:**
