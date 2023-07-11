@@ -104,4 +104,4 @@ The **Uncheck All** button will uncheck all of the selection checkboxes.
 
 ### Toolbox
 
-You can learn more about the Toolbox Features [here](https://brawtoolbox.io/toolbox/).
+You can learn more about the Toolbox Features [here](/toolbox).

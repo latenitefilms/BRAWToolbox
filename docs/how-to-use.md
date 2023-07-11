@@ -1,6 +1,6 @@
 # How To Use
 
-Once [installed](https://brawtoolbox.io/installation/) you can access BRAW Toolbox from the Workflow Extension button in Final Cut Pro:
+Once [installed](/installation) you can access BRAW Toolbox from the Workflow Extension button in Final Cut Pro:
 
 ![](static/install-10.png)
 

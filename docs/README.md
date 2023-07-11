@@ -1,17 +1,12 @@
----
-label: Welcome
-icon: home
-order: 10000
----
 # BRAW Toolbox
 
 BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro **without transcoding**.
 
 **_No more transcoding. No more waiting. No more massive ProRes files._**
 
-BRAW Toolbox is used by over **950** Final Cut Pro editors all around the world!
+BRAW Toolbox is used by over **1,150** Final Cut Pro editors from all around the world!
 
-> [:icon-desktop-download: **Click here to buy on the Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
+> [:icon-desktop-download: **Click here to buy!**](/buy)
 
 ![_Screenshot of BRAW Toolbox in Action. Surf footage by Adrian Emerton._](static/hero-banner.png)
 
@@ -33,7 +28,7 @@ Once imported into Final Cut Pro, you can still modify the RAW parameters at any
 
 There are automatic Decode Quality options for both HD and UltraHD projects, and you can also work at a low quality Decode Quality, then apply a **Global Setting** to force Full Quality prior to export. BRAW Toolbox gives you complete freedom and flexibility.
 
-![_Screenshot of BRAW Toolbox in Action._](static/install-18.png)
+![](static/install-18.png)
 
 ---
 
@@ -41,15 +36,15 @@ There are automatic Decode Quality options for both HD and UltraHD projects, and
 
 BRAW Toolbox comes with a Metadata View that allows you to view every piece of BRAW Metadata directly within the Final Cut Pro Inspector.
 
-![_Screenshot of BRAW Toolbox in Action._](static/metadata-small.png)
+![](static/metadata-small.png)
 
 ---
 
 ## Gyroscope Stabilisation
 
-You can combine BRAW Toolbox with [Gyroflow Toolbox](https://gyroflowtoolbox.io) to bring gyroscope stabilisation directly to Final Cut Pro!
+You can combine BRAW Toolbox with [Gyroflow Toolbox](https://gyroflowtoolbox.io){target="_blank"} to bring gyroscope stabilisation directly to Final Cut Pro!
 
-![_Screenshot of BRAW Toolbox in Action._](static/stabilisation.png)
+![](static/stabilisation.png)
 
 ---
 
@@ -57,7 +52,7 @@ You can combine BRAW Toolbox with [Gyroflow Toolbox](https://gyroflowtoolbox.io)
 
 You can also use the Workflow Extension to send your project/timeline to DaVinci Resolve for grading - all using BRAW files directly from the camera!
 
-![_Screenshot of BRAW Toolbox in Action._](static/davinci-resolve.png)
+![](static/davinci-resolve.png)
 
 ---
 
@@ -67,6 +62,6 @@ You can also use the Workflow Extension to send your project/timeline to DaVinci
 
 Since then, BRAW Toolbox has continued to reach the top lists on a regular basis! Thanks for your continued support!
 
-![_Screenshot of the Mac App Store._](static/app-store.png)
+![](static/app-store.png)
 
-> [:icon-desktop-download: **Click here to buy on the Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
+> [:icon-desktop-download: **Click here to buy!**](/buy)

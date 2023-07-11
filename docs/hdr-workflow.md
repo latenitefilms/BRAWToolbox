@@ -1,6 +1,6 @@
 # HDR Workflow
 
-Thanks to the amazing help of [Marc Bach](https://www.interfacelab.tv) and [Jamie Lejeune](https://www.cinedocs.com), we've worked closely to come up with some solid and reliable HDR Workflow for BRAW Toolbox.
+Thanks to the amazing help of [Marc Bach](https://www.interfacelab.tv){target="_blank"} and [Jamie Lejeune](https://www.cinedocs.com){target="_blank"}, we've worked closely to come up with some solid and reliable HDR Workflow for BRAW Toolbox.
 
 In the BRAW Toolbox Workflow Extension, if you click on the **Settings** button (the gear icon, next to **Remove All**), you can select the Color Space:
 
@@ -38,6 +38,6 @@ This means you have fantastic grading control directly within Final Cut Pro, and
 
 You can learn more about HDR Workflows in Final Cut Pro here:
 
-- [HDR and Wide Color Gamut in Final Cut Pro White Paper](https://www.apple.com/final-cut-pro/docs/HDR_WideColor.pdf)
-- [Intro to wide color gamut and HDR in Final Cut Pro](https://support.apple.com/en-au/guide/final-cut-pro/ver09be4f91f/mac)
-- [Convert or adjust HDR clips in Final Cut Pro](https://support.apple.com/en-au/guide/final-cut-pro/verbf72f3e96/mac)
+- [HDR and Wide Color Gamut in Final Cut Pro White Paper](https://www.apple.com/final-cut-pro/docs/HDR_WideColor.pdf){target="_blank"}
+- [Intro to wide color gamut and HDR in Final Cut Pro](https://support.apple.com/en-au/guide/final-cut-pro/ver09be4f91f/mac){target="_blank"}
+- [Convert or adjust HDR clips in Final Cut Pro](https://support.apple.com/en-au/guide/final-cut-pro/verbf72f3e96/mac){target="_blank"}

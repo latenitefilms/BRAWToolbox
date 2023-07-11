@@ -1,5 +1,17 @@
 # Release Notes
 
+### 1.3.0 (55)
+
+**🎉 Released:**
+- Tuesday 11th July 2023
+
+**🔨 Improvements:**
+
+- Added support for Panasonic Lumix GH6 Blackmagic RAW clips.
+- Updated from Blackmagic RAW SDK v3.2 to v3.3.
+
+---
+
 ### 1.2.2 (54)
 
 **🎉 Released:**

@@ -1,18 +1,16 @@
 input: .
 output: .retype
 
-url: brawtoolbox.io # Add your website address here
+url: brawtoolbox.io
 
 branding:
   title: BRAW Toolbox
-  #label: v1.0.0
   logo: static/logo.png
 
 links:
-- text: Buy on Mac App Store
-  link: https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12
+- text: Buy
+  link: /buy
   icon: desktop-download
-  target: blank
 
 - text: Issues
   link: https://github.com/latenitefilms/brawtoolbox/issues

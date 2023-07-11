@@ -28,7 +28,7 @@
 
 You can download BRAW Toolbox from the Mac App Store.
 
-> [:icon-desktop-download: **Click here to buy on the Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
+> [:icon-desktop-download: **Click here to buy!**](/buy)
 
 ![](static/mac-app-store.png)
 
@@ -84,4 +84,4 @@ After clicking **OK**, you can now click **Launch Final Cut Pro**, which will cl
 
 > **IMPORTANT:** You should run the BRAW Toolbox application again after each update, to make sure you're using the latest Motion Templates, Metadata View, and LUTs.
 
-You can learn how to use BRAW Toolbox [here](https://brawtoolbox.io/how-to-use/)
+You can learn how to use BRAW Toolbox [here](/how-to-use)
