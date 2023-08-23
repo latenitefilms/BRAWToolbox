@@ -1,6 +1,6 @@
 # Buy on Mac App Store
 
-> [:icon-desktop-download: **Click here to buy on the Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12){target="_blank"}
+> [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12){target="_blank"}
 
 **BRAW Toolbox** is a one-time payment of **79.99**.
 
