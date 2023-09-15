@@ -1,5 +1,18 @@
 # Release Notes
 
+### 1.3.1 (56)
+
+**🎉 Released:**
+- Friday 15th September 2023
+
+**🔨 Improvements:**
+
+- Added support for Blackmagic Cinema Camera 6K.
+- Added support for Fujifilm GFX100 II Blackmagic RAW clips.
+- Updated from Blackmagic RAW SDK v3.3 to v3.4.
+
+---
+
 ### 1.3.0 (55)
 
 **🎉 Released:**
