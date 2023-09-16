@@ -1,12 +1,21 @@
 # Release Notes
 
+### 1.3.2 (57)
+
+**🎉 Released:**
+- Saturday 16th September 2023
+
+**🐞 Bug Fix:**
+- Fixed a crash that could occur when a BRAW file has audio longer than the vision. Thanks for reporting Albert Planella!
+
+---
+
 ### 1.3.1 (56)
 
 **🎉 Released:**
 - Friday 15th September 2023
 
 **🔨 Improvements:**
-
 - Added support for Blackmagic Cinema Camera 6K.
 - Added support for Fujifilm GFX100 II Blackmagic RAW clips.
 - Updated from Blackmagic RAW SDK v3.3 to v3.4.
@@ -19,7 +28,6 @@
 - Tuesday 11th July 2023
 
 **🔨 Improvements:**
-
 - Added support for Panasonic Lumix GH6 Blackmagic RAW clips.
 - Updated from Blackmagic RAW SDK v3.2 to v3.3.
 
@@ -51,7 +59,6 @@
 - Thursday 15th June 2023
 
 **🔨 Improvements:**
-
 - Added support for Fujifilm X-S20 Blackmagic RAW clips.
 - Updated from Blackmagic RAW SDK v3.1 to v3.2.
 
@@ -73,7 +80,6 @@
 - Monday 5th June 2023
 
 **🔨 Improvements:**
-
 - We've redesigned our re-linking toolbox, and renamed it "Relink BRAW Clips within an LIBRARY / EVENT / PROJECT". You can now relink libraries, events and projects! Thanks for your on-going help and support Tangier Clarke!
 - We've improved the error messaging in Final Cut Pro when a BRAW Toolbox clip is offline.
 
