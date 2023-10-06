@@ -1,5 +1,17 @@
 # Release Notes
 
+### 1.3.3 (59)
+
+**🎉 Released:**
+- Saturday 7th September 2023
+
+**🔨 Improvements:**
+- General playback performance improvements.
+- Updated from FxPlug 4.2.7 to FxPlug 4.2.8.
+- The wrapper application now quits when you close the main window.
+
+---
+
 ### 1.3.2 (57)
 
 **🎉 Released:**
