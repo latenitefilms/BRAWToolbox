@@ -3,7 +3,7 @@
 ### 1.3.3 (59)
 
 **🎉 Released:**
-- Saturday 7th September 2023
+- Saturday 7th October 2023
 
 **🔨 Improvements:**
 - General playback performance improvements.
