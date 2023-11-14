@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.753162502658">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.753252280876">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.753162502658" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.753252280876" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.753162502658" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.753252280876" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.753162502658" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.753252280876" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -296,6 +296,21 @@
         <span>Release Notes</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="134-62">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#134-62">#</doc-anchor-trigger>
+        <span>1.3.4 (62)</span>
+    </h3>
+</doc-anchor-target>
+<p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
+<ul>
+<li>Tuesday 14th November 2023</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<ul>
+<li>In the previous BRAW Toolbox v1.3.3 (59) release, we made some major under-the-hood changes to improve playback performance (such as only using one shared instance of the BRAW SDK Factory). Unfortunately however, those changes resulted in the BRAW SDK not releasing used threads correctly, and as the thread count grew, eventually the BRAW Toolbox Renderer would stop working correctly in Final Cut Pro. This would only really happen on older machines, and Libraries with hundreds of BRAW clips. We&#x27;ve now reverted back to how we were doing things in v1.3.2 (57) and earlier, with some additional checks and protections. We will continue to research and explore ways we can improve playback performance, so that the export times of timelines with BRAW clips in Final Cut Pro get closer to what you see in DaVinci Resolve.</li>
+</ul>
+<hr>
 <doc-anchor-target id="133-59">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#133-59">#</doc-anchor-trigger>
