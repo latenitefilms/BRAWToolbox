@@ -1,6 +1,8 @@
 # System Requirements
 
-BRAW Toolbox requires **Final Cut Pro 10.6.5** or later. It works great with **Final Cut Pro 10.6.6**.
+BRAW Toolbox requires **Final Cut Pro 10.6.5** or later. It works great on the latest **Final Cut Pro 10.6.10**.
+
+It works best on the latest Apple Silicon Mac's, however Intel is also supported.
 
 Unfortunately, currently BRAW Toolbox won't work on Final Cut Pro for iPad, however if Apple does add third party FxPlug4 support, we'll definitely look into this!
 
