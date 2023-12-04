@@ -44,7 +44,7 @@ BRAW Toolbox comes with a Metadata View that allows you to view every piece of B
 
 ## Gyroscope Stabilisation
 
-You can combine BRAW Toolbox with [Gyroflow Toolbox](https://gyroflowtoolbox.io){target="_blank"} to bring gyroscope stabilisation directly to Final Cut Pro!
+You can combine BRAW Toolbox with [Gyroflow Toolbox](https://gyroflowtoolbox.io) to bring gyroscope stabilisation directly to Final Cut Pro!
 
 ![](static/stabilisation.png)
 

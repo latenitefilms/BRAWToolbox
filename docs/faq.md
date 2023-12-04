@@ -2,9 +2,9 @@
 
 ### Why BRAW Toolbox?
 
-[Color Finale Transcoder](https://colorfinale.com/transcoder){target="_blank"} allows you to convert BRAW files into ProRes quickly and easily, all via a very slick Workflow Extension. It's a great application that we highly recommend you purchase.
+[Color Finale Transcoder](https://colorfinale.com/transcoder) allows you to convert BRAW files into ProRes quickly and easily, all via a very slick Workflow Extension. It's a great application that we highly recommend you purchase.
 
-There's also the incredible [EditReady](https://hedge.video/editready){target="_blank"} which is also fantastic at just converting BRAW to ProRes with lots of power and controls. Again, we recommend everyone purchases it.
+There's also the incredible [EditReady](https://hedge.video/editready) which is also fantastic at just converting BRAW to ProRes with lots of power and controls. Again, we recommend everyone purchases it.
 
 And of course, DaVinci Resolve is free and even has the **Blackmagic Proxy Generator** app to easily convert BRAW to proxies.
 
@@ -22,13 +22,13 @@ Now we can just import BRAW files directly into Final Cut Pro, with full RAW con
 
 ### How does it work?
 
-Because Final Cut Pro's decode API is private - we had to just make do with the two public API's we had access to - [Workflow Extensions](https://developer.apple.com/documentation/professional_video_applications/workflow_extensions){target="_blank"} and [FxPlug4](https://developer.apple.com/documentation/professional_video_applications/fxplug?language=objc){target="_blank"}.
+Because Final Cut Pro's decode API is private - we had to just make do with the two public API's we had access to - [Workflow Extensions](https://developer.apple.com/documentation/professional_video_applications/workflow_extensions) and [FxPlug4](https://developer.apple.com/documentation/professional_video_applications/fxplug?language=objc).
 
 We use the Workflow Extension API as our "user interface", where users can select the footage they want to import, and preset any RAW controls.
 
 We use the FxPlug4 API as our "renderer". Essentially, BRAW Toolbox is just a Filter in Apple Motion, and an Effect in Final Cut Pro, but instead of "processing" the source clip, we replace the clip contents with the processed BRAW clip.
 
-We use Blackmagic's official [BRAW SDK](https://www.blackmagicdesign.com/developer/product/camera){target="_blank"} - so you get all the same colour science and processing speed as DaVinci Resolve.
+We use Blackmagic's official [BRAW SDK](https://www.blackmagicdesign.com/developer/product/camera) - so you get all the same colour science and processing speed as DaVinci Resolve.
 
 As far as we know, BRAW Toolbox is the first application on the Mac App Store to include an FxPlug4 effect.
 
@@ -66,9 +66,9 @@ You can find educational pricing [here](/educational).
 
 We also support and encourage independent filmmakers and film school students to [reach out](/support) if cost becomes an issue.
 
-You can always use [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve){target="_blank"} for free if you want to convert BRAW to ProRes to edit in Final Cut Pro.
+You can always use [DaVinci Resolve](https://www.blackmagicdesign.com/products/davinciresolve) for free if you want to convert BRAW to ProRes to edit in Final Cut Pro.
 
-We are also big fans of [Color Finale Transcoder](https://colorfinale.com/transcoder){target="_blank"} and [EditReady](https://hedge.video/editready){target="_blank"}.
+We are also big fans of [Color Finale Transcoder](https://colorfinale.com/transcoder) and [EditReady](https://hedge.video/editready).
 
 ---
 
@@ -78,7 +78,7 @@ Yes, prior to public release BRAW Toolbox was in a public beta from 23rd Decembe
 
 MASSIVE thanks to the **291 users** who took part in this extensive beta program!
 
-We also occasionally post new TestFlight builds on the [Discussion](https://github.com/latenitefilms/BRAWToolbox/discussions){target="_blank"} page as we test new features.
+We also occasionally post new TestFlight builds on the [Discussion](https://github.com/latenitefilms/BRAWToolbox/discussions) page as we test new features.
 
 ---
 
@@ -86,7 +86,7 @@ We also occasionally post new TestFlight builds on the [Discussion](https://gith
 
 Currently the source code for BRAW Toolbox is closed/private, however we may release it under a MIT License at a later date if there's enough demand and interest.
 
-However, if you're looking for an example FxPlug4 codebase, check out [Gyroflow Toolbox](https://github.com/latenitefilms/gyroflowtoolbox/){target="_blank"}.
+However, if you're looking for an example FxPlug4 codebase, check out [Gyroflow Toolbox](https://github.com/latenitefilms/gyroflowtoolbox/).
 
 ---
 
@@ -94,8 +94,8 @@ However, if you're looking for an example FxPlug4 codebase, check out [Gyroflow 
 
 There are heaps of awesome clips to test with on the Blackmagic Website:
 
-- [Blackmagic Pocket Cinema Camera Gallery](https://www.blackmagicdesign.com/au/products/blackmagicpocketcinemacamera/gallery){target="_blank"}
-- [Blackmagic URSA Mini Gallery](https://www.blackmagicdesign.com/au/products/blackmagicursaminipro/gallery){target="_blank"}
+- [Blackmagic Pocket Cinema Camera Gallery](https://www.blackmagicdesign.com/au/products/blackmagicpocketcinemacamera/gallery)
+- [Blackmagic URSA Mini Gallery](https://www.blackmagicdesign.com/au/products/blackmagicursaminipro/gallery)
 
 ---
 
@@ -105,7 +105,7 @@ Yes, BRAW Toolbox is compatible with **Sync-N-Link v1.1.4** or later on the Mac 
 
 You should use Synchronised Clips in BRAW Toolbox, and it can combine multiple clips with location audio into a multicam.
 
-You can download Sync-N-Link [here](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12){target="_blank"}.
+You can download Sync-N-Link [here](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12).
 
 ---
 
@@ -113,7 +113,7 @@ You can download Sync-N-Link [here](https://apps.apple.com/us/app/sync-n-link-x/
 
 Yes, BRAW Toolbox is compatible with **Lumberjack Builder v4.0.6** or later.
 
-You can download Lumberjack Builder [here](https://www.lumberjacksystem.com/builder-nle-2/){target="_blank"}.
+You can download Lumberjack Builder [here](https://www.lumberjacksystem.com/builder-nle-2/).
 
 ![](static/builder.png)
 
@@ -121,7 +121,7 @@ You can download Lumberjack Builder [here](https://www.lumberjacksystem.com/buil
 
 ### I don't like Synchronised Clips. Can I import a Multicam clips instead?
 
-Starting in v1.1.1 of BRAW Toolbox, we now enable **Create Multicam Clips** by default to get around a [Final Cut Pro bug](https://github.com/latenitefilms/BRAWToolbox/issues/128){target="_blank"}.
+Starting in v1.1.1 of BRAW Toolbox, we now enable **Create Multicam Clips** by default to get around a [Final Cut Pro bug](https://github.com/latenitefilms/BRAWToolbox/issues/128).
 
 However, we still allow you to disable this, if you need to create Synchronised Clips for Sync-N-Link, for example.
 
@@ -129,6 +129,6 @@ You can click the **Settings** button (the gear icon, next to "Remove All") to s
 
 Please note that this doesn't sync multiple BRAW files together - it just creates a single Multicam Clip for each BRAW file.
 
-You'll still need to use something like [Sync-N-Link](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12){target="_blank"} if you want to sync BRAW files with external audio.
+You'll still need to use something like [Sync-N-Link](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12) if you want to sync BRAW files with external audio.
 
 ![](static/install-20.png)

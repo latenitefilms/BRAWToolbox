@@ -6,7 +6,7 @@ To workaround this, you can export a ProRes file of the clip you want to stabili
 
 However, if you have a Blackmagic Camera that outputs Gyroscope Metadata such as the Blackmagic Pocket Cinema Camera 4K/6K, you can use one of our companion tools, [Gyroflow Toolbox](https://gyroflowtoolbox.io), to use that gyroscope data to stabilise the footage directly within Final Cut Pro.
 
-> **_[You can download Gyroflow Toolbox here.](https://gyroflowtoolbox.io/buy/){target="_blank"}_**
+> **_[You can download Gyroflow Toolbox here.](https://gyroflowtoolbox.io/buy/)_**
 
 Simply apply the Gyroflow Toolbox effect to the video layer inside your Synchronised or Multicam clip.
 
@@ -24,8 +24,8 @@ Gyroflow Toolbox allows you to take the stabilised data from Gyroflow and use it
 
 ### Credits
 
-Gyroflow Toolbox has been thrown together by [Chris Hocking](https://github.com/latenitefilms){target="_blank"} at [LateNite Films](https://latenitefilms.com){target="_blank"}.
+Gyroflow Toolbox has been thrown together by [Chris Hocking](https://github.com/latenitefilms) at [LateNite Films](https://latenitefilms.com).
 
-However, none of this would be possible without the incredible [Gyroflow](https://github.com/gyroflow/gyroflow){target="_blank"} project and the incredibly help and support from their main developer, [AdrianEddy](https://github.com/AdrianEddy){target="_blank"}.
+However, none of this would be possible without the incredible [Gyroflow](https://github.com/gyroflow/gyroflow) project and the incredibly help and support from their main developer, [AdrianEddy](https://github.com/AdrianEddy).
 
-The Gyroflow Toolbox icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com){target="_blank"}.
+The Gyroflow Toolbox icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com).

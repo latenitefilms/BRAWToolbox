@@ -145,7 +145,7 @@ You then drag the green icon back into your Final Cut Pro Library.
 !!!danger
 This Toolbox currently has some issue which will be addressed in a future update.
 
-You can learn more [here](https://github.com/latenitefilms/BRAWToolbox/issues/124#issuecomment-1532247236){target="_blank"}.
+You can learn more [here](https://github.com/latenitefilms/BRAWToolbox/issues/124#issuecomment-1532247236).
 !!!
 
 This Toolbox will add the BRAW Toolbox effect to any clips in the event that have an accompanying BRAW file - for example, if you created proxy clips with [Color Finale Transcoder](https://colorfinale.com/transcoder) or [EditReady](https://hedge.video/editready).

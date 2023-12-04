@@ -28,7 +28,7 @@ Whilst this is fantastic for security reasons - it does provide challenges for a
 
 When you import clips into the BRAW Toolbox Workflow Extension, you are explicitly giving permission to BRAW Toolbox to access those BRAW files.
 
-Everything works great if you're on a single machine. We use a technology called [security-scoped bookmarks](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/asset/media-rep/bookmark/enabling_security-scoped_bookmark_and_url_access?language=objc){target="_blank"} to allow us to access any files you've given us permission to access at a later time.
+Everything works great if you're on a single machine. We use a technology called [security-scoped bookmarks](https://developer.apple.com/documentation/professional_video_applications/fcpxml_reference/asset/media-rep/bookmark/enabling_security-scoped_bookmark_and_url_access?language=objc) to allow us to access any files you've given us permission to access at a later time.
 
 However, when it comes to collaboration it gets a bit more tricky, because those bookmarks are specific to the individual machine.
 

@@ -4,19 +4,19 @@
 
 You can use the free **Blackmagic RAW Speed Test** to check if your system's GPU is fast enough to play BRAW files.
 
-> [:icon-desktop-download: You can download on the Mac App Store here.](https://apps.apple.com/us/app/blackmagic-raw-speed-test/id1466185689?mt=12){target="_blank"}
+> [:icon-desktop-download: You can download on the Mac App Store here.](https://apps.apple.com/us/app/blackmagic-raw-speed-test/id1466185689?mt=12)
 
 ![](static/blackmagic-raw-test.png)
 
 You can use the free **Blackmagic Disk Speed Test** to check if your hard drive is fast enough to keep up with BRAW files.
 
-> [You can download on the Mac App Store here.](https://apps.apple.com/au/app/blackmagic-disk-speed-test/id425264550?mt=12){target="_blank"}
+> [You can download on the Mac App Store here.](https://apps.apple.com/au/app/blackmagic-disk-speed-test/id425264550?mt=12)
 
 ![](static/blackmagic-speed-test.png)
 
 You can use the free **Blackmagic RAW Player** to see how your system performs playing back your BRAW files.
 
-> [You can download on the Mac App Store here.](https://apps.apple.com/us/app/blackmagic-raw-player/id1435415804?mt=12){target="_blank"}
+> [You can download on the Mac App Store here.](https://apps.apple.com/us/app/blackmagic-raw-player/id1435415804?mt=12)
 
 ![](static/braw-player.png)
 
@@ -66,13 +66,13 @@ If you can't see BRAW Toolbox in the Workflow Extension button or menu bar, you 
 
 1. Make sure you've installed all the Motion Templates, Metadata View and LUTs as per the [Installation Instructions](/installation).
 2. Restart your Mac.
-3. [Trash Final Cut Pro Preferences](https://support.apple.com/en-au/HT203477){target="_blank"} by holding down **COMMAND + OPTION** when launching Final Cut Pro, and clicking **Delete Preferences**.
+3. [Trash Final Cut Pro Preferences](https://support.apple.com/en-au/HT203477) by holding down **COMMAND + OPTION** when launching Final Cut Pro, and clicking **Delete Preferences**.
 
 ![](static/delete-fcpx-prefs.png)
 
 4. Delete Final Cut Pro and reinstall it from the App Store.
 
-If none of those things fix it, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues){target="_blank"}.
+If none of those things fix it, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
 
 ---
 
@@ -84,7 +84,7 @@ You can try:
 
 1. Make sure you've installed all the Motion Templates, Metadata View and LUTs as per the [Installation Instructions](/installation).
 2. Restart your Mac.
-3. [Trash Final Cut Pro Preferences](https://support.apple.com/en-au/HT203477){target="_blank"} by holding down **COMMAND + OPTION** when launching Final Cut Pro, and clicking **Delete Preferences**.
+3. [Trash Final Cut Pro Preferences](https://support.apple.com/en-au/HT203477) by holding down **COMMAND + OPTION** when launching Final Cut Pro, and clicking **Delete Preferences**.
 
 ![](static/delete-fcpx-prefs.png)
 
@@ -105,7 +105,7 @@ com.latenitefilms.BRAWToolbox.Renderer(1.1)	FE230AC8-E59F-4BF6-B49F-A64E27067712
 
 You can also try completely [uninstall BRAW Toolbox](/uninstall) and reinstall from the Mac App Store.
 
-If things are still not working, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues){target="_blank"}.
+If things are still not working, please post an issue [here](https://github.com/latenitefilms/BRAWToolbox/issues).
 
 ---
 
@@ -117,7 +117,7 @@ We suggest ticking the **Create Multicam Clips** option in the BRAW Toolbox Work
 
 ![](static/install-20.png)
 
-We recommend only using Synchronised Clips if you need to sync to dual system audio, using something like [Sync-N-Link](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12){target="_blank"}.
+We recommend only using Synchronised Clips if you need to sync to dual system audio, using something like [Sync-N-Link](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12).
 
 In rare instances in the Final Cut Pro Browser you might see black frames, or red error message frames in the thumbnails of BRAW Toolbox clips.
 
@@ -191,7 +191,7 @@ When prompted for access to the **ProApps** folder, you should **Grant Access** 
 
 The **LUTs** are installed in the same location as the **Metadata View**, so you won't be requested to **Grant Access** again.
 
-If this still doesn't work, please [post an issue](https://github.com/latenitefilms/brawtoolbox/issues){target="_blank"} and we'll try and resolve your specific problem.
+If this still doesn't work, please [post an issue](https://github.com/latenitefilms/brawtoolbox/issues) and we'll try and resolve your specific problem.
 
 ---
 
@@ -223,4 +223,4 @@ There might also be crash logs in the **Retired** folder (these are crash logs t
 
 Again, please ZIP up all of these individual crash logs, so that we can review them all.
 
-You can send the files to LateNite Films [here](https://latenitefilms.digitalpigeon.com){target="_blank"} or [post an issue](https://github.com/latenitefilms/brawtoolbox/issues){target="_blank"} with these files in a ZIP, and we'll try and resolve your specific problem.
+You can send the files to LateNite Films [here](https://latenitefilms.digitalpigeon.com) or [post an issue](https://github.com/latenitefilms/brawtoolbox/issues) with these files in a ZIP, and we'll try and resolve your specific problem.
