@@ -1,5 +1,21 @@
 # Release Notes
 
+### 1.3.5 (63)
+
+**🎉 Released:**
+- Tuesday 5th December 2023
+
+**🔨 Improvements:**
+- Added support for Blackmagic Micro Studio Camera 4K G2.
+- Added support for Panasonic Lumix G9II Blackmagic RAW clips.
+- Updated from Blackmagic RAW SDK v3.4 to v3.6.
+- Updated from FxPlug v4.2.8 to v4.2.9.
+
+**🐞 Bug Fix:**
+- Fixed a potential crash when pressing the **Remove Selected** button in the Workflow Extension.
+
+---
+
 ### 1.3.4 (62)
 
 **🎉 Released:**
