@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.754998637554">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.755071970566">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.754998637554" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.755071970566" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.754998637554" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.755071970566" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.754998637554" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.755071970566" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -324,6 +324,8 @@
 </figure>
 </p>
 <p>You can now adjust all the metadata as required. There are tools for easily copy and pasting RAW parameters between clips, as well as saving Metadata Presets.</p>
+<p>Generally speaking, most users just want to touch these RAW controls <strong>once</strong> on the initial import - they want to get the most dynamic range out of the clip, and basically have it all ready to go for colour grading using Final Cut Pro&#x27;s built-in tools.</p>
+<p>However, you can always modify the RAW controls later down the line (i.e. you might have to keyframe exposure if your camera moves from interior to exterior) - it&#x27;s just easiest/faster if you get things as close to correct during the import stage.</p>
 <p>Whilst BRAW Toolbox can play back BRAW video files natively, to handle audio, it &quot;extracts&quot; the audio prior to sending to Final Cut Pro. You should press the <strong>Choose Audio Folder</strong> button to select the destination folder for these audio files.</p>
 <p>Once you&#x27;ve tweaked any metadata settings, you can press the <strong>Prepare BRAW Files</strong> to get everything ready for Final Cut Pro.</p>
 <blockquote>
@@ -366,7 +368,7 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>To modify the metadata of a BRAW clip, you can double click on one of the Multicam Clips, to open it in the <strong>Angle Editor</strong>:</p>
+<p>To modify the RAW parameters of a BRAW clip, you can double click on one of the Multicam Clips, to open it in the <strong>Angle Editor</strong>:</p>
 <p><figure class="content-center">
     <img src="../static/install-25.png" alt="">
     <figcaption class="caption"></figcaption>
@@ -393,13 +395,13 @@
     <figcaption class="caption"></figcaption>
 </figure>
 </p>
-<p>You can now manipulate the RAW metadata as required.</p>
+<p>You can now manipulate the RAW parameters as required.</p>
 <p>Frame Metadata and Custom Gamma Controls are also key-frame-able.</p>
 <blockquote>
 <p><strong>TIP:</strong> You can only access Custom Gamma Controls if you have the <strong>Blackmagic Design Custom</strong> gamma parameter selected.</p>
 </blockquote>
 <p>You can now edit BRAW files like any other camera media in Final Cut Pro. Woohoo!</p>
-<p>For a <strong>slight performance increase</strong>, we recommend granting Sandbox Access to the drive that contains your footage. You can learn more <a href="https://brawtoolbox.io/collaboration/" class="outbound" target="_blank"><span>here</span><svg xmlns="http://www.w3.org/2000/svg" class="docs-icon ml-1" viewBox="0 0 24 24" role="presentation"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a>.</p>
+<p>For a <strong>slight performance increase</strong>, we recommend granting Sandbox Access to the drive that contains your footage. You can learn more <a href="../collaboration/">here</a>.</p>
 
                                 
                                 <!-- Required only on API pages -->
