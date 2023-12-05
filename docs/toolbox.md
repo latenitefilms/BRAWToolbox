@@ -38,15 +38,17 @@ Pressing this button will trigger the import process within Final Cut Pro - no d
 
 ### Relink BRAW Clips within an LIBRARY / EVENT / PROJECT
 
-This Toolbox allows you to relink any BRAW Toolbox clips within a library, event or project.
+This Toolbox allows you to relink any BRAW Toolbox clips within a **Library**, **Event** or **Project**.
 
-For example, if you've moved BRAW clips to another folder/machine, you can use this Toolbox to easily adjust the file paths.
+If, for example, you have all your BRAW Toolbox clips within the default **🔥 FROM BRAW TOOLBOX** Event, you could just relink that event.
+
+If you've moved BRAW clips to another folder/machine, or you've reinstalled macOS, you can use this Toolbox to easily update/fix the file paths and bookmarks.
 
 This is how an offline clip will look in Final Cut Pro:
 
 ![](static/relink-toolbox-06.png)
 
-To use this toolbox, simply drag a library, event or project from the Final Cut Pro Browser into the Toolbox at the bottom of the BRAW Toolbox Workflow Extension.
+To use this Toolbox, simply drag a **Library**, **Event** or **Project** from the Final Cut Pro Browser into the Toolbox at the bottom of the BRAW Toolbox Workflow Extension.
 
 ![](static/relink-toolbox-01.png)
 
@@ -54,31 +56,30 @@ You'll be presented with a Relink BRAW Files panel like this:
 
 ![](static/relink-toolbox-02.png)
 
-If the status of a clip is **red**, it means the path to the BRAW file is invalid, and you'll need to manually correct it.
+- If the status of a clip is **red**, it means the path to the BRAW file is invalid, and you'll need to manually correct it.
+- If the status of a clip is **orange**, it means that the security-scope bookmark is still working, but it's stale and needs updating.
 
-If the status of a clip is **orange**, it means that the security-scope bookmark is still working, but it's stale and needs updating.
+You can correct it manually in the path list, or you can use the Find & Replace functionality.
 
-You can correct it in the path list, or you can use the Find & Replace functionality.
-
-For example, if you've moved your BRAW files to a new external drive, you can right click on the folder where they are in Finder, hold down **OPTION**, then click **Copy as Pathname**.
+For example, if you've moved your BRAW files to a new external drive, you can right-click on the folder where they are in **Finder**, hold down **OPTION**, then click **Copy as Pathname**.
 
 This will copy the path of the folder to the pasteboard. You can then press the **Paste** button next to the **Replace** textbox to paste it there.
 
 ![](static/relink-toolbox-03.png)
 
-You can now press the **Process Find & Replace** button to apply this Find & Replace to everything in the above list.
+You can now press the **Process Find & Replace** button to apply this Find & Replace changes to everything in the above list.
 
 Once complete you'll be presented with a success message:
 
 ![](static/relink-toolbox-04.png)
 
-Everything will still be read, as you've only updated the paths - you haven't relinked anything yet.
+Everything will still be read, as you've **only updated the paths** - you haven't relinked anything yet.
 
 When you press the **Refresh & Request Permissions** button, you'll be presented with this:
 
 ![](static/relink-toolbox-05.png)
 
-You'll then be Grant Sandbox Access to any drives/folders/network shares that contain your BRAW clips. Click **Grant Access** for each one.
+You'll then be able to Grant Sandbox Access to any drives/folders/network shares that contain your BRAW clips that BRAW Toolbox currently doesn't have access to. Click **Grant Access** for each one.
 
 Once complete, all your clips should now be green:
 
@@ -86,13 +87,13 @@ Once complete, all your clips should now be green:
 
 You can now press the **Send FCPXML to Final Cut Pro** button.
 
-You'll be asked to select a library to import to, and then whether or not you want to **Keep Both** or **Replace** the files:
+You'll be asked to select a **Library** to import to, and then whether or not you want to **Keep Both** or **Replace** the files:
 
 ![](static/relink-toolbox-08.png)
 
-Generally speaking, as you're relinking you want to **Replace**, however FCPXML isn't lossless or perfect, so you should only select **Replace** if you only dragged in BRAW Toolbox Clips - not projects/timelines.
+Generally speaking, as you're relinking you want to **Replace**, however FCPXML isn't lossless or perfect (i.e. currently FCPXML [doesn't contain all Title parameters](https://github.com/CommandPost/FCPCafe/issues/3)), so you should only select **Replace** if you only dragged in BRAW Toolbox Clips (i.e. the default **🔥 FROM BRAW TOOLBOX** Event) - not projects/timelines.
 
-This new **Send FCPXML to Final Cut Pro** button works differently than the way the previous **Relink BRAW Clips within an EVENT** toolbox - as there's no dragging and dropping involved.
+**NOTE:** For long time BRAW Toolbox users, this new **Send FCPXML to Final Cut Pro** button works differently than the way the previous **Relink BRAW Clips within an EVENT** Toolbox - as there's no dragging and dropping involved.
 
 Pressing this button will trigger the import process within Final Cut Pro - no drag and drop required.
 

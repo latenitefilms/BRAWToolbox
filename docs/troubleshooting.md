@@ -1,5 +1,65 @@
 # Troubleshooting
 
+### I've run into a bug. Where can I find the log files?
+
+You can access your User Library, by clicking on your **Desktop**, then holding down **OPTION** as you click the **Go** menu item in Finder. A **Library** option will appear:
+
+![](static/finder-library.png)
+
+Once you have your User Library open, you can find the log files here:
+
+`/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/`
+
+You can also copy the below path, press **COMMAND+SHIFT+G** from Finder (or via the **Go > Go to Folder...** menubar item), and paste in that path into the **Go to Folder** popup:
+
+```
+~/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/
+```
+
+Please create a ZIP file of this entire **Application Support** folder (by right-clicking and selecting the **Compress** menu item), so that we can review all of these log files:
+
+![](static/application-support.png)
+
+You can find any crash reports here:
+
+`/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports`
+
+Again, you can also copy the below path, press **COMMAND+SHIFT+G** from Finder (or via the **Go > Go to Folder...** menubar item), and paste in that path into the **Go to Folder** popup:
+
+```
+~/Library/Logs/DiagnosticReports
+```
+
+Any crashes related to BRAW Toolbox will have **BRAW Toolbox** at the start of the filename.
+
+There might also be crash logs in the **Retired** sub-folder (these are crash logs that have already been sent to Apple):
+
+`/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports/Retired`
+
+![](static/crash-logs.png)
+
+Again, please ZIP up all of these individual crash logs, so that we can review them all.
+
+You can send the files to LateNite Films [here](https://latenitefilms.digitalpigeon.com) or [post an issue](https://github.com/latenitefilms/brawtoolbox/issues) with these files in a ZIP, and we'll try and resolve your specific problem.
+
+---
+
+### How can I work with Multicam Clips?
+
+By default BRAW Toolbox enables **Create Multicam Clips** option in the Workflow Extension.
+
+However, you can disable this if you need to create Synchronised Clips for [Sync-N-Link](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12), for example.
+
+You can click the **Settings** button (the gear icon, next to **Remove All**) to deselect **Create Multicam Clips**.
+
+![](static/install-20.png)
+
+This will now create Synchronised Clips instead of Multicam Clips when you drag into Final Cut Pro.
+
+You can then manually sync these Synchronised Clips into a Multicam Clip using Final Cut Pro's **Angle Editor**, or use a third party tool like [Sync-N-Link](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12).
+
+---
+
 ### Is my Mac fast enough to play BRAW files?
 
 You can use the free **Blackmagic RAW Speed Test** to check if your system's GPU is fast enough to play BRAW files.
@@ -52,7 +112,7 @@ Keep in mind that when you import a Synchronised Clip from the Browser to a Proj
 
 This is standard Final Cut Pro behaviour - and nothing to do with BRAW Toolbox.
 
-However, if you've ticked **Create Multicam Clips** within the **Settings** button in the BRAW Toolbox Workflow Extension, it will create Synchronised Clips WITHIN a Multicam Clip, so that you can modify the Synchronised Clip, and any changes will ripple across all instances of the Multicam Clip.
+However, if you've ticked **Create Multicam Clips** within the **Settings** button in the BRAW Toolbox Workflow Extension (which is enabled by default), it will create Synchronised Clips WITHIN a Multicam Clip, so that you can modify the Synchronised Clip, and any changes will ripple across all instances of the Multicam Clip.
 
 ![](static/access-raw-03.png)
 
@@ -111,9 +171,9 @@ If things are still not working, please post an issue [here](https://github.com/
 
 ### Bad Frames in the Final Cut Pro Browser
 
-Generally speaking Final Cut Pro seems to work better with Multicam Clips, as opposed to Synchronised Clips. We're currently working with the Final Cut Pro team to find out why.
+Generally speaking Final Cut Pro seems to work more reliably with Multicam Clips, as opposed to Synchronised Clips.
 
-We suggest ticking the **Create Multicam Clips** option in the BRAW Toolbox Workflow Extension settings before importing BRAW clips into Final Cut Pro.
+We suggest ticking the **Create Multicam Clips** option in the BRAW Toolbox Workflow Extension settings before importing BRAW clips into Final Cut Pro (which is enabled by default).
 
 ![](static/install-20.png)
 
@@ -192,35 +252,3 @@ When prompted for access to the **ProApps** folder, you should **Grant Access** 
 The **LUTs** are installed in the same location as the **Metadata View**, so you won't be requested to **Grant Access** again.
 
 If this still doesn't work, please [post an issue](https://github.com/latenitefilms/brawtoolbox/issues) and we'll try and resolve your specific problem.
-
----
-
-### I've run into a bug. Where can I find the log files?
-
-You can access your User Library, by clicking on your **Desktop**, then holding down **OPTION** as you click the **Go** menu item in Finder. A **Library** option will appear:
-
-![](static/finder-library.png)
-
-Once you have your User Library open, you can find the log files here:
-
-`/Users/YOUR-USER-NAME/Library/Group Containers/A5HDJTY9X5.com.latenitefilms.BRAWToolbox/Library/Application Support/`
-
-Please create a ZIP file of this entire **Application Support** folder (by right-clicking and selecting the **Compress** menu item), so that we can review all of these log files:
-
-![](static/application-support.png)
-
-You can find any crash reports here:
-
-`/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports`
-
-Any crashes related to BRAW Toolbox will have **BRAW Toolbox** at the start of the filename.
-
-There might also be crash logs in the **Retired** folder (these are crash logs that have already been sent to Apple):
-
-`/Users/YOUR-USER-NAME/Library/Logs/DiagnosticReports/Retired`
-
-![](static/crash-logs.png)
-
-Again, please ZIP up all of these individual crash logs, so that we can review them all.
-
-You can send the files to LateNite Films [here](https://latenitefilms.digitalpigeon.com) or [post an issue](https://github.com/latenitefilms/brawtoolbox/issues) with these files in a ZIP, and we'll try and resolve your specific problem.

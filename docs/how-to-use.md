@@ -20,6 +20,10 @@ To import some BRAW clips, click the **Import BRAW Files** button and select som
 
 You can now adjust all the metadata as required. There are tools for easily copy and pasting RAW parameters between clips, as well as saving Metadata Presets.
 
+Generally speaking, most users just want to touch these RAW controls **once** on the initial import - they want to get the most dynamic range out of the clip, and basically have it all ready to go for colour grading using Final Cut Pro's built-in tools.
+
+However, you can always modify the RAW controls later down the line (i.e. you might have to keyframe exposure if your camera moves from interior to exterior) - it's just easiest/faster if you get things as close to correct during the import stage.
+
 Whilst BRAW Toolbox can play back BRAW video files natively, to handle audio, it "extracts" the audio prior to sending to Final Cut Pro. You should press the **Choose Audio Folder** button to select the destination folder for these audio files.
 
 Once you've tweaked any metadata settings, you can press the **Prepare BRAW Files** to get everything ready for Final Cut Pro.
@@ -52,7 +56,7 @@ You can now drag these Multicam Clips into a Project/Timeline and start editing,
 
 ![](static/install-24.png)
 
-To modify the metadata of a BRAW clip, you can double click on one of the Multicam Clips, to open it in the **Angle Editor**:
+To modify the RAW parameters of a BRAW clip, you can double click on one of the Multicam Clips, to open it in the **Angle Editor**:
 
 ![](static/install-25.png)
 
@@ -70,7 +74,7 @@ Click the **Show Parameters** button to show the parameters. You'll only have to
 
 ![](static/install-18.png)
 
-You can now manipulate the RAW metadata as required.
+You can now manipulate the RAW parameters as required.
 
 Frame Metadata and Custom Gamma Controls are also key-frame-able.
 
@@ -78,4 +82,4 @@ Frame Metadata and Custom Gamma Controls are also key-frame-able.
 
 You can now edit BRAW files like any other camera media in Final Cut Pro. Woohoo!
 
-For a **slight performance increase**, we recommend granting Sandbox Access to the drive that contains your footage. You can learn more [here](https://brawtoolbox.io/collaboration/).
+For a **slight performance increase**, we recommend granting Sandbox Access to the drive that contains your footage. You can learn more [here](/collaboration/).

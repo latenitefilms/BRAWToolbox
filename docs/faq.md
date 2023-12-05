@@ -116,19 +116,3 @@ Yes, BRAW Toolbox is compatible with **Lumberjack Builder v4.0.6** or later.
 You can download Lumberjack Builder [here](https://www.lumberjacksystem.com/builder-nle-2/).
 
 ![](static/builder.png)
-
----
-
-### I don't like Synchronised Clips. Can I import a Multicam clips instead?
-
-Starting in v1.1.1 of BRAW Toolbox, we now enable **Create Multicam Clips** by default to get around a [Final Cut Pro bug](https://github.com/latenitefilms/BRAWToolbox/issues/128).
-
-However, we still allow you to disable this, if you need to create Synchronised Clips for Sync-N-Link, for example.
-
-You can click the **Settings** button (the gear icon, next to "Remove All") to select **Create Multicam Clips**.
-
-Please note that this doesn't sync multiple BRAW files together - it just creates a single Multicam Clip for each BRAW file.
-
-You'll still need to use something like [Sync-N-Link](https://apps.apple.com/us/app/sync-n-link-x/id517599985?mt=12) if you want to sync BRAW files with external audio.
-
-![](static/install-20.png)

@@ -4,14 +4,14 @@ If you run into any bugs, crashes, or you have a feature request, you can post a
 
 If you have any general questions or feedback, you can discuss [here](https://github.com/latenitefilms/BRAWToolbox/discussions).
 
-GitHub registration is free, and this GitHub repository is actively monitored by [LateNite Films](https://github.com/latenitefilms).
+GitHub registration is free, and this GitHub repository is actively monitored by [Chris at LateNite](https://github.com/latenitefilms).
 
 When requesting technical support, we recommend including the following information:
 
+- [Any crash logs and BRAW Toolbox log files](/troubleshooting/#ive-run-into-a-bug-where-can-i-find-the-log-files) - we can't do much without this information
 - macOS Version
 - Final Cut Pro Version
 - A screenshot of the **About This Mac** screen so we can see your system specs
-- [Any crash logs and BRAW Toolbox log files](/troubleshooting/#ive-run-into-a-bug-where-can-i-find-the-log-files)
 
 You can also email us: [support@latenitefilms.com](mailto:support@latenitefilms.com?subject=BRAW%20Toolbox%20Support)
 
