@@ -6,7 +6,7 @@
 - Thursday 7th December 2023
 
 **🐞 Bug Fix:**
-- Fixed a potential crash that we've been trying to solve for ages. On SOME systems (specifically systems with Mac2 family GPUs), Apple's Metal Framework would generate a Metal Texture that the Metal Performance Shader in the Mac couldn't actually work with, causing a crash deep within Apple's code. It was very hard to reproduce, as it only happened on certain systems - and none of ours. HUGE thank you to Apple Developer Technical Support, the Final Cut Pro Team, AdrianEddy and Warren Moore for all their constant and on-going help, assistance, guidance, patience and support!
+- Fixed a potential crash that we've been trying to solve for ages. On SOME systems (specifically systems with [Mac2 family GPUs](https://developer.apple.com/metal/Metal-Feature-Set-Tables.pdf)), Apple's Metal Framework would generate a Metal Texture that the Metal Performance Shader in the Mac couldn't actually work with, causing a crash deep within Apple's code. It was very hard to reproduce, as it only happened on certain systems - and none of ours. HUGE thank you to Apple Developer Technical Support, the Final Cut Pro Team, AdrianEddy and Warren Moore for all their constant and on-going help, assistance, guidance, patience and support!
 
 ---
 
