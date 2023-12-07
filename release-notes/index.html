@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.755082284019">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="3.5.0.755251216551">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 3.5.0">
@@ -32,11 +32,11 @@
 
     <script data-cfasync="false">(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../resources/css/retype.css?v=3.5.0.755082284019" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=3.5.0.755251216551" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.755082284019" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=3.5.0.755251216551" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=3.5.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.755082284019" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=3.5.0.755251216551" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="docs-app" class="relative text-base antialiased text-gray-700 bg-white font-body dark:bg-dark-850 dark:text-dark-300">
@@ -296,6 +296,21 @@
         <span>Release Notes</span>
     </h1>
 </doc-anchor-target>
+<doc-anchor-target id="136-64">
+    <h3>
+        <doc-anchor-trigger class="header-anchor-trigger" to="#136-64">#</doc-anchor-trigger>
+        <span>1.3.6 (64)</span>
+    </h3>
+</doc-anchor-target>
+<p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
+<ul>
+<li>Thursday 7th December 2023</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<ul>
+<li>Fixed a potential crash that we&#x27;ve been trying to solve for ages. On SOME systems (specifically systems with Mac2 family GPUs), Apple&#x27;s Metal Framework would generate a Metal Texture that the Metal Performance Shader in the Mac couldn&#x27;t actually work with, causing a crash deep within Apple&#x27;s code. It was very hard to reproduce, as it only happened on certain systems - and none of ours. HUGE thank you to Apple Developer Technical Support, the Final Cut Pro Team, AdrianEddy and Warren Moore for all their constant and on-going help, assistance, guidance, patience and support!</li>
+</ul>
+<hr>
 <doc-anchor-target id="135-63">
     <h3>
         <doc-anchor-trigger class="header-anchor-trigger" to="#135-63">#</doc-anchor-trigger>
