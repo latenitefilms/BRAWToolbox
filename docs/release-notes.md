@@ -1,5 +1,18 @@
 # Release Notes
 
+### 1.3.7 (65)
+
+**🎉 Released:**
+- Tuesday 19th December 2023
+
+**🐞 Bug Fix:**
+- Fixed white balance control for Panasonic GH5S and BGH1 Blackmagic RAW clips.
+
+**🔨 Improvements:**
+- Updated from Blackmagic RAW SDK v3.6 to v3.6.1.
+
+---
+
 ### 1.3.6 (64)
 
 **🎉 Released:**
