@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.3.8 (66)
+
+**🎉 Released:**
+- Tuesday 23rd April 2024
+
+**🔨 Improvements:**
+- Added support for Blackmagic URSA Cine 12K LF.
+- Updated from Blackmagic RAW SDK v3.6.1 to v4.0.
+
+**🐞 Bug Fix:**
+- When clicking "Prepare BRAW Files", you'll now get an error message if the Audio Folder is currently in the Trash. Thanks for reporting Mark Terry!
+
+---
+
 ### 1.3.7 (65)
 
 **🎉 Released:**
