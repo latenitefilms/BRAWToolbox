@@ -1,5 +1,27 @@
 # Release Notes
 
+### 1.3.10 (68)
+
+**🎉 Released:**
+- Friday 28th June 2024
+
+**🔨 Improvements:**
+- Added support for Fujifilm GFX100S II Blackmagic RAW clips.
+- Added support for Panasonic GH7 Blackmagic RAW clips.
+- Updated from Blackmagic RAW SDK v4.0 to v4.1.
+
+---
+
+### 1.3.9 (67)
+
+**🎉 Released:**
+- Tuesday 22nd June 2024
+
+**🔨 Improvements:**
+- Updated from FxPlug v4.2.9 to FxPlug v4.3
+
+---
+
 ### 1.3.8 (66)
 
 **🎉 Released:**
