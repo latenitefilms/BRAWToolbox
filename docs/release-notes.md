@@ -1,5 +1,18 @@
 # Release Notes
 
+### 1.3.11 (69)
+
+**🎉 Released:**
+- Wednesday 24th July 2024
+
+**🔨 Improvements:**
+- Added support for Blackmagic PYXIS 6K.
+- Added support for Fujifilm X-T50 Blackmagic RAW clips.
+- Improves support for Blackmagic URSA Cine 12K LF.
+- Updated from Blackmagic RAW SDK v4.1 to v4.2.
+
+---
+
 ### 1.3.10 (68)
 
 **🎉 Released:**
