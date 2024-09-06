@@ -2,7 +2,7 @@
 
 > [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
 
-**BRAW Toolbox** is a one-time payment of **USD79.99**.
+**BRAW Toolbox** is a one-time payment of **USD$79.99**.
 
 There is currently no free trial, and it is only be available on the Mac App Store as a **one-time payment**.
 
