@@ -1,5 +1,21 @@
 # Release Notes
 
+### 1.4.0 (70)
+
+**🎉 Released:**
+- Saturday 19th October 2024
+
+**🔨 Improvements:**
+- Added support for Fujifilm X-M5 Blackmagic RAW clips.
+- Added support for Panasonic S5D Blackmagic RAW clips.
+- Updated from Blackmagic RAW SDK v4.2 to v4.3.
+
+**🐞 Bug Fix:**
+- Fixed a bug when using macOS Sequoia where the hero BRAW Toolbox application would fail to set the correct folders when trying to grant sandbox permissions when first setting up BRAW Toolbox. For example, it would default to the user's "Documents" folders, rather than the user's "Movies" folder and the user's "ProApps" folder. Thanks for reporting Karl Winegardner, Robbie Myers, Jens Pluimes & Edwin van W!
+- Re-designed how we render error messages in Final Cut Pro using Core Image and Metal. Hopefully this will fix random crashes some users are seeing on older versions of Final Cut Pro running on older Intel machines.
+
+---
+
 ### 1.3.11 (69)
 
 **🎉 Released:**
