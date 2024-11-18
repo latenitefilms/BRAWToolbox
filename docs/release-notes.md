@@ -1,5 +1,17 @@
 # Release Notes
 
+### 1.4.1 (71)
+
+**🎉 Released:**
+- Sunday 17th November 2024
+
+**🔨 Improvements:**
+- Updated from Blackmagic RAW SDK v4.3 to v4.3.1.
+- Updated from FxPlug v4.3 to v4.3.1.
+- Improved Blackmagic RAW SDK stability with simultaneous decodes.
+
+---
+
 ### 1.4.0 (70)
 
 **🎉 Released:**
