@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.4.2 (72)
+
+**🎉 Released:**
+- Monday 9th December 2024
+
+**🐞 Bug Fixes:**
+- Fixed a bug where the Toolbox drop zone failed to work properly in Final Cut Pro 11 due to depreciated FCPXML versions. Thanks for reporting Alex Sofonea!
+- Fixed a bug where the "Check All/Uncheck All" button in the Workflow Extension didn't work correctly. Thanks for reporting Mathew Welsh!
+
+---
+
 ### 1.4.1 (71)
 
 **🎉 Released:**
