@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.4.3 (73)
+
+**🎉 Released:**
+- Thursday 30th January 2025
+
+**🔨 Improvements:**
+- Added support for Panasonic UB10 Blackmagic RAW clips.
+- Updated from Blackmagic RAW SDK v4.3.1 to v4.4.
+
+**🐞 Bug Fix:**
+- Fixed a regression where the Toolbox drop zone failed to work properly in older versions of Final Cut Pro.
+
+---
+
 ### 1.4.2 (72)
 
 **🎉 Released:**

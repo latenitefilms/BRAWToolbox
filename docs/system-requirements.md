@@ -2,7 +2,7 @@
 
 BRAW Toolbox requires **Final Cut Pro 10.6.5** or later.
 
-It works great on the latest **Final Cut Pro 10.7** release.
+It works great on the latest **Final Cut Pro 11.0** release.
 
 It works best on the latest Apple Silicon Mac's, however Intel is also supported.
 
