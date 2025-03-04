@@ -44,7 +44,7 @@ Essentially, you need to drag this green button:
 
 ![](static/install-15.png)
 
-...to your Final Cut Pro **Library**.
+...directly on top of the **Library** icon for the Library you want the BRAW clips to be added to.
 
 > **IMPORTANT:** You need to drag to a **Library** - not an **Event** or a **Project**, otherwise nothing will happen.
 
