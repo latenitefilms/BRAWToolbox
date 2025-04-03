@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.4.4 (74)
+
+**🎉 Released:**
+- Thursday 3rd April 2025
+
+**🔨 Improvements:**
+- Added support for Blackmagic URSA Cine 17K 65.
+- Added support for updated Constant Quality record settings on URSA Cine.
+- Added support for Panasonic UB-50 Blackmagic RAW clips.
+- Updated from Blackmagic RAW SDK v4.4 to v4.5.
+- Updated from FxPlug v4.3.1 to v4.3.2.
+
+---
+
 ### 1.4.3 (73)
 
 **🎉 Released:**
