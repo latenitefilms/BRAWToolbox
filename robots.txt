@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://brawtoolbox.io/sitemap.xml.gz
+Sitemap: https://brawtoolbox.fcp.cafe/sitemap.xml.gz
