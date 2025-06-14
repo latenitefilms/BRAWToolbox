@@ -1,5 +1,19 @@
 # Release Notes
 
+### 1.4.5 (75)
+
+**🎉 Released:**
+- Saturday 14th June 2025
+
+**🔨 Improvements:**
+- We've improved how we render error messages in BRAW Toolbox. HUGE thank you to Darrin Cardani at Apple and Gabriele de Simone at FxFactory for all your ongoing help, assistance, genius and support (and for putting up with my crazy questions)!
+- Added support for Panasonic LUMIX S1II and S1IIE Blackmagic RAW clips.
+- Improved performance for URSA Cine 12K LF and URSA Cine 17K 65 clips.
+- Updated from Blackmagic RAW SDK v4.5 to v4.6.
+- Updated from FxPlug v4.3.2 to v4.3.3.
+
+---
+
 ### 1.4.4 (74)
 
 **🎉 Released:**
