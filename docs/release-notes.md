@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.4.6 (76)
+
+**🎉 Released:**
+- Tuesday 15th July 2025
+
+**🔨 Improvements:**
+- Added support for Panasonic LUMIX S1RII Blackmagic RAW clips.
+- Updated from Blackmagic RAW SDK v4.6 to v4.6.1.
+
+---
+
 ### 1.4.5 (75)
 
 **🎉 Released:**
