@@ -40,7 +40,7 @@ There might also be crash logs in the **Retired** sub-folder (these are crash lo
 
 Again, please ZIP up all of these individual crash logs, so that we can review them all.
 
-You can send the files to LateNite Films [here](https://latenitefilms.digitalpigeon.com) or [post an issue](https://github.com/latenitefilms/brawtoolbox/issues) with these files in a ZIP, and we'll try and resolve your specific problem.
+You [post an issue](https://github.com/latenitefilms/brawtoolbox/issues) with these files in a ZIP, and we'll try and resolve your specific problem.
 
 ---
 
