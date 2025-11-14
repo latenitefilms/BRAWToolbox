@@ -1,5 +1,17 @@
 # Release Notes
 
+### 1.4.7 (77)
+
+**🎉 Released:**
+- Friday 7th November 2025
+
+**🔨 Improvements:**
+- Added support for Blackmagic PYXIS 12K.
+- Added support for Leica SL3-S, Sony FX3 and Sony FX30 Blackmagic RAW clips.
+- Updated from Blackmagic RAW SDK v4.6.1 to v5.1.
+
+---
+
 ### 1.4.6 (76)
 
 **🎉 Released:**
