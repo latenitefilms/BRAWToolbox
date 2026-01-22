@@ -1,5 +1,15 @@
 # Release Notes
 
+### 1.4.8 (78)
+
+**🎉 Released:**
+- Thursday 22nd January 2026
+
+**🔨 Improvements:**
+- Updated the BRAW Toolbox application icon for macOS 26 Tahoe. Thanks Matthew Skiles!
+
+---
+
 ### 1.4.7 (77)
 
 **🎉 Released:**
