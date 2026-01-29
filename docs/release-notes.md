@@ -1,5 +1,16 @@
 # Release Notes
 
+### 1.5.0 (79)
+
+**🎉 Released:**
+- Thursday 29th January 2026
+
+**🥳 New Feature:**
+
+- We've added a "Video Track" parameter in the "Quality" section for Blackmagic URSA Cine Immersive clips - so you can pick between the left or right lens. You can then put two of the same Blackmagic URSA Cine Immersive clip next to each other in a Final Cut Pro timeline, to do side-by-side immersive editing. Thanks for suggesting Iain Anderson!
+
+---
+
 ### 1.4.8 (78)
 
 **🎉 Released:**
