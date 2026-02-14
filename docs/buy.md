@@ -1,12 +1,10 @@
 # Buy on Mac App Store
 
-> [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
-
 **BRAW Toolbox** is a one-time payment of **USD$79.99**.
 
-There is currently no free trial, and it is only be available on the Mac App Store as a **one-time payment**.
+> [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
 
-However, we will be posting TestFlight builds prior to updates for the community to test. Keep an eye on our [announcements](https://github.com/latenitefilms/BRAWToolbox/discussions/categories/announcements).
+There is currently no free trial, and it is only be available on the Mac App Store as a **one-time payment**.
 
 You can find information about Educational Pricing [here](/educational).
 
@@ -16,12 +14,18 @@ Thank you to all our beta testers and early adopters, who were able to purchase 
 
 ---
 
-## Pro Editor Bundle
+## Unlock CommandPost
 
-For only **USD$100**, you can now buy [BRAW Toolbox](https://brawtoolbox.io), [Gyroflow Toolbox](https://gyroflowtoolbox.io), [Marker Toolbox](https://markertoolbox.io), [Recall Toolbox](https://recalltoolbox.io) & [Fast Collections](https://fastcollections.io) as a bundle!
+CommandPost is **The Swiss Army Knife for Post Production Professionals**.
 
-The Mac App Store also supports **Complete My Bundle** - which credits customers for apps they’ve already purchased within a bundle. You only pay the balance for the remaining apps.
+It's an open source macOS application that makes your post production and editing life faster and lots more fun (everything is better with more buttons!). 🎛️
 
-You can find the bundle on the Mac App Store [here](https://itunes.apple.com/us/app-bundle/id1717681153?mt=12).
+It's been used for projects at **Netflix**, **Pixar** and extensively at the **BBC**. People at companies such as **Apple**, **Avid** and **Adobe** use it daily.
 
-![](/static/pro-editor-bundle.jpg)
+All of the 2024 and 2025 **Apple Worldwide Developer Conference (WWDC)** videos were graded using Tangent panels in Final Cut Pro controlled by CommandPost. 🥳
+
+After **9 years of free updates**, to ensure that CommandPost continues to be developed, improved, and stay open-source, we've decided that you need at least ONE paid LateNite application installed to use CommandPost moving forward - consider it "inner circle" software (i.e. only our mates get access to it).
+
+You can use **BRAW Toolbox** to "unlock" CommandPost!
+
+![](/static/commandpost.png)
