@@ -1,16 +1,29 @@
 # Buy on Mac App Store
 
-**BRAW Toolbox** is a one-time payment of **USD$79.99**.
+**BRAW Toolbox** is a one-time payment of **USD$79.99** on the **Mac App Store**.
 
 > [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](https://apps.apple.com/au/app/braw-toolbox/id6444061549?mt=12)
 
-There is currently no free trial, and it is only be available on the Mac App Store as a **one-time payment**.
+There is no free trial.
 
 You can find information about Educational Pricing [here](/educational).
 
 Thank you to all our beta testers and early adopters, who were able to purchase BRAW Toolbox for **50% off** during the first week of its release!
 
 ![](static/app-store-number-1.png)
+
+---
+
+## TestFlight
+
+When we're working on new features or bug fixes, we'll share them customers on TestFlight for early feedback.
+
+You can find the TestFlight links on the [FCP Cafe Discord](https://ltnt.tv/discord).
+
+TestFlight builds are valid for **90 days** from the date they are uploaded to App Store Connect.
+
+After 90 days, the build expires and becomes unavailable for testing.
+
 
 ---
 
@@ -29,3 +42,11 @@ After **9 years of free updates**, to ensure that CommandPost continues to be de
 You can use **BRAW Toolbox** to "unlock" CommandPost!
 
 ![](/static/commandpost.png)
+
+---
+
+## Tools for Professionals
+
+You can learn more about LateNite's amazing range of apps on [FCP Cafe](https://fcp.cafe/latenite/).
+
+![](/static/lateniteapps.png)
