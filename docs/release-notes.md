@@ -1,5 +1,18 @@
 # Release Notes
 
+### 2.1.0 (82)
+
+**🎉 Released:**
+- Sunday 12th April 2026
+
+**🔨 Improvements:**
+- Blackmagic URSA Cine Immersive clips now import as `16320x7200` side-by-side clips into Final Cut Pro. We apply the BRAW Toolbox effect to a `16320x7200 TIFF` (as opposed to a Motion Generator) to workaround some bugs/limitations in Final Cut Pro's Spatial/Stereo 3D workflow. HUGE thank you to Iain Anderson for all his testing and support!
+
+**🐞 Bug Fix:**
+- Fixed a major regression/bug in BRAW Toolbox v2.0.0 where scaling a BRAW Toolbox clip broke the image quality due to caching. HUGE thank you to Nuno Meneses, Matt, camilledelbos and everyone else in the FCP Cafe Community for all your bug reports, support and patience!
+
+---
+
 ### 2.0.0 (80)
 
 **🎉 Released:**
