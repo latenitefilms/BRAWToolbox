@@ -12,6 +12,11 @@ links:
   link: /buy
   icon: desktop-download
 
+- text: Discord
+  link: https://ltnt.tv/discord
+  icon: comment-discussion
+  target: blank
+
 - text: Issues
   link: https://github.com/latenitefilms/brawtoolbox/issues
   icon: issue-opened
@@ -19,11 +24,6 @@ links:
 
 - text: Discussions
   link: https://github.com/latenitefilms/brawtoolbox/discussions
-  icon: comment-discussion
-  target: blank
-
-- text: Discord
-  link: https://ltnt.tv/discord
   icon: comment-discussion
   target: blank
 
