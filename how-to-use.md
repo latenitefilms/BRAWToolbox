@@ -1,5 +1,15 @@
 # How To Use
 
+This page explains how to use BRAW Toolbox in it's traditional/legacy way.
+
+In **BRAW Toolbox v3.0.0** we introduced a **Media Extension** which allows you to import Blackmagic RAW natively into Final Cut Pro.
+
+You can read more on the [Media Extension page](/media-extension).
+
+---
+
+## Legacy Workflow
+
 Once [installed](/installation) you can access BRAW Toolbox from the Workflow Extension button in Final Cut Pro:
 
 ![](static/install-10.png)

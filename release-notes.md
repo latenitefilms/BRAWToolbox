@@ -1,5 +1,20 @@
 # Release Notes
 
+### 3.0.0 (84)
+
+**🎉 Released:**
+- Wednesday 22nd April 2026
+
+**🔨 Improvements:**
+- This is another MASSIVE update! We've made big changes under-the-hood. We highly recommend that you make a ZIP of your current version of BRAW Toolbox before updating for safety, so that you can rollback if needed.
+- BRAW Toolbox now ships with a Media Extension allowing you to read Blackmagic RAW files directly within QuickTime Player, Final Cut Pro and other applications that support macOS Media Extensions. HUGE thank you to the amazing Anton Marini for all his help, guidance, genius and support!
+- The Media Extension gives you full RAW controls, and metadata within Final Cut Pro.
+- Gyroflow stabilisation is now built-in to the Media Extension, and can be access via the RAW controls within Final Cut Pro. HUGE thank you to the amazing AdrianEddy for all his help, guidance, genius and support!
+- The hero BRAW Toolbox application now has a Blackmagic RAW player with full RAW controls and metadata viewing for testing the Media Extension.
+- The Media Extension supports the Blackmagic URSA Cine Immersive format, by outputting a 16320x7200 side-by-side clip.
+
+---
+
 ### 2.1.0 (82)
 
 **🎉 Released:**
