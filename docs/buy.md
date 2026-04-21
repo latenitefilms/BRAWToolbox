@@ -1,5 +1,11 @@
 # Buy on Mac App Store
 
+!!!success Media Extension out now!
+**BRAW Toolbox v3.0.0** now includes a **Media Extension**, so you can use Blackmagic RAW in QuickTime Player and Final Cut Pro natively!
+
+For a strictly limited time, you can buy BRAW Toolbox for **USD$49.99**. Thanks for your support!
+!!!
+
 **BRAW Toolbox** is a one-time payment of **USD$79.99** on the **Mac App Store**.
 
 > [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](https://apps.apple.com/app/braw-toolbox/id6444061549)
