@@ -17,14 +17,9 @@ links:
   icon: comment-discussion
   target: blank
 
-- text: Issues
+- text: Bugs & Feature Requests
   link: https://github.com/latenitefilms/brawtoolbox/issues
   icon: issue-opened
-  target: blank
-
-- text: Discussions
-  link: https://github.com/latenitefilms/brawtoolbox/discussions
-  icon: comment-discussion
   target: blank
 
 - text: FCP Cafe
