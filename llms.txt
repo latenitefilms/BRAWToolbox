@@ -23,6 +23,6 @@
 - [Relinking Media](https://brawtoolbox.fcp.cafe/relinking.md): In terms of visuals, a BRAW Toolbox clip is essentially just an Effect (the BRAW Toolbox effect) applied to a Generator (just a generic Custom Solid), contained within a Synchronised Clip, contained within a Multicam Clip.
 - [Release Notes](https://brawtoolbox.fcp.cafe/release-notes.md): 🎉 Released:
 - [Uninstall](https://brawtoolbox.fcp.cafe/uninstall.md): You can download the Uninstall tool here.
-- [Credits](https://brawtoolbox.fcp.cafe/credits.md): BRAW Toolbox has been thrown together by Chris Hocking at LateNite Films.
+- [Credits](https://brawtoolbox.fcp.cafe/credits.md): BRAW Toolbox has been thrown together by Chris Hocking from LateNite.
 - [Privacy Policy](https://brawtoolbox.fcp.cafe/privacy.md): This is the privacy policy for the BRAW Toolbox, macOS Application that is available on the macOS App Store and TestFlight.
 - [Marketing](https://brawtoolbox.fcp.cafe/marketing.md): We'd love you to share and promote BRAW Toolbox!
