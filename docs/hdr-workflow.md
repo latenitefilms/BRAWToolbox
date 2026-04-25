@@ -1,5 +1,17 @@
 # HDR Workflow
 
+**BRAW Toolbox v3.0.0** introduced a **Media Extension**, allowing you to import `.braw` files natively into Final Cut Pro.
+
+This means that `.braw` files now behave exactly the same as `.mov` so you can relink in Final Cut Pro as normal.
+
+You can read more on the [Media Extension page](/media-extension).
+
+The below information is for people using the legacy BRAW Toolbox workflow.
+
+---
+
+## Legacy Workflow
+
 Thanks to the amazing help of [Marc Bach](https://www.interfacelab.tv) and [Jamie Lejeune](https://www.cinedocs.com), we've worked closely to come up with some solid and reliable HDR Workflow for BRAW Toolbox.
 
 In the BRAW Toolbox Workflow Extension, if you click on the **Settings** button (the gear icon, next to **Remove All**), you can select the Color Space:
@@ -34,7 +46,7 @@ This means you have fantastic grading control directly within Final Cut Pro, and
 
 ---
 
-### Additional Resources
+## Additional Resources
 
 You can learn more about HDR Workflows in Final Cut Pro here:
 

@@ -1,5 +1,17 @@
 # Relinking Media
 
+**BRAW Toolbox v3.0.0** introduced a **Media Extension**, allowing you to import `.braw` files natively into Final Cut Pro.
+
+This means that `.braw` files now behave exactly the same as `.mov` so you can relink in Final Cut Pro as normal.
+
+You can read more on the [Media Extension page](/media-extension).
+
+The below information is for people using the legacy BRAW Toolbox workflow.
+
+---
+
+## Legacy Workflow
+
 In terms of visuals, a BRAW Toolbox clip is essentially just an **Effect** (the BRAW Toolbox effect) applied to a **Generator** (just a generic Custom Solid), contained within a **Synchronised Clip**, contained within a **Multicam Clip**.
 
 In terms of sound, when you import a BRAW clip into Final Cut Pro via the BRAW Toolbox Workflow Extension, we "extract" the audio from the BRAW file and write it to disk (at the location you decide) as a normal WAV file.

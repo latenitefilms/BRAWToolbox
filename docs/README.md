@@ -1,22 +1,22 @@
 # BRAW Toolbox
 
-!!!success Media Extension out now!
-**BRAW Toolbox v3.0.0** now includes a **Media Extension**, so you can use Blackmagic RAW in QuickTime Player and Final Cut Pro natively!
-
-For a strictly limited time, you can buy BRAW Toolbox for **USD$49.99**. Thanks for your support!
+!!!success
+**BRAW Toolbox v3.0.0** now includes a [Media Extension](/media-extension), so you can use Blackmagic RAW in QuickTime Player and Final Cut Pro natively!
 !!!
 
 BRAW Toolbox allows you to import Blackmagic RAW files directly into Final Cut Pro **without transcoding**.
 
 **_No more transcoding. No more waiting. No more massive ProRes files._**
 
-BRAW Toolbox is used by over **3.82K** Final Cut Pro editors from all around the world!
+BRAW Toolbox is used by over **3.99K** Final Cut Pro editors from all around the world!
 
 It's been used on **feature films**, **televisions series** and **high-end television commercials**.
 
 BRAW Toolbox even works with **Blackmagic URSA Cine Immersive** files - and you can switch between the two lenses!
 
-> [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](/buy)
+!!!success
+You can [buy now](/buy) on the **Mac App Store**!
+!!!
 
 ![_Screenshot of BRAW Toolbox in Action. Surf footage by Adrian Emerton._](static/hero-banner.png)
 
@@ -26,7 +26,7 @@ BRAW Toolbox even works with **Blackmagic URSA Cine Immersive** files - and you 
 
 BRAW Toolbox includes a Media Extension, allowing you to access Blackmagic RAW within QuickTime Player, Final Cut Pro and any other application that supports Media Extensions!
 
-This gives you full RAW controls as well as Gyroflow built in!
+This gives you full RAW controls as well as **Gyroflow** built in!
 
 ![_Screenshot of BRAW Toolbox in Action. Surf footage by Adrian Emerton._](static/media-extension.png)
 
