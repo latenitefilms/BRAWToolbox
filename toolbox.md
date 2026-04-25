@@ -1,10 +1,22 @@
 # Toolbox
 
+**BRAW Toolbox v3.0.0** introduced a **Media Extension**, allowing you to import `.braw` files natively into Final Cut Pro.
+
+This means that `.braw` files now behave exactly the same as `.mov` so you can relink in Final Cut Pro as normal.
+
+You can read more on the [Media Extension page](/media-extension).
+
+The below information is for people using the legacy BRAW Toolbox workflow.
+
+---
+
+## Legacy Workflow
+
 The BRAW Toolbox Workflow Extension contains a collection of additional **Toolbox** features to help get things in and out of Final Cut Pro.
 
 ---
 
-### Repair Synchronized Clips (prior to v1.1.3)
+## Repair Synchronized Clips (prior to v1.1.3)
 
 Thanks to the help and support of the awesome Final Cut Pro team, we finally have a workaround to the Synchronised Clips bug.
 
@@ -36,7 +48,7 @@ Pressing this button will trigger the import process within Final Cut Pro - no d
 
 ---
 
-### Relink BRAW Clips within an LIBRARY / EVENT / PROJECT
+## Relink BRAW Clips within an LIBRARY / EVENT / PROJECT
 
 This Toolbox allows you to relink any BRAW Toolbox clips within a **Library**, **Event** or **Project**.
 
@@ -99,7 +111,7 @@ Pressing this button will trigger the import process within Final Cut Pro - no d
 
 ---
 
-### Convert PROJECT to Resolve Friendly FCPXML
+## Convert PROJECT to Resolve Friendly FCPXML
 
 To convert a project/timeline into something you can easily import into DaVinci Resolve (or other colour grading apps), you can drag your project from the Final Cut Pro Browser to the Toolbox at the bottom of the Workflow Extension.
 
@@ -109,7 +121,7 @@ This will create a new FCPXML, where it converts the BRAW Toolbox clips into nor
 
 ---
 
-### Convert PROJECT to Resolve Friendly FCPXML (via CP)
+## Convert PROJECT to Resolve Friendly FCPXML (via CP)
 
 This works the same as above, but instead of prompting you for a filename, it'll send the processed FCPXML directly to CommandPost for processing.
 
@@ -121,7 +133,7 @@ For this to work, you need to make sure you select **Send FCPXML to Sony Timecod
 
 ---
 
-### Convert BRAW clips to MOV's within an EVENT
+## Convert BRAW clips to MOV's within an EVENT
 
 !!!danger
 This Toolbox currently only works if you have BRAW files and MOV files in the same folder next to each other.
@@ -141,7 +153,7 @@ You then drag the green icon back into your Final Cut Pro Library.
 
 ---
 
-### Add BRAW Toolbox to Proxy Clips within an EVENT
+## Add BRAW Toolbox to Proxy Clips within an EVENT
 
 !!!danger
 This Toolbox currently has some issue which will be addressed in a future update.

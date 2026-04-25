@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830160531578">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830395715898">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Relinking Media</title>
     <meta name="title" content="Relinking Media">
-    <meta name="description" content="In terms of visuals, a BRAW Toolbox clip is essentially just an Effect (the BRAW Toolbox effect) applied to a Generator (just a generic Custom Solid), contained within a Synchronised Clip, contained within a Multicam Clip.">
+    <meta name="description" content="BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://brawtoolbox.fcp.cafe/relinking/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://brawtoolbox.fcp.cafe/relinking/">
     <meta property="og:title" content="Relinking Media">
-    <meta property="og:description" content="In terms of visuals, a BRAW Toolbox clip is essentially just an Effect (the BRAW Toolbox effect) applied to a Generator (just a generic Custom Solid), contained within a Synchronised Clip, contained within a Multicam Clip.">
+    <meta property="og:description" content="BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.">
     <meta property="og:image" content="https://brawtoolbox.fcp.cafe/static/thumbnail.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://brawtoolbox.fcp.cafe/relinking/">
     <meta name="twitter:title" content="Relinking Media">
-    <meta name="twitter:description" content="In terms of visuals, a BRAW Toolbox clip is essentially just an Effect (the BRAW Toolbox effect) applied to a Generator (just a generic Custom Solid), contained within a Synchronised Clip, contained within a Multicam Clip.">
+    <meta name="twitter:description" content="BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.">
     <meta name="twitter:image" content="https://brawtoolbox.fcp.cafe/static/thumbnail.png">
     <meta name="twitter:image:alt" content="Relinking Media">
 
@@ -44,12 +44,12 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.5.3.830160531578" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.5.3.830395715898" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.830160531578" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.830395715898" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.830160531578" data-turbo-eval="false" defer></script>
-    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=4.5.3.830160531578" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.830395715898" data-turbo-eval="false" defer></script>
+    <script id="prism-js" data-cfasync="false" src="../resources/js/prism.js?v=4.5.3.830395715898" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -240,6 +240,12 @@
 
                 <!-- Page content  -->
 <h1 id="relinking-media">Relinking Media</h1>
+<p><strong>BRAW Toolbox v3.0.0</strong> introduced a <strong>Media Extension</strong>, allowing you to import <code translate="no" v-pre>.braw</code> files natively into Final Cut Pro.</p>
+<p>This means that <code translate="no" v-pre>.braw</code> files now behave exactly the same as <code translate="no" v-pre>.mov</code> so you can relink in Final Cut Pro as normal.</p>
+<p>You can read more on the <a href="../media-extension/">Media Extension page</a>.</p>
+<p>The below information is for people using the legacy BRAW Toolbox workflow.</p>
+<hr>
+<h2 id="legacy-workflow">Legacy Workflow</h2>
 <p>In terms of visuals, a BRAW Toolbox clip is essentially just an <strong>Effect</strong> (the BRAW Toolbox effect) applied to a <strong>Generator</strong> (just a generic Custom Solid), contained within a <strong>Synchronised Clip</strong>, contained within a <strong>Multicam Clip</strong>.</p>
 <p>In terms of sound, when you import a BRAW clip into Final Cut Pro via the BRAW Toolbox Workflow Extension, we &quot;extract&quot; the audio from the BRAW file and write it to disk (at the location you decide) as a normal WAV file.</p>
 <p>This means that whilst you can use the built-in <strong>Final Cut Pro File &gt; Relink Files &gt; Original Media...</strong> menubar item for relinking the audio - you can&#x27;t use the built-in tool for relinking the BRAW files, because there is no media files in Final Cut Pro - just a effect and a generator.</p>
@@ -249,7 +255,7 @@
 <li><strong>Bookmark Data:</strong> A device specific security-scope bookmark to the BRAW file (basically a &quot;link&quot; to the file that works in a sandbox)</li>
 </ul>
 <p>You can see this information if you export a FCPXML of your timeline, for example:</p>
-<div id="relinking-media-code-1" class="codeblock-wrapper"><doc-codeblock line-numbers>
+<div id="legacy-workflow-code-1" class="codeblock-wrapper"><doc-codeblock line-numbers>
 <pre translate="no" class="language-markup" data-line="2-3"><code v-pre class="language-markup">&lt;filter-video ref=&quot;r7&quot; name=&quot;BRAW Toolbox&quot;&gt;
     &lt;param name=&quot;File Path&quot; key=&quot;9999/10015/10018/3/10028/100/101&quot; value=&quot;/Volumes/My External Hard Drive/My BRAW File.braw&quot;/&gt;
     &lt;param name=&quot;Bookmark Data&quot; key=&quot;9999/10015/10018/3/10028/100/102&quot; value=&quot;Ym9va3ADAAAAAAQQMAAAANzxm2p1S8BPQJILNuVvklpZSKYu1WUDhRe6gWEpUQQBSAIAAAQAAAADAwAAABgAKAUAAAABAQAAVXNlcnMAAAAMAAAAAQEAAGNocmlzaG9ja2luZwcAAAABAQAARGVza3RvcAAKAAAAAQEAAEJSQVcgQ2xpcHMAAB8AAAABAQAAMjAyMzA2MjAgLSBkb21yYWQxOTk1IG9uIEdpdEh1YgAXAAAAAQEAAEIwMDFfMDMyMzEzMzZfQzA1NS5icmF3ABgAAAABBgAAEAAAACAAAAA0AAAARAAAAFgAAACAAAAACAAAAAQDAACEXAAAAAAAAAgAAAAEAwAAYKgDAAAAAAAIAAAABAMAAGWoAwAAAAAACAAAAAQDAADo914CAAAAAAgAAAAEAwAA7h87BQAAAAAIAAAABAMAAAQgOwUAAAAAGAAAAAEGAADAAAAA0AAAAOAAAADwAAAAAAEAABABAAAIAAAAAAQAAEHFIQg4gAAAGAAAAAECAAABAAAAAAAAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAQUAAAQAAAADAwAABgAAAAQAAAADAwAABAAAAAgAAAAEAwAABAAAAAAAAAAEAAAAAwMAAPUBAAAIAAAAAQkAAGZpbGU6Ly8vDAAAAAEBAABNYWNpbnRvc2ggSEQIAAAABAMAAACA1E5GBwAACAAAAAAEAABBxYSbM4AAACQAAAABAQAAQThCMUEzNDktODg3Mi00QUJFLThDMTQtMzUyQzJBNENFRUQ3GAAAAAECAACBAAAAAQAAAO8TAAABAAAAAAAAAAAAAAABAAAAAQEAAC8AAADwAAAA/v///wEAAAAAAAAAEwAAAAQQAACgAAAAAAAAAAUQAAAgAQAAAAAAABAQAABQAQAAAAAAAEAQAABAAQAAAAAAAFQQAAB4AQAAAAAAAFUQAACEAQAAAAAAAFYQAABwAQAAAAAAAAIgAAA8AgAAAAAAAAUgAACsAQAAAAAAABAgAAC8AQAAAAAAABEgAADwAQAAAAAAABIgAADQAQAAAAAAABMgAADgAQAAAAAAACAgAAAcAgAAAAAAADAgAABwAQAAAAAAAAHAAACQAQAAAAAAABHAAAAgAAAAAAAAABLAAACgAQAAAAAAABDQAAAEAAAAAAAAAA==&quot;/&gt;

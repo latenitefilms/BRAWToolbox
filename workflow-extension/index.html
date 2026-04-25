@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830160531578">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830395715898">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Workflow Extension</title>
     <meta name="title" content="Workflow Extension">
-    <meta name="description" content="The BRAW Toolbox Workflow Extension is basically the equivalent of the Media Import window in Final Cut Pro.">
+    <meta name="description" content="BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://brawtoolbox.fcp.cafe/workflow-extension/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://brawtoolbox.fcp.cafe/workflow-extension/">
     <meta property="og:title" content="Workflow Extension">
-    <meta property="og:description" content="The BRAW Toolbox Workflow Extension is basically the equivalent of the Media Import window in Final Cut Pro.">
+    <meta property="og:description" content="BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.">
     <meta property="og:image" content="https://brawtoolbox.fcp.cafe/static/thumbnail.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://brawtoolbox.fcp.cafe/workflow-extension/">
     <meta name="twitter:title" content="Workflow Extension">
-    <meta name="twitter:description" content="The BRAW Toolbox Workflow Extension is basically the equivalent of the Media Import window in Final Cut Pro.">
+    <meta name="twitter:description" content="BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.">
     <meta name="twitter:image" content="https://brawtoolbox.fcp.cafe/static/thumbnail.png">
     <meta name="twitter:image:alt" content="Workflow Extension">
 
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.5.3.830160531578" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.5.3.830395715898" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.830160531578" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.830395715898" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.830160531578" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.830395715898" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -239,6 +239,12 @@
 
                 <!-- Page content  -->
 <h1 id="workflow-extension">Workflow Extension</h1>
+<p><strong>BRAW Toolbox v3.0.0</strong> introduced a <strong>Media Extension</strong>, allowing you to import <code translate="no" v-pre>.braw</code> files natively into Final Cut Pro.</p>
+<p>This means that <code translate="no" v-pre>.braw</code> files now behave exactly the same as <code translate="no" v-pre>.mov</code> so you can relink in Final Cut Pro as normal.</p>
+<p>You can read more on the <a href="../media-extension/">Media Extension page</a>.</p>
+<p>The below information is for people using the legacy BRAW Toolbox workflow.</p>
+<hr>
+<h2 id="legacy">Legacy</h2>
 <p>The BRAW Toolbox Workflow Extension is basically the equivalent of the <strong>Media Import</strong> window in Final Cut Pro.</p>
 <p>This is where we import our BRAW clips into Final Cut Pro, and do any initial changes to the RAW parameters.</p>
 <p>The Workflow Extension has different areas:</p>
@@ -247,7 +253,7 @@
     <figcaption class="caption"></figcaption>
 </figure>
 <hr>
-<h3 id="player">Player</h3>
+<h2 id="player">Player</h2>
 <figure class="content-center">
     <img src="../static/workflow-extension-02.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="984" height="654" />
     <figcaption class="caption"></figcaption>
@@ -265,7 +271,7 @@
 <li>Go to the last frame</li>
 </ul>
 <hr>
-<h3 id="file-list">File List</h3>
+<h2 id="file-list">File List</h2>
 <figure class="content-center">
     <img src="../static/workflow-extension-03.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="994" height="818" />
     <figcaption class="caption"></figcaption>
@@ -277,7 +283,7 @@
 <p>These buttons only remove the clips from the File List - they don&#x27;t delete anything at the Finder level.</p>
 <p>You can right click on the columns to show/hide specific columns, and you can drag columns around to change the order.</p>
 <hr>
-<h3 id="settings">Settings</h3>
+<h2 id="settings">Settings</h2>
 <figure class="content-center">
     <img src="../static/workflow-extension-04.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="106" height="88" />
     <figcaption class="caption"></figcaption>
@@ -293,7 +299,7 @@
 <p>The <strong>COLOR SPACE</strong> options allow you to set the Color Space that best matches your Final Cut Pro Library &amp; Event. This will also change how things look in the Workflow Extension Player.</p>
 <p><strong>APPLY LUT AFTER IMPORT</strong> are special options that will automagically apply LUTs to clips AFTER you import into Final Cut Pro. You won&#x27;t see the affects of these LUTs in the Workflow Extension Player. You can learn more about this in the <a href="https://brawtoolbox.io/hdr-workflow/" class="outbound" target="_blank"><span>HDR Workflow</span><svg xmlns="http://www.w3.org/2000/svg" class="retype-outbound-trigger docs-icon ml-1" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><g fill="currentColor"><path d="M15.5 2.25a.75.75 0 0 1 .75-.75h5.5a.75.75 0 0 1 .75.75v5.5a.75.75 0 0 1-1.5 0V4.06l-6.22 6.22a.75.75 0 1 1-1.06-1.06L19.94 3h-3.69a.75.75 0 0 1-.75-.75Z"/><path d="M2.5 4.25c0-.966.784-1.75 1.75-1.75h8.5a.75.75 0 0 1 0 1.5h-8.5a.25.25 0 0 0-.25.25v15.5c0 .138.112.25.25.25h15.5a.25.25 0 0 0 .25-.25v-8.5a.75.75 0 0 1 1.5 0v8.5a1.75 1.75 0 0 1-1.75 1.75H4.25a1.75 1.75 0 0 1-1.75-1.75V4.25Z"/></g></svg></a> section.</p>
 <hr>
-<h3 id="inspector">Inspector</h3>
+<h2 id="inspector">Inspector</h2>
 <figure class="content-center">
     <img src="../static/workflow-extension-06.png" alt="" class="max-w-full h-auto rounded-image-rounded border-image-border border-image-border-width" width="758" height="1354" />
     <figcaption class="caption"></figcaption>
@@ -318,7 +324,7 @@
 <p>The <strong>Apply Checked To All</strong> button allows you to apply all the checked items to ALL the clips in the File List.</p>
 <p>The <strong>Uncheck All</strong> button will uncheck all of the selection checkboxes.</p>
 <hr>
-<h3 id="toolbox">Toolbox</h3>
+<h2 id="toolbox">Toolbox</h2>
 <p>You can learn more about the Toolbox Features <a href="../toolbox/">here</a>.</p>
 
                 

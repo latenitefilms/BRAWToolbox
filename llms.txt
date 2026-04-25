@@ -3,24 +3,24 @@
 > BRAW Toolbox v3.0.0 now includes a Media Extension, so you can use Blackmagic RAW in QuickTime Player and Final Cut Pro natively!
 
 - [BRAW Toolbox](https://brawtoolbox.fcp.cafe/readme.md): BRAW Toolbox
-- [Buy on Mac App Store](https://brawtoolbox.fcp.cafe/buy.md): BRAW Toolbox v3.0.0 now includes a Media Extension, so you can use Blackmagic RAW in QuickTime Player and Final Cut Pro natively!
+- [Buy on Mac App Store](https://brawtoolbox.fcp.cafe/buy.md): BRAW Toolbox is a one-time payment of USD$79.99 on the Mac App Store.
 - [Educational Pricing](https://brawtoolbox.fcp.cafe/educational.md): Educational institutions can get a 50% discount when they purchase 20 or more copies through Apple School Manager.
 - [System Requirements](https://brawtoolbox.fcp.cafe/system-requirements.md): BRAW Toolbox requires Final Cut Pro 10.6.5 or later.
 - [Videos](https://brawtoolbox.fcp.cafe/videos.md): Below is a collection of videos created by third parties.
-- [Installation](https://brawtoolbox.fcp.cafe/installation.md): You can download BRAW Toolbox from the Mac App Store.
+- [Installation](https://brawtoolbox.fcp.cafe/installation.md): BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.
 - [How To Use](https://brawtoolbox.fcp.cafe/how-to-use.md): This page explains how to use BRAW Toolbox in it's traditional/legacy way.
 - [Media Extension](https://brawtoolbox.fcp.cafe/media-extension.md): BRAW Toolbox v3.0.0 contains a Media Extension allowing you to play back BRAW in QuickTime Player, Final Cut Pro and any other macOS applications that support Media Extensions.
-- [Support](https://brawtoolbox.fcp.cafe/support.md): If you run into any bugs, crashes, or you have a feature request, you can post an issue here.
+- [Support](https://brawtoolbox.fcp.cafe/support.md): The best place to get support is the FCP Cafe Discord.
 - [Frequently Asked Questions](https://brawtoolbox.fcp.cafe/faq.md): Color Finale Transcoder allows you to convert BRAW files into ProRes quickly and easily, all via a very slick Workflow Extension. It's a great application that we highly recommend you purchase.
 - [Troubleshooting](https://brawtoolbox.fcp.cafe/troubleshooting.md): You can access your User Library, by clicking on your Desktop, then holding down OPTION as you click the Go menu item in Finder. A Library option will
-- [Workflow Extension](https://brawtoolbox.fcp.cafe/workflow-extension.md): The BRAW Toolbox Workflow Extension is basically the equivalent of the Media Import window in Final Cut Pro.
-- [Toolbox](https://brawtoolbox.fcp.cafe/toolbox.md): The BRAW Toolbox Workflow Extension contains a collection of additional Toolbox features to help get things in and out of Final Cut Pro.
-- [LUTs](https://brawtoolbox.fcp.cafe/luts.md): In the BRAW Toolbox Workflow Extension, and Final Cut Pro Inspector you are able to set the LUT Source for individual clips.
-- [HDR Workflow](https://brawtoolbox.fcp.cafe/hdr-workflow.md): Thanks to the amazing help of Marc Bach and Jamie Lejeune, we've worked closely to come up with some solid and reliable HDR Workflow for BRAW Toolbox.
-- [Stabilisation](https://brawtoolbox.fcp.cafe/stabilisation.md): Unfortunately Final Cut Pro doesn't allow stabilisation of Multicam Clips and Synchronised Clips.
-- [Collaboration](https://brawtoolbox.fcp.cafe/collaboration.md): It's very common for Final Cut Pro editors to have to share libraries between different editors and machines.
+- [Workflow Extension](https://brawtoolbox.fcp.cafe/workflow-extension.md): BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.
+- [Toolbox](https://brawtoolbox.fcp.cafe/toolbox.md): BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.
+- [LUTs](https://brawtoolbox.fcp.cafe/luts.md): BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.
+- [HDR Workflow](https://brawtoolbox.fcp.cafe/hdr-workflow.md): BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.
+- [Stabilisation](https://brawtoolbox.fcp.cafe/stabilisation.md): BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.
+- [Collaboration](https://brawtoolbox.fcp.cafe/collaboration.md): BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.
 - [Metadata](https://brawtoolbox.fcp.cafe/metadata.md): The Synchronised Clip & Multicam Clip you import via BRAW Toolbox has full access to all the metadata within the BRAW clip.
-- [Relinking Media](https://brawtoolbox.fcp.cafe/relinking.md): In terms of visuals, a BRAW Toolbox clip is essentially just an Effect (the BRAW Toolbox effect) applied to a Generator (just a generic Custom Solid), contained within a Synchronised Clip, contained within a Multicam Clip.
+- [Relinking Media](https://brawtoolbox.fcp.cafe/relinking.md): BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.
 - [Release Notes](https://brawtoolbox.fcp.cafe/release-notes.md): 🎉 Released:
 - [Uninstall](https://brawtoolbox.fcp.cafe/uninstall.md): You can download the Uninstall tool here.
 - [Credits](https://brawtoolbox.fcp.cafe/credits.md): BRAW Toolbox has been thrown together by Chris Hocking from LateNite.

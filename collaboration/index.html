@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830160531578">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.830395715898">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -12,7 +12,7 @@
     <!-- Primary Meta Tags -->
     <title>Collaboration</title>
     <meta name="title" content="Collaboration">
-    <meta name="description" content="It's very common for Final Cut Pro editors to have to share libraries between different editors and machines.">
+    <meta name="description" content="BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.">
 
     <!-- Canonical -->
     <link rel="canonical" href="https://brawtoolbox.fcp.cafe/collaboration/">
@@ -22,7 +22,7 @@
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://brawtoolbox.fcp.cafe/collaboration/">
     <meta property="og:title" content="Collaboration">
-    <meta property="og:description" content="It's very common for Final Cut Pro editors to have to share libraries between different editors and machines.">
+    <meta property="og:description" content="BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.">
     <meta property="og:image" content="https://brawtoolbox.fcp.cafe/static/thumbnail.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
@@ -34,7 +34,7 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:url" content="https://brawtoolbox.fcp.cafe/collaboration/">
     <meta name="twitter:title" content="Collaboration">
-    <meta name="twitter:description" content="It's very common for Final Cut Pro editors to have to share libraries between different editors and machines.">
+    <meta name="twitter:description" content="BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.">
     <meta name="twitter:image" content="https://brawtoolbox.fcp.cafe/static/thumbnail.png">
     <meta name="twitter:image:alt" content="Collaboration">
 
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.5.3.830160531578" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.5.3.830395715898" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.830160531578" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.830395715898" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.830160531578" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.830395715898" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -239,6 +239,12 @@
 
                 <!-- Page content  -->
 <h1 id="collaboration">Collaboration</h1>
+<p><strong>BRAW Toolbox v3.0.0</strong> introduced a <strong>Media Extension</strong>, allowing you to import <code translate="no" v-pre>.braw</code> files natively into Final Cut Pro.</p>
+<p>This means that <code translate="no" v-pre>.braw</code> files now behave exactly the same as <code translate="no" v-pre>.mov</code> so you can relink in Final Cut Pro as normal.</p>
+<p>You can read more on the <a href="../media-extension/">Media Extension page</a>.</p>
+<p>The below information is for people using the legacy BRAW Toolbox workflow.</p>
+<hr>
+<h2 id="legacy-workflow">Legacy Workflow</h2>
 <p>It&#x27;s very common for Final Cut Pro editors to have to share libraries between different editors and machines.</p>
 <p>When you import a clip via BRAW Toolbox, we create a security-scoped bookmark, that&#x27;s <strong>specific to the machine you&#x27;re on</strong>.</p>
 <p>This means if you move that Final Cut Pro Library to another machine, Final Cut Pro won&#x27;t have access to that file, due to sandboxing (which is required by Mac App Store apps).</p>
@@ -250,7 +256,7 @@
 <p>This allows you to easily give BRAW Toolbox read-access to an external hard-drive or network share.</p>
 <p>As long as the file path remains consistent between machines (i.e. if you&#x27;re working off an external hard drive with the same name and folder structure), as long as you grant sandbox access, everything will auto-magically link correctly.</p>
 <hr>
-<h3 id="technical-explanation">Technical Explanation</h3>
+<h2 id="technical-explanation">Technical Explanation</h2>
 <p>Because BRAW Toolbox is sold on the Mac App Store, we have to adhere to very strict security and sandboxing requirements.</p>
 <p>The App Sandbox is an access control technology that macOS provides and enforces at the kernel level. The sandbox’s primary function is to restrict what files an application actually has access to.</p>
 <p>For example, an App sold on the Mac App Store generally won&#x27;t have access to any files on your system, unless you explicitly give it permission. This means it can&#x27;t mess with your user documents or system files.</p>
