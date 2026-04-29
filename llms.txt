@@ -5,7 +5,7 @@
 - [BRAW Toolbox](https://brawtoolbox.fcp.cafe/readme.md): BRAW Toolbox
 - [Buy on Mac App Store](https://brawtoolbox.fcp.cafe/buy.md): BRAW Toolbox is a one-time payment of USD$79.99 on the Mac App Store.
 - [Educational Pricing](https://brawtoolbox.fcp.cafe/educational.md): Educational institutions can get a 50% discount when they purchase 20 or more copies through Apple School Manager.
-- [System Requirements](https://brawtoolbox.fcp.cafe/system-requirements.md): BRAW Toolbox requires Final Cut Pro 10.6.5 or later.
+- [System Requirements](https://brawtoolbox.fcp.cafe/system-requirements.md): The Media Extension requires macOS Tahoe (or later) and Final Cut Pro 12.0 (or later).
 - [Videos](https://brawtoolbox.fcp.cafe/videos.md): Below is a collection of videos created by third parties.
 - [Installation](https://brawtoolbox.fcp.cafe/installation.md): BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.
 - [How To Use](https://brawtoolbox.fcp.cafe/how-to-use.md): This page explains how to use BRAW Toolbox in it's traditional/legacy way.
