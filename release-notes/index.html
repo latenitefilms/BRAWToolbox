@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831189139508">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831416152436">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.5.3.831189139508" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.5.3.831416152436" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.831189139508" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.831416152436" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.831189139508" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.831416152436" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -239,6 +239,29 @@
 
                 <!-- Page content  -->
 <h1 id="release-notes">Release Notes</h1>
+<h3 id="310-85">3.1.0 (85)</h3>
+<p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
+<ul>
+<li>Thursday 7th May 2026</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F528;</span> Improvements:</strong></p>
+<ul>
+<li>This release has MAJOR under-the-hood improvements for the Media Extension in terms of playback performance. The playback performance now more closely matches the legacy BRAW Toolbox Workflow Extension. It&#x27;s not quite as good as DaVinci Resolve - but it&#x27;s super close now. Thanks for reporting Dustin Painter &amp; Robin! Thanks for your help Final Cut Pro team! Thanks for your ideas and suggestions AdrianEddy &amp; Brian Elliott Tate!</li>
+<li>Gyroflow support in the Media Extension has also had MAJOR under-the-hood improvements. The results in the Media Extension should now exactly match the official Gyroflow application and Gyroflow Toolbox. Thanks for reporting mhbsavant! Thanks heaps AdrianEddy!</li>
+<li>The Media Extension now has the ability to read Gyroflow projects as sidecar files. If your BRAW file has a <code translate="no" v-pre>.gyroflow</code> file with the same filename next to it, the Media Extension will use the Gyroflow settings from that file.</li>
+<li>There&#x27;s a new <strong>Immersive Export</strong> feature in BRAW Toolbox. If you create a 16320x7200 @ 90fps timeline in Final Cut Pro and cut together Blackmagic RAW Immersive clips using the Media Extension, you can now export a ProRes and FCPXML, and use BRAW Toolbox to generate an Apple Immersive Video Universal (<code translate="no" v-pre>.aivu</code>) file that can be loaded on the Apple Vision Pro.</li>
+<li>We now bundle two transitions in Final Cut Pro, <strong>Immersive Fade</strong> and <strong>Immersive Cross Fade</strong>, that don&#x27;t do anything visually in your Final Cut Pro timeline, but tell the <strong>Immersive Export</strong> tool to apply transitions to these clips via metadata.</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<ul>
+<li>The BRAW Toolbox v3.0.0 Media Extension was creating cache files that were not always correctly cleaned up - wasting hard drive space. This is now fixed. Thanks for reporting Iain Anderson &amp; Christian Miranda!</li>
+<li>If the BRAW Toolobox v3.0.0 Media Extension was unexpectedly taking up hard drive space, please manually delete the <code translate="no" v-pre>/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.FormatReader</code> and <code translate="no" v-pre>/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.RAWProcessor</code> folders on your system to clean up the space.</li>
+<li>Fixed a bug where Blackmagic RAW clips were not displaying correctly in Apple Compressor. Thanks for your help Final Cut Pro team!</li>
+<li>The <strong>Launch Final Cut Pro</strong> button in the BRAW Toolbox application now works with Final Cut Pro Creator Studio (subscription) and the Final Cut Pro v11 free trial. Thanks for reporting Sebastian Leitner!</li>
+<li>Fixed a bug in the Final Cut Pro Workflow Extension, where the <strong>Relink BRAW Clips within an LIBRARY / EVENT / PROJECT</strong> Toolbox didn&#x27;t support Final Cut Pro Creator Studio (subscription) or Final Cut Pro v11 free trial. Thanks for reporting Aldo!</li>
+<li>Reduced the application bundle file size by compressing a TIFF. Thanks for reporting Dmitry Lavrov!</li>
+</ul>
+<hr>
 <h3 id="300-84">3.0.0 (84)</h3>
 <p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
 <ul>
