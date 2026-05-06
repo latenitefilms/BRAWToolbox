@@ -1,5 +1,27 @@
 # Release Notes
 
+### 3.1.0 (85)
+
+**🎉 Released:**
+- Thursday 7th May 2026
+
+**🔨 Improvements:**
+- This release has MAJOR under-the-hood improvements for the Media Extension in terms of playback performance. The playback performance now more closely matches the legacy BRAW Toolbox Workflow Extension. It's not quite as good as DaVinci Resolve - but it's super close now. Thanks for reporting Dustin Painter & Robin! Thanks for your help Final Cut Pro team! Thanks for your ideas and suggestions AdrianEddy & Brian Elliott Tate!
+- Gyroflow support in the Media Extension has also had MAJOR under-the-hood improvements. The results in the Media Extension should now exactly match the official Gyroflow application and Gyroflow Toolbox. Thanks for reporting mhbsavant! Thanks heaps AdrianEddy!
+- The Media Extension now has the ability to read Gyroflow projects as sidecar files. If your BRAW file has a `.gyroflow` file with the same filename next to it, the Media Extension will use the Gyroflow settings from that file.
+- There's a new **Immersive Export** feature in BRAW Toolbox. If you create a 16320x7200 @ 90fps timeline in Final Cut Pro and cut together Blackmagic RAW Immersive clips using the Media Extension, you can now export a ProRes and FCPXML, and use BRAW Toolbox to generate an Apple Immersive Video Universal (`.aivu`) file that can be loaded on the Apple Vision Pro.
+- We now bundle two transitions in Final Cut Pro, **Immersive Fade** and **Immersive Cross Fade**, that don't do anything visually in your Final Cut Pro timeline, but tell the **Immersive Export** tool to apply transitions to these clips via metadata.
+
+**🐞 Bug Fix:**
+- The BRAW Toolbox v3.0.0 Media Extension was creating cache files that were not always correctly cleaned up - wasting hard drive space. This is now fixed. Thanks for reporting Iain Anderson & Christian Miranda!
+- If the BRAW Toolobox v3.0.0 Media Extension was unexpectedly taking up hard drive space, please manually delete the `/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.FormatReader` and `/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.RAWProcessor` folders on your system to clean up the space.
+- Fixed a bug where Blackmagic RAW clips were not displaying correctly in Apple Compressor. Thanks for your help Final Cut Pro team!
+- The **Launch Final Cut Pro** button in the BRAW Toolbox application now works with Final Cut Pro Creator Studio (subscription) and the Final Cut Pro v11 free trial. Thanks for reporting Sebastian Leitner!
+- Fixed a bug in the Final Cut Pro Workflow Extension, where the **Relink BRAW Clips within an LIBRARY / EVENT / PROJECT** Toolbox didn't support Final Cut Pro Creator Studio (subscription) or Final Cut Pro v11 free trial. Thanks for reporting Aldo!
+- Reduced the application bundle file size by compressing a TIFF. Thanks for reporting Dmitry Lavrov!
+
+---
+
 ### 3.0.0 (84)
 
 **🎉 Released:**
