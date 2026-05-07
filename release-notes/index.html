@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="color-scheme" content="light dark">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831416152436">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="4.5.3.831472253898">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 4.5.3">
@@ -44,11 +44,11 @@
     <script data-cfasync="false">(function(){var cl=document.documentElement.classList,ls=localStorage.getItem("retype_scheme"),hd=cl.contains("dark"),hl=cl.contains("light"),wm=window.matchMedia&&window.matchMedia("(prefers-color-scheme: dark)").matches;if(ls==="dark"||(!ls&&wm&&!hd&&!hl)){cl.remove("light");cl.add("dark")}else if(ls==="light"||(!ls&&!wm&&!hd&&!hl)){cl.remove("dark");cl.add("light")}})();</script>
 
     <link id="retype-favicon" rel="icon" href="../static/favicon.ico" />
-    <link href="../resources/css/retype.css?v=4.5.3.831416152436" rel="stylesheet">
+    <link href="../resources/css/retype.css?v=4.5.3.831472253898" rel="stylesheet">
 
-    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.831416152436" data-turbo-eval="false" defer></script>
+    <script data-cfasync="false" src="../resources/js/config.js?v=4.5.3.831472253898" data-turbo-eval="false" defer></script>
     <script data-cfasync="false" src="../resources/js/retype.js?v=4.5.3" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.831416152436" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" data-cfasync="false" src="../resources/js/lunr.js?v=4.5.3.831472253898" data-turbo-eval="false" defer></script>
 </head>
 <body>
     <div id="retype-app" class="relative text-base antialiased text-base-text bg-base-bg font-body">
@@ -239,6 +239,16 @@
 
                 <!-- Page content  -->
 <h1 id="release-notes">Release Notes</h1>
+<h3 id="311-86">3.1.1 (86)</h3>
+<p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
+<ul>
+<li>Thursday 7th May 2026</li>
+</ul>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<ul>
+<li>Fixed a very annoying bug that caused the Media Extension to stop rendering after 4096 frames - causing Final Cut Pro to display black frames. Thanks for reporting pratap and adamloretz-stack!</li>
+</ul>
+<hr>
 <h3 id="310-85">3.1.0 (85)</h3>
 <p><strong><span class="docs-emoji">&#x1F389;</span> Released:</strong></p>
 <ul>
@@ -252,7 +262,7 @@
 <li>There&#x27;s a new <strong>Immersive Export</strong> feature in BRAW Toolbox. If you create a 16320x7200 @ 90fps timeline in Final Cut Pro and cut together Blackmagic RAW Immersive clips using the Media Extension, you can now export a ProRes and FCPXML, and use BRAW Toolbox to generate an Apple Immersive Video Universal (<code translate="no" v-pre>.aivu</code>) file that can be loaded on the Apple Vision Pro.</li>
 <li>We now bundle two transitions in Final Cut Pro, <strong>Immersive Fade</strong> and <strong>Immersive Cross Fade</strong>, that don&#x27;t do anything visually in your Final Cut Pro timeline, but tell the <strong>Immersive Export</strong> tool to apply transitions to these clips via metadata.</li>
 </ul>
-<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fix:</strong></p>
+<p><strong><span class="docs-emoji">&#x1F41E;</span> Bug Fixes:</strong></p>
 <ul>
 <li>The BRAW Toolbox v3.0.0 Media Extension was creating cache files that were not always correctly cleaned up - wasting hard drive space. This is now fixed. Thanks for reporting Iain Anderson &amp; Christian Miranda!</li>
 <li>If the BRAW Toolobox v3.0.0 Media Extension was unexpectedly taking up hard drive space, please manually delete the <code translate="no" v-pre>/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.FormatReader</code> and <code translate="no" v-pre>/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.RAWProcessor</code> folders on your system to clean up the space.</li>

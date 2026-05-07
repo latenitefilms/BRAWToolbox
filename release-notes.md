@@ -1,5 +1,15 @@
 # Release Notes
 
+### 3.1.1 (86)
+
+**🎉 Released:**
+- Thursday 7th May 2026
+
+**🐞 Bug Fix:**
+- Fixed a very annoying bug that caused the Media Extension to stop rendering after 4096 frames - causing Final Cut Pro to display black frames. Thanks for reporting pratap and adamloretz-stack!
+
+---
+
 ### 3.1.0 (85)
 
 **🎉 Released:**
@@ -12,7 +22,7 @@
 - There's a new **Immersive Export** feature in BRAW Toolbox. If you create a 16320x7200 @ 90fps timeline in Final Cut Pro and cut together Blackmagic RAW Immersive clips using the Media Extension, you can now export a ProRes and FCPXML, and use BRAW Toolbox to generate an Apple Immersive Video Universal (`.aivu`) file that can be loaded on the Apple Vision Pro.
 - We now bundle two transitions in Final Cut Pro, **Immersive Fade** and **Immersive Cross Fade**, that don't do anything visually in your Final Cut Pro timeline, but tell the **Immersive Export** tool to apply transitions to these clips via metadata.
 
-**🐞 Bug Fix:**
+**🐞 Bug Fixes:**
 - The BRAW Toolbox v3.0.0 Media Extension was creating cache files that were not always correctly cleaned up - wasting hard drive space. This is now fixed. Thanks for reporting Iain Anderson & Christian Miranda!
 - If the BRAW Toolobox v3.0.0 Media Extension was unexpectedly taking up hard drive space, please manually delete the `/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.FormatReader` and `/Users/YOUR-USER-NAME/Library/Containers/com.latenitefilms.BRAWToolbox.RAWProcessor` folders on your system to clean up the space.
 - Fixed a bug where Blackmagic RAW clips were not displaying correctly in Apple Compressor. Thanks for your help Final Cut Pro team!
