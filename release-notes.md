@@ -1,5 +1,22 @@
 # Release Notes
 
+### 3.1.2 (88)
+
+**🎉 Released:**
+- Saturday 9th May 2026
+
+**🔨 Improvements:**
+- The Media Extension now supports **Better Performance** mode in Final Cut Pro. Thanks for your help and support Final Cut Pro team!
+- Up until the M5-series, Apple Silicon only supports a maximum of 16,384 pixel Metal textures, whereas the M5-series supports up to 32,768 pixels. Due to this and limitations with Media Extensions in Final Cut Pro, when working with Blackmagic RAW footage greater than 16K on machines older than the M5-series, BRAW Toolbox now forces a lower decode quality so that the footage can import and play. On an M5-series Mac, full decode quality is supported. This is only relevant for cameras such as the Blackmagic URSA Cine 17K 65.
+
+**🐞 Bug Fixes:**
+- Fixed a bug where Gyroflow stabilisation would only work on macOS 26.
+- Fixed a bug where Gyroflow stabilisation would only work at full decode quality.
+- Fixed colour space handling in Apple Compressor. Thanks for your help and support Final Cut Pro team!
+- Fixed a bug where an Apple Immersive Video Universal (`.aivu`) file from the **Immersive Export** could fail to load on Apple Vision Pro due to unsupported audio formats.
+
+---
+
 ### 3.1.1 (86)
 
 **🎉 Released:**
