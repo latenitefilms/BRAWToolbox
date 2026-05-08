@@ -1,5 +1,15 @@
 # Release Notes
 
+### 3.1.3 (89)
+
+**🎉 Released:**
+- Saturday 9th May 2026
+
+**🐞 Bug Fix:**
+- When using the **Immersive Export** feature, if you do an **Immersive Fade** at the of a clip, on a Apple Vision Pro, it would hold on the last frame of the Blackmagic RAW footage. We now apply a **Default Camera** for any non-Blackmagic RAW clips to fix this issue. Thanks Tim!
+
+---
+
 ### 3.1.2 (88)
 
 **🎉 Released:**
