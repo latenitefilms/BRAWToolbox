@@ -1,14 +1,20 @@
 # Media Extension
 
-**BRAW Toolbox v3.0.0** contains a **Media Extension** allowing you to play back BRAW in QuickTime Player, Final Cut Pro and any other macOS applications that support Media Extensions.
+**BRAW Toolbox v3.0.0** contains a **Media Extension** allowing you to play back Blackmagic RAW in QuickTime Player, Final Cut Pro, Compressor and any other macOS applications that support Media Extensions.
 
-![](../static/braw-toolbox-v3-0-0.png)
+![](../static/braw-toolbox-3-1-3-enabled.png)
+
+The Media Extension **REPLACES** the existing BRAW Toolbox Workflow Extension and FxPlug Motion Templates - these only still exist for legacy projects and specific workflows.
+
+For **MOST** users, the Media Extension will be what you use to access Blackmagic RAW in Final Cut Pro.
 
 ---
 
 ## Installation
 
 When you first install **BRAW Toolbox v3.0.0** or later, the Media Extensions are **off by default** - you need to enable them in **System Settings**.
+
+![](../static/braw-toolbox-3-1-3-disabled.png)
 
 Open **System Settings** then in the **General** tab, select **Login Items & Extensions**.
 
@@ -36,9 +42,9 @@ You can find the RAW controls at the bottom of the **Metadata Inspector** with t
 
 The **BRAW Toolbox** application also has a built-in Blackmagic RAW player for testing the Media Extension.
 
-When you launch **BRAW Toolbox** from your `/Applications` folder, click **Open Blackmagic RAW Clip...**.
+When you launch **BRAW Toolbox** from your `/Applications` folder, click **Open Blackmagic RAW Clip in Player...**.
 
-![](../static/open-braw-clip.png)
+![](../static/braw-toolbox-3-1-3-enabled.png)
 
 You then have a player with full RAW controls and full metadata viewing:
 
@@ -50,7 +56,7 @@ You then have a player with full RAW controls and full metadata viewing:
 
 The main advantage of the Media Extension is that once installed, you can just drag a `.braw` into Final Cut Pro, and it works exactly the same as a `.mov`.
 
-You can create Proxies, you can Create Optimised Media, it works just like a regular clip in Final Cut Pro.
+You can create **Proxies**, you can **Create Optimised Media** - it works just like a regular clip in Final Cut Pro.
 
 You can easily just export a FCPXML to DaVinci Resolve without any processing.
 
@@ -58,6 +64,6 @@ You also get full Gyroflow control built-in to the Media Extension!
 
 The downside is that you loose RAW key-framing, and you loose ability to have RAW presets.
 
-In terms of performance, they're equivalent. Neither will be as fast as DaVinci Resolve, and both have their workarounds and quirks.
+In terms of performance, they're equivalent. Neither will be exactly as fast as DaVinci Resolve, and both have their workarounds and quirks.
 
 If you just want to convert `.braw` to something else, then [EditReady](https://hedge.co/products/editready) or DaVinci Resolve will be faster.

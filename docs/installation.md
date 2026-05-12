@@ -6,7 +6,7 @@ This means that `.braw` files now behave exactly the same as `.mov` so you can r
 
 You can read more on the [Media Extension page](/media-extension).
 
-The below information is for people using the legacy BRAW Toolbox workflow.
+The below information is **ONLY** for people using the legacy BRAW Toolbox workflow.
 
 ---
 
