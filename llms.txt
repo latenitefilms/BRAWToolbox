@@ -9,7 +9,8 @@
 - [Videos](https://brawtoolbox.fcp.cafe/videos.md): Below is a collection of videos created by third parties.
 - [Installation](https://brawtoolbox.fcp.cafe/installation.md): BRAW Toolbox v3.0.0 introduced a Media Extension, allowing you to import .braw files natively into Final Cut Pro.
 - [How To Use](https://brawtoolbox.fcp.cafe/how-to-use.md): This page explains how to use BRAW Toolbox in it's traditional/legacy way.
-- [Media Extension](https://brawtoolbox.fcp.cafe/media-extension.md): BRAW Toolbox v3.0.0 contains a Media Extension allowing you to play back BRAW in QuickTime Player, Final Cut Pro and any other macOS applications that support Media Extensions.
+- [Media Extension](https://brawtoolbox.fcp.cafe/media-extension.md): BRAW Toolbox v3.0.0 contains a Media Extension allowing you to play back Blackmagic RAW in QuickTime Player, Final Cut Pro, Compressor and any other macOS applications that support Media Extensions.
+- [Immersive](https://brawtoolbox.fcp.cafe/immersive.md): Immersive support in BRAW Toolbox is new and evolving. Feedback and suggestions welcome!
 - [Support](https://brawtoolbox.fcp.cafe/support.md): The best place to get support is the FCP Cafe Discord.
 - [Frequently Asked Questions](https://brawtoolbox.fcp.cafe/faq.md): Color Finale Transcoder allows you to convert BRAW files into ProRes quickly and easily, all via a very slick Workflow Extension. It's a great application that we highly recommend you purchase.
 - [Troubleshooting](https://brawtoolbox.fcp.cafe/troubleshooting.md): You can access your User Library, by clicking on your Desktop, then holding down OPTION as you click the Go menu item in Finder. A Library option will

@@ -6,6 +6,8 @@ In **BRAW Toolbox v3.0.0** we introduced a **Media Extension** which allows you 
 
 You can read more on the [Media Extension page](/media-extension).
 
+The below information is **ONLY** for people using the legacy BRAW Toolbox workflow.
+
 ---
 
 ## Legacy Workflow
