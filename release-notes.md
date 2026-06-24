@@ -1,5 +1,15 @@
 # Release Notes
 
+### 3.1.4 (90)
+
+**🎉 Released:**
+- Wednesday 24th June 2026
+
+**🔨 Improvements:**
+- We've made some changes to how "Better Performance" mode works for the Media Extension in Final Cut Pro which improves quality and performance in some cases. Thanks for your help and support Final Cut Pro team!
+
+---
+
 ### 3.1.3 (89)
 
 **🎉 Released:**
