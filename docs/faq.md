@@ -1,6 +1,8 @@
 # Frequently Asked Questions
 
-### Media Extension vs Legacy
+### Media Extension vs Legacy Workflow Extension
+
+Originally, BRAW Toolbox shipped as Workflow Extension. It now ships with a Media Extension.
 
 The main advantage of the Media Extension is that once installed, you can just drag a `.braw` into Final Cut Pro, and it works exactly the same as a `.mov`.
 
@@ -8,7 +10,7 @@ You can create **Proxies**, you can **Create Optimised Media** - it works just l
 
 You can easily just export a FCPXML to DaVinci Resolve without any processing.
 
-You also get full Gyroflow control built-in to the Media Extension!
+You also get full Gyroflow control built-in to the Media Extension.
 
 The downside is that you loose RAW key-framing, and you loose ability to have RAW presets.
 
