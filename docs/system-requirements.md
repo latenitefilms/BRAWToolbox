@@ -1,39 +1,15 @@
 # System Requirements
 
-## Media Extension
-
-The **Media Extension** requires **macOS Tahoe** (or later) and **Final Cut Pro 12.0** (or later).
+BRAW Toolbox on **Mac** requires **macOS Sequoia 15** (or later).
 
 It works best on the latest Apple Silicon Mac's, however Intel is also supported.
 
-Whilst Media Extensions can TECHNICALLY run on older versions of macOS and Final Cut Pro, there's bugs that have been fixed in later updates.
+BRAW Toolbox on **Vision Pro** requires **visionOS 26** (or later).
 
-Before you purchase, you should make sure that your system has a fast enough GPU and hard drive to play back BRAW files.
+Before you purchase, you should make sure that your system has a fast enough GPU and hard drive to play back Blackmagic RAW files.
 
-You can use Blackmagic's free [Blackmagic RAW Speed Test](https://apps.apple.com/us/app/blackmagic-raw-speed-test/id1466185689?mt=12) and [Blackmagic Disk Speed Test](https://apps.apple.com/au/app/blackmagic-disk-speed-test/id425264550?mt=12) tools to ensure your system is fast enough for the footage you want to work with.
+You can use Blackmagic's free [Blackmagic RAW Speed Test](https://apps.apple.com/app/blackmagic-raw-speed-test/id1466185689) and [Blackmagic Disk Speed Test](https://apps.apple.com/app/blackmagic-disk-speed-test/id425264550) tools to ensure your system is fast enough for the footage you want to work with.
 
-You can also use Blackmagic's free [Blackmagic RAW Player](https://apps.apple.com/us/app/blackmagic-raw-player/id1435415804?mt=12) to test playing back BRAW files on your system.
-
-![](static/blackmagic-raw-test.png)
-
----
-
-## Legacy Workflow
-
-BRAW Toolbox requires **Final Cut Pro 10.6.5** or later.
-
-It works great on the latest **Final Cut Pro 12.2** release.
-
-It works best on the latest Apple Silicon Mac's, however Intel is also supported.
-
-Unfortunately, currently BRAW Toolbox won't work on Final Cut Pro for iPad, however if Apple does add third party FxPlug support, we'll definitely look into this!
-
-You can find Final Cut Pro's system requirements [here](https://www.apple.com/au/final-cut-pro/specs/).
-
-Before you purchase, you should make sure that your system has a fast enough GPU and hard drive to play back BRAW files.
-
-You can use Blackmagic's free [Blackmagic RAW Speed Test](https://apps.apple.com/us/app/blackmagic-raw-speed-test/id1466185689?mt=12) and [Blackmagic Disk Speed Test](https://apps.apple.com/au/app/blackmagic-disk-speed-test/id425264550?mt=12) tools to ensure your system is fast enough for the footage you want to work with.
-
-You can also use Blackmagic's free [Blackmagic RAW Player](https://apps.apple.com/us/app/blackmagic-raw-player/id1435415804?mt=12) to test playing back BRAW files on your system.
+You can also use Blackmagic's free [Blackmagic RAW Player](https://apps.apple.com/app/blackmagic-raw-player/id1435415804) to test playing back Blackmagic RAW files on your system.
 
 ![](static/blackmagic-raw-test.png)

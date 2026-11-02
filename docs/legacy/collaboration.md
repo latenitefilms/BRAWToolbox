@@ -1,16 +1,8 @@
 # Collaboration
 
-**BRAW Toolbox v3.0.0** introduced a **Media Extension**, allowing you to import `.braw` files natively into Final Cut Pro.
-
-This means that `.braw` files now behave exactly the same as `.mov` so you can relink in Final Cut Pro as normal.
-
-You can read more on the [Media Extension page](/media-extension).
-
-The below information is for people using the legacy BRAW Toolbox workflow.
-
-----
-
-## Legacy Workflow
+!!!warning
+This information is for anyone using the legacy Workflow Extension.
+!!!
 
 It's very common for Final Cut Pro editors to have to share libraries between different editors and machines.
 

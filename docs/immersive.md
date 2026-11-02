@@ -1,15 +1,12 @@
-# Immersive
+# Immersive & Vision Pro
 
-!!!tip
-Immersive support in BRAW Toolbox is new and evolving. Feedback and suggestions welcome!
+!!!warning
+This page is under construction while we gear up for BRAW Toolbox v4 release!
 !!!
-
 
 **BRAW Toolbox v3.0.0** introduced a **Media Extension**, allowing you to import `.braw` files natively into Final Cut Pro.
 
 This means that `.braw` files now behave exactly the same as `.mov` so you can relink in Final Cut Pro as normal.
-
-You can read more on the [Media Extension page](/media-extension).
 
 Whilst the legacy Workflow Extension also supports Blackmagic URSA Cine Immersive clips (`16320x7200` at `90fps`) - when using the Media Extension, you can use the **Immersive Export** function in the **BRAW Toolbox** application.
 

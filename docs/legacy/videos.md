@@ -1,5 +1,9 @@
 # Videos
 
+!!!warning
+This information is for anyone using the legacy Workflow Extension.
+!!!
+
 Below is a collection of videos created by third parties.
 
 Thanks to everyone who's made awesome videos promoting and discussion BRAW Toolbox!

@@ -1,16 +1,8 @@
 # HDR Workflow
 
-**BRAW Toolbox v3.0.0** introduced a **Media Extension**, allowing you to import `.braw` files natively into Final Cut Pro.
-
-This means that `.braw` files now behave exactly the same as `.mov` so you can relink in Final Cut Pro as normal.
-
-You can read more on the [Media Extension page](/media-extension).
-
-The below information is for people using the legacy BRAW Toolbox workflow.
-
----
-
-## Legacy Workflow
+!!!warning
+This information is for anyone using the legacy Workflow Extension.
+!!!
 
 Thanks to the amazing help of [Marc Bach](https://www.interfacelab.tv) and [Jamie Lejeune](https://www.cinedocs.com), we've worked closely to come up with some solid and reliable HDR Workflow for BRAW Toolbox.
 

@@ -24,7 +24,6 @@ TestFlight builds are valid for **90 days** from the date they are uploaded to A
 
 After 90 days, the build expires and becomes unavailable for testing.
 
-
 ---
 
 ## Unlock CommandPost

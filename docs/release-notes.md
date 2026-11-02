@@ -1,5 +1,28 @@
 # Release Notes
 
+### 4.0.0 (108)
+
+**🎉 Released:**
+- Coming Soon!
+
+**🥳 New Features:**
+- We've added a Vision Pro app! You can now stream Blackmagic URSA Cine Immersive clips from the BRAW Player and Final Cut Pro to your Vision Pro via Wifi and with the Developer Strap.
+- We've added a new Quick Look extension, allowing you to better preview Blackmagic RAW clips in Finder. It includes an Immersive view and Debayer controls.
+- We've added new Immersive Tools! **Batch Export** allows you to convert multiple Blackmagic URSA Cine Immersive clips into Apple Immersive Video Universal files that you can AirDrop to your Apple Vision Pro.
+- The **Compressor** Immersive Tool allows you to create dual-track ProRes files that you can use in Apple's Compressor or Colorfront Immersive Utility.
+
+**🔨 Improvements:**
+- We've made various under-the-hood improvements to improve playback performance of the Media Extension. Thanks pratap!
+- We've made various user interface improvements to make the BRAW Toolbox application more user friendly. Thanks for your feedback Iain Anderson!
+- Updated from Blackmagic RAW SDK v5.1 to v6.0. Thanks Blackmagic team for all your amazing work and the new APIs!
+- Added support for Blackmagic Generation 6 Color Science.
+- Blackmagic URSA Cine Immersive clips in the Media Extension now display side-by-side with a QR code containing the camera identifier, so that the matching Immersive Lens Profile Data can be matched.
+- We've improved the Immersive Transitions. There's now a checkbox in the Final Cut Pro Transition Inspector so you can globally enable and disable the transition rendering - so you can preview the transition in Final Cut Pro, and disable it in one click for exporting. You can also now Dip to Color.
+- We've added a Static Foveation option to the Final Cut Pro Immersive Tool.
+- The Media Extension now supports more than two audio tracks. Thanks for reporting Anthony Joey L!
+
+---
+
 ### 3.1.4 (90)
 
 **🎉 Released:**
