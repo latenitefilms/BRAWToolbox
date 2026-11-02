@@ -52,7 +52,9 @@ We use Blackmagic's official [BRAW SDK](https://www.blackmagicdesign.com/develop
 
 As far as we know, BRAW Toolbox is the first application on the Mac App Store to include an FxPlug4 effect.
 
-Then in **BRAW Toolbox v3.0.0** we added a Media Extension for native Blackmagic RAW in QuickTime Player, Final Cut Pro and any other application that supports Media Extensions!
+Then in **BRAW Toolbox v3.0.0** we added a Media Extension for native Blackmagic RAW in QuickTime Player, Final Cut Pro and any other application that supports Media Extensions.
+
+Then in **BRAW Toolbox v4.0.0** we added Quick Look extensions to give you more control in Finder, and an iPad app so you can stream from Final Cut Pro to your Vision Pro.
 
 ---
 
