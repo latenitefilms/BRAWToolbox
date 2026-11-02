@@ -13,14 +13,13 @@
 - [Frequently Asked Questions](https://brawtoolbox.fcp.cafe/faq.md): The main advantage of the Media Extension is that once installed, you can just drag a .braw into Final Cut Pro, and it works exactly the same as a .mov.
 - [Troubleshooting](https://brawtoolbox.fcp.cafe/troubleshooting.md): You can access your User Library, by clicking on your Desktop, then holding down OPTION as you click the Go menu item in Finder. A Library option will
 - [Stabilisation](https://brawtoolbox.fcp.cafe/stabilisation.md): The BRAW Toolbox Media Extension has Gyroflow built in, so you can stabilise the whole clip directly in Final Cut Pro.
-- [Metadata](https://brawtoolbox.fcp.cafe/metadata.md): The Synchronised Clip & Multicam Clip you import via BRAW Toolbox has full access to all the metadata within the BRAW clip.
 - [Release Notes](https://brawtoolbox.fcp.cafe/release-notes.md): 🎉 Released:
 - [Uninstall](https://brawtoolbox.fcp.cafe/uninstall.md): You can download the Uninstall tool here.
 - [Credits](https://brawtoolbox.fcp.cafe/credits.md): BRAW Toolbox has been thrown together by Chris Hocking from LateNite.
 - [Privacy Policy](https://brawtoolbox.fcp.cafe/privacy.md): This is the privacy policy for the BRAW Toolbox, macOS Application that is available on the macOS App Store and TestFlight.
 - [Marketing](https://brawtoolbox.fcp.cafe/marketing.md): We'd love you to share and promote BRAW Toolbox!
 
-## Legacy
+## Legacy Workflow Extension
 
 - [Videos](https://brawtoolbox.fcp.cafe/legacy/videos.md): This information is for anyone using the legacy Workflow Extension.
 - [Installation](https://brawtoolbox.fcp.cafe/legacy/installation.md): This information is for anyone using the legacy Workflow Extension.
@@ -32,4 +31,5 @@
 - [HDR Workflow](https://brawtoolbox.fcp.cafe/legacy/hdr-workflow.md): This information is for anyone using the legacy Workflow Extension.
 - [Stabilisation](https://brawtoolbox.fcp.cafe/legacy/stabilisation.md): This information is for anyone using the legacy Workflow Extension.
 - [Collaboration](https://brawtoolbox.fcp.cafe/legacy/collaboration.md): This information is for anyone using the legacy Workflow Extension.
+- [Metadata](https://brawtoolbox.fcp.cafe/legacy/metadata.md): The Synchronised Clip & Multicam Clip you import via BRAW Toolbox has full access to all the metadata within the BRAW clip.
 - [Relinking Media](https://brawtoolbox.fcp.cafe/legacy/relinking.md): This information is for anyone using the legacy Workflow Extension.
