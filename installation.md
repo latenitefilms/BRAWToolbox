@@ -2,8 +2,6 @@
 
 **BRAW Toolbox** contains a **Media Extension** allowing you to play back Blackmagic RAW in QuickTime Player, Final Cut Pro, Compressor and any other macOS applications that support Media Extensions.
 
-![](../static/braw-toolbox-3-1-3-enabled.png)
-
 The Media Extension **REPLACES** the previous Workflow Extension and FxPlug Motion Templates - these only still exist for legacy projects and specific workflows.
 
 For **MOST** users, the Media Extension will be what you use to access Blackmagic RAW in Final Cut Pro.
@@ -24,7 +22,7 @@ Find **BRAW Toolbox** in the list, and click the Info icon next to it.
 
 ![](../static/extensions-braw-toolbox.png)
 
-You should then enable the **three** Media Extensions, and two Quick Look Extensions.
+You should then enable the three **Media Extensions**, and two **Quick Look Extensions**.
 
 ![](../static/media-extensions-settings-v4.png)
 
