@@ -1,6 +1,6 @@
 # How To Use
 
-After [installing](/installation), you can simply drag-and-drop Blackmagic RAW files directly into Final Cut Pro!
+After [installing](/installation), you can simply drag-and-drop Blackmagic RAW files directly into Final Cut Pro! It's that easy! 🥳
 
 ![](static/media-extension.png)
 
