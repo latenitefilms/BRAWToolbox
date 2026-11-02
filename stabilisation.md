@@ -1,38 +1,16 @@
 # Stabilisation
 
-**BRAW Toolbox v3.0.0** introduced a **Media Extension**, allowing you to import `.braw` files natively into Final Cut Pro.
+The BRAW Toolbox Media Extension has Gyroflow built in, so you can stabilise the whole clip directly in Final Cut Pro.
 
-This means that `.braw` files now behave exactly the same as `.mov` so you can relink in Final Cut Pro as normal.
+You can find the Gyroflow controls within the RAW inspector in Final Cut Pro.
 
-The **Media Extension** also has **Gyroflow** support built in!
-
-You can read more on the [Media Extension page](/media-extension).
-
-The below information is for people using the legacy BRAW Toolbox workflow.
-
----
-
-## Legacy Workflow
-
-Unfortunately Final Cut Pro doesn't allow stabilisation of Multicam Clips and Synchronised Clips.
-
-To workaround this, you can export a ProRes file of the clip you want to stabilise, and bring it back into Final Cut Pro, or use a third party tool such as [CoreMelt's Lock & Load X](https://coremelt.com/products/lock-and-load-x).
-
-However, if you have a Blackmagic Camera that outputs Gyroscope Metadata such as the Blackmagic Pocket Cinema Camera 4K/6K, you can use one of our companion tools, [Gyroflow Toolbox](https://gyroflowtoolbox.io), to use that gyroscope data to stabilise the footage directly within Final Cut Pro.
-
-> **_[You can download Gyroflow Toolbox here.](https://gyroflowtoolbox.io/buy/)_**
-
-Simply apply the Gyroflow Toolbox effect to the video layer inside your Synchronised or Multicam clip.
-
-![](static/stabilisation.png)
+Alternatively if you only want to stabilise a section of a clip, you can always use [Gyroflow Toolbox](https://gyroflowtoolbox.fcp.cafe).
 
 ---
 
 ## What is Gyroflow?
 
 [Gyroflow](https://gyroflow.xyz) is a free and open source application that can stabilize your video by using motion data from a gyroscope and optionally an accelerometer. Modern cameras record that data internally (GoPro, Sony, Insta360 etc), and Gyroflow stabilizes the captured footage precisely by using them. It can also use gyro data from an external source (eg. from Betaflight blackbox).
-
-Gyroflow Toolbox allows you to take the stabilised data from Gyroflow and use it within Final Cut Pro as an effect.
 
 ---
 
