@@ -1,6 +1,6 @@
 # BRAW Toolbox
 
-BRAW Toolbox allows you to work with Blackmagic RAW files natively and seamlessly everywhere on your Mac!
+**BRAW Toolbox** allows you to work with **Blackmagic RAW** files natively and seamlessly everywhere on your Mac!
 
 !!!success
 You can [buy now](/buy) on the **Mac App Store**!
@@ -12,7 +12,7 @@ If you're working with Final Cut Pro, you can simply drag Blackmagic RAW clips f
 
 You get full access to all the RAW controls via Final Cut Pro's **Edit RAW Properties** in the Info Inspector - nothing is baked in.
 
-You can even import Blackmagic URSA Cine Immersive clips as `16320x7200` side-by-side, and then stream them to your Vision Pro!
+You can even import Blackmagic URSA Cine Immersive clips and then stream them to your [Vision Pro](/immersive/)!
 
 **_No more waiting. No more transcoding. No more massive ProRes files._**
 
