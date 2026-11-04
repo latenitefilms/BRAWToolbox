@@ -8,7 +8,7 @@
 - [System Requirements](https://brawtoolbox.fcp.cafe/system-requirements.md): BRAW Toolbox on Mac requires macOS Sequoia 15 (or later).
 - [Installation](https://brawtoolbox.fcp.cafe/installation.md): BRAW Toolbox contains a Media Extension allowing you to play back Blackmagic RAW in QuickTime Player, Final Cut Pro, Compressor and any other macOS applications that support Media Extensions.
 - [How To Use](https://brawtoolbox.fcp.cafe/how-to-use.md): After installing, you can simply drag-and-drop Blackmagic RAW files directly into Final Cut Pro! It's that easy! 🥳
-- [Immersive & Vision Pro](https://brawtoolbox.fcp.cafe/immersive.md): This page is under construction while we gear up for BRAW Toolbox v4 release!
+- [Immersive & Vision Pro](https://brawtoolbox.fcp.cafe/immersive.md): BRAW Toolbox has deep support for the Blackmagic URSA Cine Immersive camera.
 - [Support](https://brawtoolbox.fcp.cafe/support.md): The best place to get support is the FCP Cafe Discord.
 - [Frequently Asked Questions](https://brawtoolbox.fcp.cafe/faq.md): Originally, BRAW Toolbox shipped as Workflow Extension. It now ships with a Media Extension.
 - [Troubleshooting](https://brawtoolbox.fcp.cafe/troubleshooting.md): You can access your User Library, by clicking on your Desktop, then holding down OPTION as you click the Go menu item in Finder. A Library option will

@@ -6,7 +6,7 @@ Chris also created [CommandPost](https://commandpost.io), [Transfer Toolbox](htt
 
 The BRAW Toolbox icon was designed by the amazing [Matthew Skiles](http://matthewskiles.com).
 
-The incredible surf footage (as seen in the above screenshots) was captured by Sydney based Director/Cinematographer, [Adrian Emerton](https://www.adrianemerton.com.au).
+The incredible surf footage used throughout this site was captured by Sydney based Director/Cinematographer, [Adrian Emerton](https://www.adrianemerton.com.au).
 
 HUGE thank you to the amazing [AdrianEddy](https://github.com/AdrianEddy) for all his help, guidance, genius and support!
 

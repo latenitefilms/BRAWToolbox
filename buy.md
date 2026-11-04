@@ -2,7 +2,11 @@
 
 **BRAW Toolbox** is a one-time payment of **USD$79.99** on the **Mac App Store**.
 
-> [:icon-desktop-download: Click here to **buy** on the **Mac App Store**](https://apps.apple.com/app/braw-toolbox/id6444061549)
+This includes both the Mac and Vision Pro app.
+
+!!!success
+[**Buy now** on the **Mac App Store**](https://apps.apple.com/app/braw-toolbox/id6444061549)
+!!!
 
 There is no free trial.
 
