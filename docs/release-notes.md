@@ -3,7 +3,7 @@
 ### 4.0.0 (109)
 
 **🎉 Released:**
-- Coming Soon!
+- Wednesday 11th November 2026
 
 **🥳 New Features:**
 - We've added a Vision Pro app! You can now stream Blackmagic URSA Cine Immersive clips from the BRAW Player and Final Cut Pro to your Vision Pro via Wifi and with the Developer Strap.
